@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breadcrumb-card{
+    background-color: #001c51;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.breadcrumb-card__box__title{
+    font-size: 3rem;
+}
+
+.breadcrumb-card__box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.breadcrumb-card__box__menu__item__link{
+    color: white;
+    text-decoration: none;
+}
+
+.news-card__item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 2px;
+    margin-top: 20px;
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+#news-card__item__img{
+    height: 50%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#news-card__item__element__author__img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1px;
+    border-radius: 50px;
+}
+
+.news-card__item__element__author{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.news-card__item__element{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.news-card__item__element__description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4, h3{
+    color: #4e4e4e;
+    font-weight: normal;
+}
+
+h1{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.news-card__item__element__date-and-time{
+    font-size: 13px;
+    margin-bottom: 30px;
+    display: flex;
+    width: fit-content; 
+    gap: 1rem;
+    align-items: center;
+}
+
+.news-card__item__date-and-time__view{
+    background-color: #0d5ef4;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.news-card__item__date-and-time__display{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media screen and (orientation: portrait) {
+    .news-card__item{
+        width: 95%;
+    }
+
+    .news-card__item__date-and-time__display{
+        flex-direction: column;
+        gap: 0;
+    }
+}

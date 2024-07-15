@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('/RmmcWebPage/assets/img/FGMNEW.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Spacing */
+.space {
+    padding: 2rem 0;
+}
+
+/* Title Area Styling */
+.title-area {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sec-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #3b67cc;
+}
+.room{
+    color: #4d5765;
+}
+
+/* Row Styling */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Column Styling */
+.col {
+  flex:1;
+  min-width: 48%;
+}
+
+/* Feature Block Styling */
+.feature-block {
+    display: flex;
+
+
+    padding: 1rem;
+  
+    border-radius: 8px;
+  
+}
+
+.feature-block_icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.feature-block_text {
+    font-size: 1rem;
+}
+
+.contact {
+    color: #3b67cc;
+}
+
+.link {
+    color: red;
+}
+.payment {
+   width: auto;
+}
+.payment__Image{
+    width: 100%;
+}
+
+@media (orientation: portrait) {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+}

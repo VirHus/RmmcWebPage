@@ -67,6 +67,15 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: between;
+        align-items: center;
+        column-gap: 400px;
+        
+    }
+
     h1,
     h2 {
       text-align: center;
@@ -161,7 +170,7 @@
 
     /* Additional styles for layout and positioning */
     .header-top {
-      background-color: #f8f9fa;
+      background-color: #0d5ef4;
       padding: 10px 0;
     }
 
@@ -211,15 +220,17 @@
     }
 
     .menu-area {
-      background-color: #333;
-      padding: 10px 0;
+      background-color: white;
+      padding: 30px 0;
     }
 
     .main-menu ul {
       list-style: none;
       padding: 0;
       margin: 0;
-      display: flex;
+      display: inline-block;
+      
+
     }
 
     .main-menu ul li {
@@ -227,9 +238,9 @@
     }
 
     .main-menu ul li a {
-      color: #fff;
+      color: black;
       text-decoration: none;
-      padding: 10px 15px;
+      padding: 10px 5px;
       display: block;
     }
 

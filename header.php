@@ -86,6 +86,12 @@
             margin-bottom: 10px;
         }
 
+        @media screen and (min-width: 801px) {
+            .header-links {
+                width: 20%;
+            }
+        }
+
         /* Responsive Styles */
         @media only screen and (max-width: 768px) {
             .cont {
@@ -164,18 +170,28 @@
         /* Additional styles for layout and positioning */
         .header-top {
             background-color: #0d5ef4;
-            padding: 10px 0;
+            width: 100%;
+            height: 30px;
+            z-index: 980;
+            position: relative;
         }
 
         .header-top .container {
 
             display: flex;
             flex-direction: row;
+            width: 90%;
             justify-content: space-between align-items: center;
-            column-gap: 500px;
+            column-gap: 200px;
+            margin-left: auto;
+            margin-right: auto;
 
+        }
 
-
+        .header-links {
+            float: left;
+            width: 50%;
+            display: block;
         }
 
         .header-links ul {

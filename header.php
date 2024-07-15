@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 
+
   <!-- Modules for routes below -->
   <script type="module" src="./scripts/fetch/news/index.js"></script>
   <script type="module" src="./scripts/fetch/school/school-list-display.js"></script>

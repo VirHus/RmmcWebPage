@@ -90,6 +90,16 @@
             .header-links {
                 width: 20%;
             }
+
+
+            .header-top .container {
+                padding: 0;
+            }
+
+            .header-social li,
+            .header-links li {
+                padding-top: 5px;
+            }
         }
 
         /* Responsive Styles */
@@ -177,9 +187,6 @@
         }
 
         .header-top .container {
-
-            display: flex;
-            flex-direction: row;
             width: 90%;
             justify-content: space-between align-items: center;
             column-gap: 200px;
@@ -188,26 +195,27 @@
 
         }
 
+        .header-top ul {
+            list-style-type: none;
+            display: inline;
+            color: white;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-top li {
+            display: inline;
+            padding-left: 6px;
+        }
+
         .header-links {
             float: left;
-            width: 50%;
+            width: 75%;
             display: block;
         }
 
-        .header-links ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: inline-block;
-            align-items: center;
-            color: white;
-        }
 
-        .header-links ul li {
-            margin-right: 20px;
-            font-size: 12px;
-            color: white;
-        }
 
         .header-links ul li a {
             text-decoration: none;
@@ -222,8 +230,7 @@
         }
 
         .header-social {
-            display: inline-block;
-            align-items: center;
+            float: right;
             color: white;
         }
 
@@ -249,11 +256,14 @@
         }
 
         .menu-area .container {
+            width: 90%;
+            max-width: inherit;
+            padding: 0;
             display: flex;
             flex-direction: row;
             justify-content: between;
             align-items: center;
-            column-gap: 300px;
+            column-gap: 200px;
         }
 
         .main-menu ul {
@@ -336,7 +346,8 @@
                         <li><i class="fal fa-phone"></i><a href="tel:+256214203215">+63 83 5523348</a></li>
                         <li><i class="fal fa-location-dot" target="_block"><a
                                     href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
-                                    target="_block"></i>Pioneer Ave.,GSC, South Cotabato, Philippines</li></a>
+                                    target="_block"></i>Pioneer Ave.,
+                            GSC, South Cotabato, Philippines</li></a>
                         <li><i class="fal fa-clock"></i>contactus@rmmc.edu.ph</li>
                     </ul>
                 </div>

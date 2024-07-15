@@ -67,15 +67,6 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: between;
-        align-items: center;
-        column-gap: 400px;
-        
-    }
-
     h1,
     h2 {
       text-align: center;
@@ -175,32 +166,47 @@
     }
 
     .header-top .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+        align-items: center;
+        column-gap: 500px;
+        
+        
+
     }
 
     .header-links ul {
       list-style: none;
       padding: 0;
       margin: 0;
-      display: flex;
+      display: inline-block;
       align-items: center;
+      color: white;
     }
 
     .header-links ul li {
       margin-right: 20px;
+      font-size: 12px;
+      color: white;
     }
 
     .header-links ul li a {
-      color: #333;
       text-decoration: none;
-      font-size: 14px;
+      color: white;
+      
+    }
+
+    .header-links ul li i {
+      color: white;
+      
     }
 
     .header-social {
-      display: flex;
+      display: inline-block;
       align-items: center;
+      color: white;
     }
 
     .header-social .social-title {
@@ -209,7 +215,7 @@
     }
 
     .header-social a {
-      color: #333;
+      color: white;
       text-decoration: none;
       margin-right: 10px;
       font-size: 18px;
@@ -224,6 +230,14 @@
       padding: 30px 0;
     }
 
+    .menu-area .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: between;
+        align-items: center;
+        column-gap: 300px;
+    }
+
     .main-menu ul {
       list-style: none;
       padding: 0;
@@ -235,6 +249,7 @@
 
     .main-menu ul li {
       position: relative;
+      
     }
 
     .main-menu ul li a {
@@ -298,10 +313,9 @@
     <div class="container">
       <div class="header-links">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">News & Events</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Join With Us</a></li>
+        <li><i class="fal fa-phone"></i><a href="tel:+256214203215">+63 83 5523348</a></li>
+        <li><i class="fal fa-location-dot" target = "_block" ><a href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu" target = "_block" ></i>Pioneer Ave.,GSC, South Cotabato, Philippines</li></a>
+        <li><i class="fal fa-clock"></i>contactus@rmmc.edu.ph</li>
         </ul>
       </div>
       <div class="header-social">
@@ -309,6 +323,8 @@
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
   </header>

@@ -1,4 +1,4 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html dir="ltr" class="no-js" lang="zxx">
 
 <head>
@@ -45,13 +45,18 @@
     <link rel="stylesheet" href="styles/newsPage.css">
 
     <style>
-        /* General Styles */
+        * {
+            font-family: "Jost";
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-image: url('assets/img/FGMNEW.png');
-            font-family: 'Roboto', sans-serif;
         }
 
         .respo {
@@ -86,25 +91,8 @@
             margin-bottom: 10px;
         }
 
-        @media screen and (min-width: 801px) {
-            .header-links {
-                width: 20%;
-            }
-
-
-            .header-top .container {
-                padding: 0;
-            }
-
-            .header-social li,
-            .header-links li {
-                padding-top: 5px;
-            }
-        }
-
-        /* Responsive Styles */
         @media only screen and (max-width: 768px) {
-            .cont {
+            .container {
                 max-width: 90%;
                 margin: 10px auto;
                 padding: 8px;
@@ -131,26 +119,23 @@
 
         .topnav {
             overflow: hidden;
-            background-color: #333;
         }
 
         .topnav a {
             float: left;
-            display: block;
-            color: #f2f2f2;
+            color: gray;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 13px;
         }
 
         .topnav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: white;
+            color: blue;
         }
 
         .topnav a.active {
-            background-color: #4CAF50;
             color: white;
         }
 
@@ -177,211 +162,245 @@
             margin-right: auto;
         }
 
-        /* Additional styles for layout and positioning */
         .header-top {
-            background-color: #0d5ef4;
-            width: 100%;
-            height: 30px;
-            z-index: 980;
-            position: relative;
-        }
-
-        .header-top .container {
-            width: 90%;
-            justify-content: space-between align-items: center;
-            column-gap: 200px;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        .header-top ul {
-            list-style-type: none;
-            display: inline;
-            color: white;
-            font-size: 12px;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header-top li {
-            display: inline;
-            padding-left: 6px;
+            background: #0D5EF4;
+            padding: 5px 0;
         }
 
         .header-links {
-            float: left;
-            width: 75%;
-            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
         }
 
-
-
-        .header-links ul li a {
-            text-decoration: none;
-            color: white;
-
+        .header-links ul {
+           
+            display: flex;
+            gap: 15px;
         }
 
-        .header-links ul li i {
-
+        .header-links ul li {
             color: white;
-
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
 
         .header-social {
-            float: right;
-            color: white;
-        }
-
-        .header-social .social-title {
-            margin-right: 10px;
-            font-size: 14px;
-        }
-
-        .header-social a {
-            color: white;
-            text-decoration: none;
-            margin-right: 10px;
-            font-size: 18px;
-        }
-
-        .header-logo img {
-            max-width: 100px;
-        }
-
-        .menu-area {
-            background-color: white;
-            padding: 30px 0;
-        }
-
-        .menu-area .container {
-            width: 90%;
-            max-width: inherit;
-            padding: 0;
             display: flex;
-            flex-direction: row;
-            justify-content: between;
+            gap: 10px;
             align-items: center;
-            column-gap: 200px;
-        }
-
-        .main-menu ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: inline-block;
-
-
-        }
-
-        .main-menu ul li {
-            position: relative;
-
-        }
-
-        .main-menu ul li a {
-            color: black;
-            text-decoration: none;
-            padding: 10px 5px;
-            display: block;
-        }
-
-        .main-menu ul li:hover .sub-menu {
-            display: block;
-        }
-
-        .sub-menu {
-            display: none;
-            position: absolute;
-            background-color: #444;
-            min-width: 200px;
-            z-index: 1;
-        }
-
-        .sub-menu ul {
-            flex-direction: column;
-        }
-
-        .sub-menu ul li {
-            width: 100%;
-        }
-
-        .sub-menu ul li a {
-            color: #fff;
-            padding: 10px;
-        }
-
-        .sub-menu ul li a:hover {
-            background-color: #555;
-        }
-
-        .mobile-logo img {
-            max-width: 80px;
-        }
-
-        .as-menu-toggle {
-            background: none;
-            border: none;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
         }
 
         .sticky-wrapper {
-            position: -webkit-sticky;
             position: sticky;
             top: 0;
-            z-index: 1000;
+            z-index: 999;
+        }
+
+        .menu-area {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-area .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .header-logo img {
+            max-height: 50px;
+        }
+
+        .main-menu {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .main-menu ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .main-menu li {
+            position: relative;
+        }
+
+        .main-menu li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .main-menu li a:hover,
+        .main-menu li a:focus {
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        .menu-item-has-children ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            list-style: none;
+            padding: 15px;
+        }
+
+        .menu-item-has-children:hover ul {
+            border-radius: 15px;
+            display: block;
+        }
+
+        .menu-item-has-children ul li {
+            width: 250px;
+        }
+        .menu-item-has-children ul li i {
+            color: blue;
+        }
+
+        .menu-item-has-children ul li a {
+            padding: 10px 20px;
+            white-space: nowrap;
+        }
+
+        .as-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .main-menu {
+                display: none;
+            }
+
+            .as-menu-toggle {
+                display: block;
+            }
+
+            .as-mobile-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                list-style: none;
+                padding: 0;
+            }
+
+            .as-mobile-menu ul {
+                list-style: none;
+            }
+
+            .as-mobile-menu li {
+                padding: 10px;
+                border-bottom: 1px solid #f1f1f1;
+            }
+
+            .as-mobile-menu li a {
+                color: #333;
+                text-decoration: none;
+                display: block;
+            }
+
+            .as-mobile-menu li a:hover,
+            .as-mobile-menu li a:focus {
+                background: #f1f1f1;
+            }
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="header-top">
-            <div class="container">
-                <div class="header-links">
-                    <ul>
-                        <li><i class="fal fa-phone"></i><a href="tel:+256214203215">+63 83 5523348</a></li>
-                        <li><i class="fal fa-location-dot" target="_block"><a
-                                    href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
-                                    target="_block"></i>Pioneer Ave.,
-                            GSC, South Cotabato, Philippines</li></a>
-                        <li><i class="fal fa-clock"></i>contactus@rmmc.edu.ph</li>
-                    </ul>
-                </div>
+    <div class="header-top">
+        <div class="container">
+            <div class="header-links">
+                <ul>
+                    <li><i class="fal fa-phone"></i><a href="tel:+256214203215">+63 83 5523348</a></li>
+                    <li class="d-none d-xl-inline-block"><i class="fal fa-location-dot" target="_block"><a
+                                href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
+                                target="_block"></i>Pioneer Ave.,
+                        GSC, South Cotabato, Philippines</li></a>
+                    <li><i class="fal fa-clock"></i>contactus@rmmc.edu.ph</li>
+                </ul>
                 <div class="header-social">
-                    <span class="social-title">Follow Us:</span>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
-        <div class="sticky-wrapper">
-            <div class="menu-area">
-                <div class="container">
-                    <div class="logo-area">
-                        <a href="#"><img src="assets/img/logo.png" alt="Logo"></a>
-                    </div>
-                    <nav class="main-menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Admissions</a></li>
-                            <li><a href="#">Departments</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
+    </div>
+
+    <div class="sticky-wrapper">
+        <div class="menu-area">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="index.php"><img src="assets/img/logo.png" alt="Logo"></a>
                 </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="menu-item-has-children"><a href="news.php">Admission</a>
+                            <ul>
+                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i>   Requirements</a></li>
+                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i>   Registration</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   Enrollment</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Academics</a>
+                            <ul>
+                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i>   College Graduates</a></li>
+                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i>   Colleges</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   ETEEAP</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   TECHVOC</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="events.php">News & Gallery</a>
+                            <ul>
+                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i>   News</a></li>
+                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i>   Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="news.php">Student</a>
+                            <ul>
+                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i>   Portal Login</a></li>
+                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i>   LMS Login</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="news.php">Services</a>
+                            <ul>
+                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i>   Research</a></li>
+                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i>   Student Affairs</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   Internationalization</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   Community Extension</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   Alumni Affairs</a></li>
+                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>   Library</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.php">Contact Us</a></li>
+
+                    </ul>
+                </nav>
+
             </div>
+
         </div>
-    </header>
+    </div>
 </body>
 
 </html>

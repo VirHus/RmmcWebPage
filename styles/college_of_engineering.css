@@ -1,0 +1,154 @@
+body {
+    background-image: url("../assets/img/FGMNEW.png");
+    background-repeat: no-repeat;
+
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+.cet-bg-container{
+    width:100vw;
+    overflow:hidden;
+}
+.cet-bg-container .cet-bg{
+    width:100vw;
+}
+
+.cet-subNav-container{
+    width:100vw;
+    display: block; 
+    margin-top:0px;
+}
+.cet-subNav-container ul{
+    list-style: none;
+}
+.cet-subNav-container ul li{
+    display:inline-block;     
+    margin:15px 0px 10px 0px;
+}
+
+.cet-subNav-container ul .li a{
+    text-decoration: none;
+    color:black;
+    font-family: "Bebas Neue", sans-serif;
+    padding:10px 40px 10px 40px;
+   
+    
+}
+.cet-subNav-container ul .li a:hover{
+    background-color: rgb(255, 255, 255);  
+}
+.cet-home{
+    background-color: rgb(218, 87, 55);
+    color:white; 
+    text-decoration: none; 
+    padding:10px 40px 10px 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-right:20px ;
+   
+
+}
+
+/*FOR COLLEGE LOGO AND MISSION VISSION STYLE*/
+
+.logo-and-mv-container{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:70px;
+    background-color: rgba(255, 255, 255, 0.74);
+    
+}
+.logo-container{
+    padding:50px;
+}
+.logo-and-mv-container .logo-container .logo{
+    height:450px;
+    margin:auto;
+    
+}
+
+/*FOR MISSION, VISSION, and GOALS STYLES*/
+.misson-vission-container{
+    margin-left:30px;
+    background-color: aliceblue;
+    border:2px solid;
+}
+.mission-container, .vission-container, .goals-container{
+    text-align: center;
+    width:650px;
+    margin-top:20px;   
+    box-shadow: 7px 7px 15px rgb(145, 144, 170);
+    padding:20px;
+    border-radius: 10px;
+    font-family: "Jost", sans-serif;
+    font-size:20px;
+    color:rgb(31, 28, 73);
+    overflow-x:hidden;
+    
+}
+
+
+.goals-container ul li{
+    text-align:left;
+}
+
+.mission-text, .vission-text, .goals-text{
+    font-size: 35px;
+    color:rgb(23, 23, 46);   
+    font-family: "Jost", sans-serif;
+    font-weight:900;
+    
+}
+.mission-container p, .vission-container p, .goals-container p{
+  
+    flex:1;
+}
+
+/*FOR REGISTER */
+.register-container{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    background-color: rgb(206, 136, 44);
+    margin-left:auto;
+    margin-right: auto;
+    border-radius:10px;
+    
+}
+.dots-design{
+    width:50px;
+}
+.link-container{
+    float:left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation: portrait) {
+    .mission-container, .vission-container, .goals-container {
+        width: 90%; /* Adjust width for portrait mode */
+        font-size: 18px; /* Adjust font size for better readability */
+        margin: 10px auto; /* Center the containers with auto margins */
+    }
+}
+
+
+
+
+
+

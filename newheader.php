@@ -70,10 +70,10 @@
             </div>
 
             <ul class="menu_header_main_menu">
-                <li><a href="index.php">Home</a></li>
-                <li class="menu_header_main_menu_has_children"><a href="news.php">Admission <i class="fa fa-angle-down"
-                            aria-hidden="true"></i>
-                    </a>
+                <li class="menu_header_main_menu_has_children">Home</li>
+                <li class="menu_header_main_menu_has_children">
+                    Admission 
+                    <i class="fa fa-angle-down"aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
                         </li>
@@ -83,9 +83,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu_header_main_menu_has_children"><a href="news.php">Academics <i class="fa fa-angle-down"
-                            aria-hidden="true"></i>
-                    </a>
+                <li class="menu_header_main_menu_has_children">Academics <i class="fa fa-angle-down"
+                aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
                                 Studies</a>
@@ -98,9 +97,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu_header_main_menu_has_children"><a href="news.php">News &
-                        Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </a>
+                <li class="menu_header_main_menu_has_children">News &
+                Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
                         </li>
@@ -108,9 +106,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu_header_main_menu_has_children"><a href="news.php">Student <i class="fa fa-angle-down"
-                            aria-hidden="true"></i>
-                    </a>
+                <li class="menu_header_main_menu_has_children">Student <i class="fa fa-angle-down"
+                aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
                         </li>
@@ -118,9 +115,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu_header_main_menu_has_children"><a href="news.php">Services <i class="fa fa-angle-down"
-                            aria-hidden="true"></i>
-                    </a>
+                <li class="menu_header_main_menu_has_children">Services <i class="fa fa-angle-down"
+                aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Research</a>
                         </li>
@@ -145,7 +141,7 @@
         </div>
 
         <div class="menu_sidebar">
-            
+
         </div>
     </nav>
 

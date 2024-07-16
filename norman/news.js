@@ -2,7 +2,8 @@
 /* Exemple rani na template guys, alisda ra ninyo kana tanan naka "${ }" 
 ug unsa bah jud tung style para sa pag connect sa database */
 
-`
+
+/* html */`
   <div class="news-card__item">
     <div class="news-card__item__element">
       <div class="news-card__item__element__author">

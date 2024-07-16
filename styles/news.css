@@ -23,6 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 100px;
+    margin-bottom: 20px;
 }
 
 .breadcrumb-card__box__title{
@@ -126,17 +127,49 @@ body{
 }
 
 .news-card__item__element__date-and-time__view{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
     background-color: #0d5ef4;
-    padding: 5px 5px 5px 5px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 8px 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.news-card__item__element__date-and-time__view:hover{
-    background-color: #07378f;
+.news-card__item__element__date-and-time__view:before{
+    content: '';
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 600%;
+    background-color: #000d65;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(60deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(60deg);
+    transform: translateX(-50%) translateY(-50%) rotate(60deg);
+    z-index: -1;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+}
+
+
+.news-card__item__element__date-and-time__view:hover,
+.news-card__item__element__date-and-time__view.active {
+  color: #0f2239;
+}
+
+.news-card__item__element__date-and-time__view:hover::before,
+.news-card__item__element__date-and-time__view.active::before {
+  height: 560%;
 }
 
 .news-card__item__element__date-and-time__display{
@@ -144,8 +177,6 @@ body{
     flex-direction: row;
     gap: 1rem;
 }
-
-
 
 @media screen and (orientation: portrait) {
     .breadcrumb-card__box{

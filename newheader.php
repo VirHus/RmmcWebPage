@@ -51,6 +51,7 @@
             </div>
 
             <div class="header_top_social">
+                <span>Follow Us: </span>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -59,94 +60,96 @@
         </div>
 
         <div class="menu_header">
-            <div class="menu_header_menu_area">
-                    <div class="menu_header_menu_area_logo">
-                        <a href="index.php"><img src="assets/img/logo.png" alt="Logo"></a>
-                    </div>
-                
-                <div class="menu_header_menu_area_main_menu">
-                    <ul class="menu_header_menu_area_main_menu_menus">
-                        <li><a href="index.php">Home</a></li>
-                        <li class="menu_header_menu_area_main_menu_menus_has_children"><a href="news.php">Admission <i
-                                    class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul>
-                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
-                                </li>
-                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Registration</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Enrollment</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu_header_menu_area_main_menu_menus_has_children"><a href="news.php">Academics <i
-                                    class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul>
-                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
-                                        Studies</a>
-                                </li>
-                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu_header_menu_area_main_menu_menus_has_children"><a href="news.php">News &
-                                Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul>
-                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
-                                </li>
-                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu_header_menu_area_main_menu_menus_has_children"><a href="news.php">Student <i
-                                    class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul>
-                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
-                                </li>
-                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> LMS Login</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu_header_menu_area_main_menu_menus_has_children"><a href="news.php">Services <i
-                                    class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul>
-                                <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Research</a>
-                                </li>
-                                <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Student
-                                        Affairs</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>
-                                        Internationalization</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Community
-                                        Extension</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Alumni
-                                        Affairs</a>
-                                </li>
-                                <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Library</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="news.php">Contact Us</a></li>
-                    </ul>
+            <div class="menu_items">
+                <div class="menu_header_logo">
+                    <a href="index.php"><img src="assets/img/logo.png" alt="Logo"></a>
                 </div>
 
+                <button class="menu_items_button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
             </div>
+
+            <ul class="menu_header_main_menu">
+                <li><a href="index.php">Home</a></li>
+                <li class="menu_header_main_menu_has_children"><a href="news.php">Admission <i class="fa fa-angle-down"
+                            aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
+                        </li>
+                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Registration</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Enrollment</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu_header_main_menu_has_children"><a href="news.php">Academics <i class="fa fa-angle-down"
+                            aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
+                                Studies</a>
+                        </li>
+                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu_header_main_menu_has_children"><a href="news.php">News &
+                        Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
+                        </li>
+                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu_header_main_menu_has_children"><a href="news.php">Student <i class="fa fa-angle-down"
+                            aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
+                        </li>
+                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> LMS Login</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu_header_main_menu_has_children"><a href="news.php">Services <i class="fa fa-angle-down"
+                            aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Research</a>
+                        </li>
+                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Student
+                                Affairs</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i>
+                                Internationalization</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Community
+                                Extension</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Alumni
+                                Affairs</a>
+                        </li>
+                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Library</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="news.php">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="menu_sidebar">
+            
         </div>
     </nav>
 
-    <nav>
-
-    </nav>
+    <script src="header.js"></script>
 </body>
 
 </html>

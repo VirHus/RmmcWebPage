@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="../RmmcWebPage/styles/requirementsStyle.css">
-</head>
-<body>
+<?php include 'header.php' ?>
 <p>ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">
         <div class="container">
@@ -107,5 +99,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>

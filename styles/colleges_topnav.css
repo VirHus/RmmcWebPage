@@ -14,14 +14,14 @@
     text-decoration: none;
     color:rgb(146, 146, 146);
     font-size: 12px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Jost", sans-serif;
     padding:15px;
    
 }
   
 
 .top-navigation-container ul li a:hover{
-    background-color: rgb(245, 244, 242);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 .top-navigation-container ul li a:hover{

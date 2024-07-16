@@ -27,6 +27,7 @@ body{
 
 .breadcrumb-card__box__title{
     font-size: 3rem;
+    color: white;
 }
 
 .breadcrumb-card__box{
@@ -37,25 +38,24 @@ body{
 }
 
 .breadcrumb-card__box__menu__item__link{
-    color: white;
-    text-decoration: none;
+    color: white; 
 }
 
 .news-card__item{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(145, 145, 145);
     margin: 2px;
     margin-top: 20px;
     height: fit-content;
-    width: 80%;
+    width: 60%;
     display: flex;
     gap: 0.5rem;
     justify-content: space-between;
 }
 
 #news-card__item__img{
-    height: 50%;
+    width: 20%;
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -87,16 +87,29 @@ body{
     margin-bottom: 20px;
 }
 
-h4, h3{
+.news-card__item__element__description h2{
+    color: #001c51;
+}
+
+.news-card__item__element__description h4{
+    text-decoration: none;
     color: #4e4e4e;
     font-weight: normal;
 }
 
-h1{
+.news-card__item__element__date-and-time__display h3{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: normal;
+}
+
+.news-card__item__element__date-and-time__view h1{
     color: white;
     font-weight: normal;
     font-size: 15px;
+    text-decoration: none;
 }
+
 
 .news-card__item__element__date-and-time{
     font-size: 13px;
@@ -107,7 +120,7 @@ h1{
     align-items: center;
 }
 
-.news-card__item__date-and-time__view{
+.news-card__item__element__date-and-time__view{
     background-color: #0d5ef4;
     padding: 10px 10px 10px 10px;
     display: flex;
@@ -117,7 +130,11 @@ h1{
     cursor: pointer;
 }
 
-.news-card__item__date-and-time__display{
+.news-card__item__date-and-time__view:hover{
+    background-color: #07378f;
+}
+
+.news-card__item__element__date-and-time__display{
     display: flex;
     flex-direction: row;
     gap: 1rem;

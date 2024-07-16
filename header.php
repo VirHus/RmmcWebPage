@@ -96,8 +96,12 @@
         @media only screen and (max-width: 768px) {
             .container {
                 max-width: calc(var(--main-container) + var(--container-gutters));
-    padding-left: calc(var(--container-gutters) / 2);
-    padding-right: calc(var(--container-gutters) / 2);
+                padding-left: calc(var(--container-gutters) / 2);
+                padding-right: calc(var(--container-gutters) / 2);
+            }
+
+            .header-top {
+                width: 20%;
             }
         }
 
@@ -116,6 +120,14 @@
 
             p {
                 font-size: 14px;
+            }
+        }
+
+        @media only screen and (min-width: 870px) {
+
+
+            .header-top {
+                width: 20%;
             }
         }
 

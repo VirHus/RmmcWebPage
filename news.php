@@ -1,4 +1,4 @@
-
+<?php include 'newheader.php' ?>
 <link defer rel="stylesheet" href="styles/news.css">
 
 <body>

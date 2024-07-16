@@ -1,0 +1,201 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+  
+ 
+   
+}
+
+.custom-container {
+    width: 90%;
+   
+    margin: 0 auto;
+}
+
+.breadcumb-wrapper {
+    background-image: url('/RmmcWebPage/assets/img/breadcumb/breadcumb-bg.jpg');
+    padding: 2rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.breadcumb-title {
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+    text-decoration: underline 2px;
+}
+
+.breadcumb-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.breadcumb-menu li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.breadcumb-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.space {
+    padding: 50px 0;
+    margin-top: 4rem;
+}
+
+.custom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+   
+}
+
+.gallery-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   flex: 1 1 auto;
+  border: 2px solid;
+    gap: 1rem;
+    position: relative;
+}
+
+.gallery-img {
+    position: relative;
+}
+
+.gallery-img img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.gallery-content {
+   
+    text-align: center;
+    display: none;
+}
+
+.gallery-tag {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.gallery-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.cta-section {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.cta-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-img-wrap, .cta-content-wrap {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.cta-img img {
+    width: 100%;
+}
+
+.cta-content {
+    text-align: center;
+}
+
+.text-theme {
+    color: #007bff;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Flex utility classes */
+.custom-flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.custom-justify-content-between {
+    justify-content: space-between;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .gallery-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .cta-img-wrap, .cta-content-wrap {
+        max-width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    .cta-wrap {
+        flex-direction: column;
+    }
+
+    .cta-img-wrap, .cta-content-wrap {
+        max-width: 100%;
+    }
+
+    .text-theme {
+        font-size: 1.5rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}

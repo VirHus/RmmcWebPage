@@ -1,5 +1,7 @@
-<?php include "header.php" ?>
-
+<?php 
+$page = 'news';
+require 'header.php';
+?>
 
 <body style = "overflow-x:hidden">
 <?php include "nav_bar.php" ?>

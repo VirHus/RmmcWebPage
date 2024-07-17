@@ -40,6 +40,8 @@
 
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="styles/college_of_engineering.css">
 
 
 

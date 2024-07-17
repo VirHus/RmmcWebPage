@@ -42,13 +42,16 @@
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Styles/index.css">
-    <link rel="stylesheet" href="styles/college_of_engineering.css">
 
 
-    <?php if ($page == 'requirements') : ?>
+
+    <?php if ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>Requirements</title>
-        
+    <?php elseif ($page == 'college_of_engineering'): ?>
+        <link rel="stylesheet" href="styles/college_of_engineering.css">
+        <title>College Of Engineering</title>
+
     <?php endif; ?>
 
 

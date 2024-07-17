@@ -5,17 +5,14 @@
     <div class="header_top">
         <div class="header_top_links">
             <ul class="header_top_links_collection">
-                <a href="tel:+256214203215" style="color:white; text-decoration:none;" class="icon_text"><i
-                        class="fa fa-phone" class="icons"></i></a>
-                <li>+63 83 5523348</li>
-                <a class="icon_text"
-                    href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
-                    target="_block"><i class="fa fa-map-marker" target="_block" class="icons"></i> </a>
-                <li>Pioneer Ave.,
-                    GSC, South Cotabato, Philippines</li>
-                
-                    <a href="" class="icon_text"><i class="fa-regular fa-clock" class="icons"></i></a><li>contactus@rmmc.edu.ph
-                </li>
+                <li><i class="fa fa-phone"></i><a href="tel:+256214203215"
+                        style="color:white; text-decoration:none;" class="icon_text" >+63 83 5523348</a></li>
+                <li ><i class="fa fa-map-marker" target="_block"></i> <a class="icon_text"
+                            href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
+                            target="_block">Pioneer Ave.,
+                            GSC, South Cotabato, Philippines</a></li>
+                <li><i class="fa-regular fa-clock"></i>
+                    <a href="" class="icon_text">contactus@rmmc.edu.ph</a> </li>
             </ul>
         </div>
 
@@ -82,11 +79,9 @@
             </li>
             <li class="menu_header_main_menu_has_children">Student <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">
-                    <li><a href="http://system.rmmc.edu.ph/rmmcweb/index.php"><i class="fa fa-book"
-                                aria-hidden="true"></i> Portal Login</a>
+                    <li><a href="http://system.rmmc.edu.ph/rmmcweb/index.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
                     </li>
-                    <li><a href="https://rmmc.instructure.com/login/canvas"><i class="fa fa-book"
-                                aria-hidden="true"></i> LMS Login</a>
+                    <li><a href="https://rmmc.instructure.com/login/canvas"><i class="fa fa-book" aria-hidden="true"></i> LMS Login</a>
                     </li>
                 </ul>
             </li>

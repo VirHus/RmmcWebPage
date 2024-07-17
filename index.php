@@ -3,7 +3,7 @@ $page = 'index';
 require 'header.php'; 
 ?>
 
-
+<?php include "nav_bar.php" ?>
 <section class="welcome-section">
 
   <div class="logo-container">

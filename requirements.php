@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-<p>ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
+<p class="admission_name">ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">
         <div class="container">
             <div class="main-container">

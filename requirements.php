@@ -1,5 +1,9 @@
-<?php include 'header.php' ?>
-<p>ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
+<?php 
+$page = 'requirements';
+require 'header.php';
+?>
+<?php include 'nav_bar.php' ?>
+<p class="admission_name">ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">
         <div class="container">
             <div class="main-container">
@@ -99,3 +103,7 @@
             </div>
         </div>
     </div>
+
+    <?php include 'footer.php' ?>
+
+

@@ -1,13 +1,11 @@
 
 
-<link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
-    <footer class = "footer_main">
+<footer class ="footer_main">
+<?php include "floating_footer.php" ?>
         <div class="footer_main__footer_area">
-         <div class="footer_main__footer_area__container">
+          <div class="footer_main__footer_area__container">
             <div class="footer_main__footer_area__container__row_footer">
-
 
                 <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
@@ -22,8 +20,11 @@
                             <a href="https://www.instagram.com/rmmcsmcc/"target ="_block"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185"target ="_block"><i class="fab fa-youtube"></i></a>
                         </div>
-                        <img src="assets/img/iso.png" alt="Rmmc" class="iso_img"/>
-                        <span class="iso_text">ISO 9001:2015 CERTIFIED</span>
+
+                        <div class ="iso_logo">
+                        <img src="assets/img/iso.png" alt="Rmmc" class="iso_logo__iso_img"/>
+                        <span class="iso_logo__iso_text">ISO 9001:2015 CERTIFIED</span>
+                        </div>
                         </div>
                 </div>
 
@@ -71,7 +72,7 @@
                         </form>
                     </div>
                 </div>
-            </div>    
+            </div>   
          </div>
        </div>
 
@@ -79,7 +80,7 @@
         <div class="copyright_wrap">
             <div class="row_footer">
                 <div class="col_footer">
-                    <p class="copyright_txt">Copyright 2024 <a href="#">Custard Apple</a>. All Rights Reserved</p>
+                    <p class="copyright_txt">Copyright 2024 <a href="#">Custard Apple</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col_footer text_end">
                     <div class="footer_links">
@@ -89,10 +90,10 @@
                 </div>
             </div>
         </div>
-       </div>
-       <div class="bckgrnd_img">
+        <!-- <div class="bckgrnd_img">
         <img src="assets/img/shape/footer_shape_3.png" alt="background">
-        </div>
-    </footer>
-        
+        </div> -->
+       </div>
+</footer>
 
+</html>

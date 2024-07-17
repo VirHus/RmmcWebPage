@@ -12,7 +12,7 @@ body {
     max-width: 1200px;
 }
 
-p {
+.admission_name {
     text-align: center;
     font-style: normal;
     font-size: 50px;

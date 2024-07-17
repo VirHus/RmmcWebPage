@@ -1,6 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/RmmcWebPage/styles/enrollment.css">
+    <title>Document</title>
+</head>
+<body>
 
 
-<?php include 'header.php' ?>
     <div class="space">
         <div class="container">
             <div class="title-area">
@@ -330,3 +338,5 @@
             </div>
         </div>
     </div>
+</body>
+</html>

@@ -33,6 +33,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/floating_footer.css">
 
     <script src="header.js"></script>
     <link rel="stylesheet" href="./styles/footer.css">

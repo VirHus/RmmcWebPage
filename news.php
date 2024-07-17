@@ -1,4 +1,4 @@
-<?php include "newheader.php" ?>
+<?php include "header.php" ?>
 <link rel="stylesheet" href="styles/news.css">
 <body>
 
@@ -40,4 +40,6 @@
     <img id="news-card__item__img" src="norman/img/cardo.jpeg" alt="">
   </div>
 </body>
+
+<!-- <?php include "footer.php"?> -->
 </html>

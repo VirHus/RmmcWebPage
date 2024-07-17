@@ -84,9 +84,9 @@
                 </div>
             </div>
         </div>
-        <div class="bckgrnd_img">
+        <!-- <div class="bckgrnd_img">
         <img src="assets/img/shape/footer_shape_3.png" alt="background">
-        </div>
+        </div> -->
        </div>
 </footer>
 

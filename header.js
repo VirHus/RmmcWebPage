@@ -6,13 +6,22 @@ menuItemsButton.onclick = () => menuHeaderMainMenu.classList.toggle('active');
 const menuItemsParent = document.querySelector('.menu_header_main_menu')
 
 menuItemsParent.onclick = event=> {
-// console.log(event.target);
+    const sublistCollection = [...document.querySelectorAll('.menu_header_main_menu_has_children__sublist')];
+
+    if(sublistCollection && sublistCollection.length > 0){
+        sublistCollection.forEach(sublist => sublist.classList.remove("active"));
+    }
     /**
      * @type {HTMLElement}
      */
     const isMenuItemTitle = event.target.classList.contains("menu_header_main_menu_has_children");
     
-    if(isMenuItemTitle && event.target.lastElementChild.tagName === 'UL' ){
-        event.target.lastElementChild.classList.toggle("active")
+    if(isMenuItemTitle){
+        const sublist = event.target.querySelector('.menu_header_main_menu_has_children__sublist');
+        if(!sublist){
+            return;
+        }
+
+        sublist.classList.add("active")
     }
 }

@@ -35,13 +35,14 @@
     <link rel="stylesheet" href="styles/news.css">
     <link rel="stylesheet" href="styles/floating_footer.css">
 
-    <script src="header.js"></script>
+    <script src="header.js" defer></script>
     <link rel="stylesheet" href="./styles/footer.css">
-<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="styles/college_of_engineering.css">
 
 
 

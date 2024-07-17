@@ -1,24 +1,55 @@
-.main-container {
+.colleges_main-container {
     background-image: url("../assets/img/FGMNEW.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-  
-   
+    
+
+    
 }
+
 /* FOR NAVIGATIONS CONTAINER*/
 .navigations-container{
     width:100vw;
     background-color: rgba(0, 0, 0, 0);
-    padding:5px 0px 5px 0px ;
+    padding:10px 0px 10px 0px ;
+   
 }
+
+.college-top-navigation-container{
+    width:100vw;
+    height:auto;  
+    margin:0px;
+    text-align: center;
+}
+.college-top-navigation-container ul{
+    list-style: none;
+}
+.college-top-navigation-container ul li{
+    display:inline-block;
+}
+.college-top-navigation-container ul li a{
+    text-decoration: none;
+    color:rgb(146, 146, 146);
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    padding:20px 15px 20px 15px;
+   
+}
+  
+.college-top-navigation-container ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color:rgb(0, 2, 31);
+}
+
 
 .bg-logo-container{/* FOR COLLEGE LOGO CONTAINER*/
     width:100vw;
     overflow:hidden;
+    margin-top: 10px;
 }
 .bg-logo-container .bg-logo{/* FOR COLLEGE LOGO*/
     width:100vw;
@@ -28,41 +59,41 @@
 .courses-subNav-container{
     width:100vw;
     display: block; 
-    margin-top:0px;
+    margin-left:30px;
+    
 }
-.courses-subNav-container ul{
+.courses-subNav-container .colleges-list{
     list-style: none;
 }
-.courses-subNav-container ul li{/* FOR SUB NAVIGATION LIST ITEM*/
+.courses-subNav-container .colleges-list li{/* FOR SUB NAVIGATION LIST ITEM*/
     display:inline-block;     
     margin:15px 0px 10px 0px;
     font-weight:bold;
-    transition: background-color 0.3s ease;
-    
-
+    transition: background-color 0.3s ease;    
 }
-.courses-subNav-container ul .li:hover{
+
+/*FOR COLLEGE DEPARTMENT NAVIOGATION LIST STYLE*/
+.college-department-list{
+    display: inline-block;    
+   
+}
+
+.college-department-list li a{
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    padding:10px 20px;
+    color:rgb(0, 17, 73);
+    display:inline-block;     
+          
+}
+.college-department-list li:hover{
     background-color: rgb(255, 255, 255);  
     transform: scale(1.07);
 }
-.courses-subNav-container ul .li a{/* FOR SUB NAVIGATIONS LINK BUTTON*/
-    text-decoration: none;
-    color:black;
-    font-family: "Jost", sans-serif;
-    padding:10px 20px 10px 20px;  
-}
-.courses-subNav-container ul li {
-    padding:5px ;  
-}
-.courses-subNav-container ul .li a{  
-    color:rgb(0, 15, 63);    
-}
 
-.chevron-icon{
-    height:16px;
-}
+
 /* FOR SUB NAVIGATIONS COLLEGES HOME BUTTON*/
-.colleges-home{
+.college-home{
     background-color: rgb(218, 87, 55);
     color:white; 
     text-decoration: none; 
@@ -72,9 +103,7 @@
     transition: background-color 0.8s ease;
    
 }
-.colleges-home:hover{
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 17, 73); 
+.college-home:hover{  
     transform: scale(1.07);
 }
 
@@ -116,7 +145,7 @@
     width:650px;
     margin-top:20px;   
     box-shadow: 7px 7px 15px rgb(145, 144, 170);
-    padding:20px;
+    padding:30px;
     border-radius: 10px;
     font-family: "Jost", sans-serif;
     font-size:20px;
@@ -141,12 +170,12 @@
 
 
 /* FOR REGISTRATION BUTTON CONTAINER STYLE */
-.register-container {
-    width: 92%;
+.college-page-register-container {
+    width: 92%;  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px auto;
+    margin: 80px auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     flex-wrap: nowrap;
@@ -155,23 +184,19 @@
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.664);
 }
 
-.register-container .link-container h1 {  /* FOR "Learn From Our Platform" text*/
+.college-page-register-container .link-container h1 {  /* FOR "Learn From Our Platform" text*/
     text-decoration: underline;
     font-family: "Jost", sans-serif;
     color: rgba(13, 94, 244, 255);
 }
 
-.register-container .link-container .h2 {  /* FOR "That Takes You To The Next Level" text*/
+.college-page-register-container .link-container .h2 {  /* FOR "That Takes You To The Next Level" text*/
     text-decoration: underline;
     font-family: "Jost", sans-serif;
     color: rgba(15, 34, 57, 255);
     margin-left: 50px;
     font-size: 35px;;
 }
-
-
-
-
 
 .register-link-button{
     position: relative;
@@ -194,6 +219,7 @@
     transition: 300ms;
     text-decoration: none;
     font-weight: 600;
+    margin-top:30px
   
   }
   
@@ -207,7 +233,7 @@
     background-color: rgba(15,34,57,255);
     transform: translateX(-50%) translateY(-50%) rotate(60deg);
     z-index: -1;
-    transition: 1s ease;
+    transition: 0.7s ease;
   }
   
   .register-link-button:hover,
@@ -219,24 +245,6 @@
   .register-link-button.active::before {
     height: 560%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .right-arrow {
@@ -256,7 +264,6 @@
     filter: drop-shadow(0px 0px 5px rgba(3, 1, 0, 0.397));
     z-index: 1;
 }
-
 
 
 .link-container {
@@ -290,7 +297,7 @@
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .register-container {
+    .college-page-register-container {
         flex-direction: column;
         align-items: center;
     }
@@ -328,16 +335,16 @@
 
 
 /*FOR SCROLL UP BUTTON STYLE*/
-.scroll-button-container {
+.colleges_scroll-button-container {
     position: fixed;
     bottom: 5%; 
     right: 3%; 
     z-index: 10; 
 }
 
-.scroll-up-link-button {
-    width: 50px;
-    height: 50px;
+.colleges_scroll-up-link-button {
+    width: 70px;
+    height: 70px;
     background-color: rgba(13, 92, 238, 1);
     border-radius: 50%;
     border: 10px solid rgb(255, 255, 255);
@@ -348,7 +355,7 @@
     opacity: 0; 
     transform: translateY(-95vh); 
 }
-.scroll-up-link-button:hover {
+.colleges_scroll-up-link-button:hover {
     background-color: rgba(15, 34, 57, 1);
 }
 .up-arrow {

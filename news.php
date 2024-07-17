@@ -161,8 +161,6 @@
 
 </body>
 
-
-
 <?php include "footer.php" ?>
 
 </html>

@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 .footer_main__footer_area__container {
   width: 100%;
   margin: 0 auto 0 auto;
@@ -16,7 +15,6 @@
 }
 
 .footer_main {
-
   /* position: absolute; */
   padding-right: 3%;
   padding-left: 3%;

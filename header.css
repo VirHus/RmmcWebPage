@@ -57,6 +57,7 @@ nav {
 }
 
 .header_top_social a {
+    text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
@@ -97,6 +98,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    cursor: pointer;
     /* background-color: green; */
 }
 
@@ -126,7 +128,7 @@ nav {
     top: 100%;
     background: #ffffff;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    border-radius: 5px;
     list-style: none;
     padding: 10px;
     margin: 0;
@@ -167,7 +169,7 @@ nav {
     }
 
     .menu_header {
-        padding: 0 1rem;
+        padding: 2rem 1rem;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -177,6 +179,7 @@ nav {
     }
 
     .menu_header_main_menu {
+        padding: 1rem;
         display: none;
         flex-direction: column;
         align-items: flex-start;
@@ -223,10 +226,4 @@ nav {
     }
    
 
-}
-
-
-.menu_sidebar {
-    display: flex;
-    background-color: #005eff;
 }

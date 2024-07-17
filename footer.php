@@ -1,13 +1,8 @@
 
-
-<link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-
-    <footer class = "footer_main">
+<footer class ="footer_main">
         <div class="footer_main__footer_area">
          <div class="footer_main__footer_area__container">
             <div class="footer_main__footer_area__container__row_footer">
-
 
                 <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
@@ -71,7 +66,7 @@
                         </form>
                     </div>
                 </div>
-            </div>    
+            </div>   
          </div>
        </div>
 
@@ -89,10 +84,10 @@
                 </div>
             </div>
         </div>
-       </div>
-       <div class="bckgrnd_img">
+        <div class="bckgrnd_img">
         <img src="assets/img/shape/footer_shape_3.png" alt="background">
         </div>
-    </footer>
-        
+       </div>
+</footer>
 
+</html>

@@ -1,6 +1,7 @@
 
    
 <?php  include 'header.php'?>
+<?php  include 'nav_bar.php'?>
 
 <div class="colleges_main-container">
 
@@ -85,33 +86,11 @@
         </div>
     </section>
 
-     <!-- REGISTRATION CONTAINER-->
-    <section>
-        <div class="college-page-register-container">
-            <div class="link-container">
-                <h1>Learn From Our Platform</h1>
-                <h1 class="h2">That Takes You To The Next Level</h1>
-
-                <!--FOR REGISTRATION LINK BUTTON-->
-                <div class="register-button-container">
-                    <a href="http://system.rmmc.edu.ph/rmmcweb/collegeenroll" class="register-link-button">REGISTER NOW <image src="assets/img/icon/arrow-right.png" class="right-arrow"></image></a>               
-                </div>           
-            </div>
-
-            <div>
-                <image src="assets/img/shape/dot_shape_1.png" class="dots-design"></image>
-            </div>      
-
-             <!--FOR PRESIDENT PICTURE-->
-            <div>
-                <image src="assets/img/normal/cta_1_1.png" class="president-pic"></image>
-            </div>      
-        </div>
-    </section>
+     
 
  <!-- FOR SCROLL UP BUTTON-->
     <div class="colleges_scroll-button-container">
-        <a href="#" class="colleges_scroll-up-link-button"><image src="assets/img/icon/arrow-up.png" class="up-arrow" alt="Up Arrow"></image></a>
+        <a href="#" class="colleges_scroll-up-link-button"><image src="assets/img/icon/arrow-up.png" class="up-arrow-icon" alt="Up Arrow"></image></a>
     </div>
 
 
@@ -150,4 +129,4 @@
         </script>
    
 </div>
-
+<?php  include 'footer.php'?>

@@ -32,11 +32,11 @@
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&amp;family=Jost:wght@300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    
-    
+
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="styles/college_of_engineering.css"/>  <!-- FOR COLLEGE OF ENGINEERING CSS -->
 
 
 

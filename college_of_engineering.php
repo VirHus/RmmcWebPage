@@ -1,12 +1,24 @@
-<link rel="stylesheet" href="styles/college_of_engineering.css"/>
 
+   
+<?php  include 'header.php'?>
 
-<div class="main-container">
+<div class="colleges_main-container">
 
-        <!--NAVIGATIONS CONTAINER-->
+        <!-- NAVIGATIONS CONTAINER -->
         <div class="navigations-container">
+
              <!-- INCLUDE THE TOP NAVIGATION OF THE COLLEGES-->
-            <?php include "colleges_topNav.php"; ?>
+            <div class="college-top-navigation-container">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ACADEMIC PROGRAMS</a></li>
+                    <li><a href="#">ORGANIZATIONAL CHART</a></li>
+                    <li><a href="#">PUBLICATION</a></li>
+                    <li><a href="#">STUDENT ORGANIZATION</a></li>
+                    <li><a href="#">NEWS & GALLERY</a></li>
+                </ul>
+            </div>
+          
            
             <!-- FOR COLLEGE LOGO-->
             <div class="bg-logo-container">
@@ -15,10 +27,14 @@
 
              <!--FOR COLLEGES SUB NAVIGATION-->           
             <div class="courses-subNav-container">
-                <ul>
-                    <li><a href="#" class="colleges-home">COLLEGE OF ENGINEERING AND TECHNOLOGY</a></li>
-                    <li class="li"><a href="#">ITE </a> <image src="assets\img\icon\chevron-icon.png" class="chevron-icon" ></image></li>
-                    <li class="li"><a href="#"> CE </a><image src="assets\img\icon\chevron-icon.png" class="chevron-icon" ></image></li>
+                <ul class="colleges-list">
+                    <li><a href="#" class="college-home">COLLEGE OF ENGINEERING AND TECHNOLOGY</a></li>
+
+                    <ul class="college-department-list">
+                        <li><a href="#">ITE </a></li> 
+                        <li><a href="#">CE </a></li>                      
+                    </ul>
+                    
                 </ul>
                 
             </div>
@@ -71,7 +87,7 @@
 
      <!-- REGISTRATION CONTAINER-->
     <section>
-        <div class="register-container">
+        <div class="college-page-register-container">
             <div class="link-container">
                 <h1>Learn From Our Platform</h1>
                 <h1 class="h2">That Takes You To The Next Level</h1>
@@ -94,14 +110,14 @@
     </section>
 
  <!-- FOR SCROLL UP BUTTON-->
-    <div class="scroll-button-container">
-        <a href="#" class="scroll-up-link-button"><image src="assets/img/icon/arrow-up.png" class="up-arrow" alt="Up Arrow"></image></a>
+    <div class="colleges_scroll-button-container">
+        <a href="#" class="colleges_scroll-up-link-button"><image src="assets/img/icon/arrow-up.png" class="up-arrow" alt="Up Arrow"></image></a>
     </div>
 
 
         <script>
                 // Select the scroll up button
-                const scrollButton = document.querySelector('.scroll-up-link-button');
+                const scrollButton = document.querySelector('.colleges_scroll-up-link-button');
 
                 // Function to toggle visibility and position of the scroll button
                 function toggleScrollButton() {
@@ -132,8 +148,6 @@
                });
 
         </script>
-
-
-    
+   
 </div>
 

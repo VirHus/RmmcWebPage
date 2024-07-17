@@ -1,5 +1,7 @@
 <?php include 'header.php'; ?>
 
+
+
 <section class="welcome-section">
 
   <div class="logo-container">
@@ -72,62 +74,214 @@
 
 <br>
 <br>
+<br>
 <section class="courses-container">
   <div class="text-center">
     <span class="sub-title">Popular Courses</span>
-    <h2 class="sec-title">Our Top <span class="text-theme fw-light">Courses</span></h2>
+    <h2 class="sec-title">Our Top <span class="courses-title">Courses</span></h2>
   </div>
 
-  <span class="button-prev" aria-hidden="true">back</span>
 
-  <div class="course-cards">
+  <div class="course-cards-wrapper">
+    <button class="prev-button" onclick="moveSlide('prev')">&#10094;</button>
 
-  <div class="course-card">
-    <a href="course3.php" class="course-card-link">
-      <div class="course-img">
-        <img src="assets/img/course/it.jpg">
+
+    <div class="course-cards">
+      <div class="course-card">
+        <a href="course3.php" class="course-card-link">
+          <div class="course-img">
+            <img src="assets/img/course/it.jpg" alt="BS in Information Technology">
+          </div>
+          <div class="course-title">
+            <h3>BS in Information Technology</h3>
+          </div>
+          <div class="course-footer">
+            <span>Lesson 43</span>
+            <span>Students 402</span>
+            <span>View: 13K</span>
+          </div>
+        </a>
       </div>
 
-      <div class="course-title">
-        <h3>BS in Information Technology</h3>
+      <!-- Repeat for other course cards -->
+      <div class="course-card">
+        <a href="course3.php" class="course-card-link">
+          <div class="course-img">
+            <img src="assets/img/course/course_2_3.jpg" alt="BS in Information Technology">
+          </div>
+          <div class="course-title">
+            <h3>BS in Tourism Management</h3>
+          </div>
+          <div class="course-footer">
+            <span>Lesson 21</span>
+            <span>Students 320</span>
+            <span>View: 32K</span>
+          </div>
+        </a>
       </div>
 
-      <div class="course-footer">
-        <span>Lesson 43</span>
-        <span>Students 402</span>
-        <span>View: 13K</span>
+      <!-- Repeat for other course cards -->
+      <div class="course-card">
+        <a href="course3.php" class="course-card-link">
+          <div class="course-img">
+            <img src="assets/img/course/teacher.jpg" alt="BS in Information Technology">
+          </div>
+          <div class="course-title">
+            <h3>Bachelor of Elementary Education</h3>
+          </div>
+          <div class="course-footer">
+            <span>Lesson 53</span>
+            <span>Students 1050</span>
+            <span>View: 14K</span>
+          </div>
+        </a>
       </div>
-      </a>
+
+
+
+      <!-- Repeat for other course cards -->
+      <div class="course-card">
+        <a href="course3.php" class="course-card-link">
+          <div class="course-img">
+            <img src="assets/img/course/justice.jpg" alt="BS in Information Technology">
+          </div>
+          <div class="course-title">
+            <h3>Bachelor of Science in Criminology</h3>
+          </div>
+          <div class="course-footer">
+            <span>Lesson 39</span>
+            <span>Students 740</span>
+            <span>View: 12K</span>
+          </div>
+        </a>
+      </div>
+
+
+
+
+
+
+
+
     </div>
-
-
-
-    <div class="course-card">
-    <a href="course3.php" class="course-card-link">
-      <div class="course-img">
-        <img src="assets/img/course/it.jpg">
-      </div>
-
-      <div class="course-title">
-        <h3>BS in Information Technology</h3>
-      </div>
-
-      <div class="course-footer">
-        <span>Lesson 43</span>
-        <span>Students 402</span>
-        <span>View: 13K</span>
-      </div>
-      </a>
-    </div>
-    
+    <button class="next-button" onclick="moveSlide('next')">&#10095;</button>
   </div>
-  
-    
-
-    
-  
 </section>
 
+
+
+
+
+<section class="vision-container">
+
+
+<div class="right-wrapper">
+  
+<div class="picture-left">
+    <img src="assets/img/normal/about_1_2.jpg">
+  </div>
+
+
+  <div class="student-count">
+    <h2 class="title">Total Students</h2>
+
+    <div class="avatar-list">
+      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+      <span class="count">9000+</span>
+    </div>
+  </div>
+</div>
+  
+
+
+
+
+
+
+  <div class="text-container">
+
+
+
+    <div class="">
+      <div class="">
+        <h1>Vision</h1>
+      </div>
+
+      <p>RMMC is an an institution of innovative development and excellence.</p>
+
+      <div class="">
+        <h1>Mission</h2>
+      </div>
+
+      <p>RMMC is committed to realize human potentials through holistic education.</p>
+
+      <div class="jump">
+      <img alt="shapes"src="assets/img/shape/dot_shape_2.png">
+      </div>
+
+      <div class="mb-35 mb-xl-2">
+        <h1 class="h2">Goals and Objectives</h1>
+      </div>
+
+      <p>Provide holistic academic programs aligned with industry needs and standards.</p>
+
+      <p>Create, disseminate, and utilize researches for the benefit of the community.</p>
+
+      <p>Establish a highly visible community outreach program.</p>
+
+      <p>Collaborate with working networks, linkages and consortia.</p>
+
+      <div>
+        <h1>Core Values</h1>
+      </div>
+
+      <p>Love of God</p>
+
+      <p>Integrity</p>
+
+      <p>Patriotism</p>
+
+      <p>Service</p>
+
+      <p>Excellence</p>
+
+      <div class="checklist">
+        <ul>
+          <li>
+            <h1 class="check-title">Competitive Rates</h1>
+
+            <p class="check-text"> </p>
+          </li>
+          <li>
+            <h1 class="check-title">Online Certificates</h1>
+
+            <p class="check-text"> </p>
+          </li>
+        </ul>
+      </div>
+
+
+
+      
+
+    </div>
+    
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+
+</section>
+
+<script src="Assets/js/index.js"></script>
 </body>
 
 </html>

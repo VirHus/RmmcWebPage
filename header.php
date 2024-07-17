@@ -41,11 +41,12 @@
 
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="Styles/index.css">
 
 
-
-    <?php if ($page == 'requirements'): ?>
+    <?php if ($page == 'index'): ?>
+        <link rel="stylesheet" href="./styles/index.css">
+        <title>RMMC - Home</title>
+    <?php elseif ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>Requirements</title>
     <?php elseif ($page == 'college_of_engineering'): ?>

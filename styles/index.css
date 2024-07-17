@@ -216,10 +216,10 @@ p {
   padding: 20px;
   height: 650px; /* Adjust height as needed */
   position: relative;
-  
+ 
 }
 
-.welcome-section::before {
+ .welcome-section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -228,8 +228,8 @@ p {
   bottom: 0;
   background-color: #041122;
   opacity: 0.85; /* Set the opacity of the background */
-  z-index: -1; /* Ensure the overlay is behind the content */
-}
+ 
+}  
 
 .welcome-section  .logo-container {
   display: flex;

@@ -1,5 +1,7 @@
-<?php include 'header.php'; ?>
-
+<?php 
+$page = 'index';
+require 'header.php'; 
+?>
 
 
 <section class="welcome-section">
@@ -282,6 +284,4 @@
 </section>
 
 <script src="Assets/js/index.js"></script>
-</body>
-
-</html>
+<?php include 'footer.php' ?>

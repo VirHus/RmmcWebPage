@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
-    
-</head>
-<body>
-    <footer class = "footer_main" style ="padding-top: 257px">
+<footer class ="footer_main">
         <div class="footer_main__footer_area">
          <div class="footer_main__footer_area__container">
             <div class="footer_main__footer_area__container__row_footer">
-
 
                 <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
@@ -78,7 +66,7 @@
                         </form>
                     </div>
                 </div>
-            </div>    
+            </div>   
          </div>
        </div>
 
@@ -96,11 +84,10 @@
                 </div>
             </div>
         </div>
-       </div>
-       <div class="bckgrnd_img">
+        <div class="bckgrnd_img">
         <img src="assets/img/shape/footer_shape_3.png" alt="background">
         </div>
-    </footer>
-        
-</body>
+       </div>
+</footer>
+
 </html>

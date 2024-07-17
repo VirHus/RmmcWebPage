@@ -93,7 +93,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1.8rem;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -168,6 +168,8 @@ nav {
 
     .menu_header {
         padding: 0 1rem;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .menu_items {
@@ -178,6 +180,7 @@ nav {
         display: none;
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
     .menu_header_main_menu.active {
@@ -208,6 +211,17 @@ nav {
     .menu_items_button{
         display: flex;
     }
+
+    .menu_header_main_menu_has_children ul.active {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 100%;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+    }
+   
 
 }
 

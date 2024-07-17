@@ -36,7 +36,6 @@
     
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="Styles/index.css">
 
 
 
@@ -82,8 +81,8 @@
             <ul class="menu_header_main_menu">
                 <li class="menu_header_main_menu_has_children" ><a href="index.php">Home</a></li>
                 <li class="menu_header_main_menu_has_children">
-                    Admission
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                Admission <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    
                     <ul>
                         <li><a href="requirements.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
                         </li>
@@ -146,7 +145,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu_header_main_menu_has_children">Contact Us</a></li>
+                <li class="menu_header_main_menu_has_children"><a>Contact Us</a></li>
             </ul>
         </div>
 

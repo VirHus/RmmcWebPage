@@ -188,12 +188,6 @@
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 
 
@@ -442,11 +436,20 @@
   margin: 0 auto; /* Center the container horizontally */
 }
 
-
-.courses-container .button-back {
-  position: absolute;
+.courses-container .text-center {
+  text-align: center;
 }
 
+.courses-container .sub-title {
+  font-size: 16px;
+    font-weight: 500;
+    color: #0d5ef4;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    margin-top: -0.41em;
+    margin-bottom: 22px;
+    display: block;
+}
 
 
 

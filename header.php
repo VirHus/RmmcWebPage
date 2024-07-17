@@ -43,11 +43,15 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Styles/index.css">
     <link rel="stylesheet" href="styles/college_of_engineering.css">
-    <link rel="stylesheet" href="styles/requirementsStyle.css">
 
 
-
+    <?php if ($page == 'requirements') : ?>
+        <link rel="stylesheet" href="styles/requirementsStyle.css">
+        <title>Requirements</title>
+        
+    <?php endif; ?>
 
 
     <title>Document</title>
+
 </head>

@@ -1,4 +1,7 @@
-<?php include 'header.php' ?>
+<?php 
+$page = 'requirements';
+require 'header.php';
+?>
 <?php include 'nav_bar.php' ?>
 <p>ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">
@@ -100,4 +103,5 @@
             </div>
         </div>
     </div>
+
 

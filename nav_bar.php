@@ -58,37 +58,30 @@
                     <li><a href="MAED.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
                             Studies</a>
                     </li>
-                    <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
+                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
 
-                        <ul class="menu_header_main_menu_has_children__sublist">
-                            <li><a href="college1.php"><i class="fa fa-book" aria-hidden="true"></i> College of Arts</a>
-                            </li>
-                            <li><a href="college2.php"><i class="fa fa-book" aria-hidden="true"></i> College of
-                                    Science</a></li>
-                            <li><a href="college3.php"><i class="fa fa-book" aria-hidden="true"></i> College of
-                                    Engineering</a></li>
-                        </ul>
+
                     </li>
-                    <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a>
+                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a>
                     </li>
-                    <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a>
+                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a>
                     </li>
                 </ul>
             </li>
             <li class="menu_header_main_menu_has_children">News &
                 Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">
-                    <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
+                    <li><a href="news.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
                     </li>
-                    <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
+                    <li><a href="gallery.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
                     </li>
                 </ul>
             </li>
             <li class="menu_header_main_menu_has_children">Student <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">
-                    <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
+                    <li><a href="http://system.rmmc.edu.ph/rmmcweb/index.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
                     </li>
-                    <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> LMS Login</a>
+                    <li><a href="https://rmmc.instructure.com/login/canvas"><i class="fa fa-book" aria-hidden="true"></i> LMS Login</a>
                     </li>
                 </ul>
             </li>
@@ -112,7 +105,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="menu_header_main_menu_has_children">Contact Us</a></li>
+            <li class="menu_header_main_menu_has_children"><a href="contact.php">Contact Us</a></li>
         </ul>
     </div>
 

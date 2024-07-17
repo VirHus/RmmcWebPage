@@ -33,6 +33,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="header.css">
+    
     <title>Document</title>
 </head>
 
@@ -52,10 +53,11 @@
 
             <div class="header_top_social">
                 <span>Follow Us: </span>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/rmmcgensanofficial"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/RMMCGensan"><i class="fab fa-twitter"></i></a>
+                <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0?challengeId=AQGaeZ0b2lDpYQAAAZB8RIQggJ3MIi6LVBWyAVYUQovoIz33Nb6mlZntZK0e9AgpEPzh5adtPc5cvWiLE7c4S9bkA7hLOSTCUA&submissionId=19bccf66-2cec-de17-45d1-cc444fa5852e&challengeSource=AgE9SX3lGFu5QAAAAZB8RJUpq5NKZv1Nwd5LhDV_T55cY6AJRelwLahIqRDuwms&challegeType=AgGkQL4yPVrW5gAAAZB8RJUsUnu9HJGCSwWzirDUIcLxYdL0T_PpfE0&memberId=AgHCGF89nq7PAQAAAZB8RJUw202sniBCGep67Wbeo6ux9nw&recognizeDevice=AgHyZGa19Y6lbQAAAZB8RJUz_Loc5kULObvz_MVp9JnQTV7i22_r"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/rmmcsmcc/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
 
@@ -70,23 +72,23 @@
             </div>
 
             <ul class="menu_header_main_menu">
-                <li class="menu_header_main_menu_has_children">Home</li>
+                <li class="menu_header_main_menu_has_children" ><a href="index.php">Home</a></li>
                 <li class="menu_header_main_menu_has_children">
-                    Admission 
-                    <i class="fa fa-angle-down"aria-hidden="true"></i>
+                    Admission
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <ul>
-                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
+                        <li><a href="requirements.php"><i class="fa fa-book" aria-hidden="true"></i> Requirements</a>
                         </li>
-                        <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Registration</a>
+                        <li><a href="http://system.rmmc.edu.ph/rmmcweb/collegeenroll/"><i class="fa fa-book" aria-hidden="true"></i> Registration</a>
                         </li>
-                        <li><a href="school3.php"><i class="fa fa-book" aria-hidden="true"></i> Enrollment</a>
+                        <li><a href="enrollment.php"><i class="fa fa-book" aria-hidden="true"></i> Enrollment</a>
                         </li>
                     </ul>
                 </li>
                 <li class="menu_header_main_menu_has_children">Academics <i class="fa fa-angle-down"
-                aria-hidden="true"></i>
+                        aria-hidden="true"></i>
                     <ul>
-                        <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
+                        <li><a href="MAED.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate
                                 Studies</a>
                         </li>
                         <li><a href="school2.php"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
@@ -98,7 +100,7 @@
                     </ul>
                 </li>
                 <li class="menu_header_main_menu_has_children">News &
-                Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
                         </li>
@@ -107,7 +109,7 @@
                     </ul>
                 </li>
                 <li class="menu_header_main_menu_has_children">Student <i class="fa fa-angle-down"
-                aria-hidden="true"></i>
+                        aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Portal Login</a>
                         </li>
@@ -116,7 +118,7 @@
                     </ul>
                 </li>
                 <li class="menu_header_main_menu_has_children">Services <i class="fa fa-angle-down"
-                aria-hidden="true"></i>
+                        aria-hidden="true"></i>
                     <ul>
                         <li><a href="school1.php"><i class="fa fa-book" aria-hidden="true"></i> Research</a>
                         </li>
@@ -136,7 +138,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="news.php">Contact Us</a></li>
+                <li class="menu_header_main_menu_has_children">Contact Us</a></li>
             </ul>
         </div>
 

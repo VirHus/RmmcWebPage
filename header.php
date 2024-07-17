@@ -41,7 +41,7 @@
 
 
 
-    
+
     <title>Document</title>
 </head>
 
@@ -79,7 +79,7 @@
             </div>
 
             <ul class="menu_header_main_menu">
-                <li class="menu_header_main_menu_has_children">Home</li>
+                <li class="menu_header_main_menu_has_children"><a href="index.php">Home</a></a></li>
                 <li class="menu_header_main_menu_has_children">
                     Admission 
                     <i class="fa fa-angle-down"aria-hidden="true"></i>

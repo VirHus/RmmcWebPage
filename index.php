@@ -1,9 +1,10 @@
-<?php 
+<?php
 $page = 'index';
-require 'header.php'; 
-?>
+require 'header.php';
+include "nav_bar.php"
+  ?>
 
-<?php include "nav_bar.php" ?>
+
 <section class="welcome-section">
 
   <div class="logo-container">
@@ -40,7 +41,7 @@ require 'header.php';
 </section>
 
 
-<br>
+
 
 <section class="welcome-to-section">
   <div class="picture-container">
@@ -74,9 +75,7 @@ require 'header.php';
 
 
 
-<br>
-<br>
-<br>
+
 <section class="courses-container">
   <div class="text-center">
     <span class="sub-title">Popular Courses</span>
@@ -177,29 +176,29 @@ require 'header.php';
 <section class="vision-container">
 
 
-<div class="right-wrapper">
-  
-<div class="picture-left">
-    <img src="assets/img/normal/about_1_2.jpg">
-  </div>
+  <div class="right-wrapper">
+
+    <div class="picture-left">
+      <img src="assets/img/normal/about_1_2.jpg">
+    </div>
 
 
-  <div class="student-count">
-    <h2 class="title">Total Students</h2>
+    <div class="student-count">
+      <h2 class="title">Total Students</h2>
 
-    <div class="avatar-list">
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+      <div class="avatar-list">
+        <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
 
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+        <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
 
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+        <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
 
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-      <span class="count">9000+</span>
+        <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+        <span class="count">9000+</span>
+      </div>
     </div>
   </div>
-</div>
-  
+
 
 
 
@@ -210,78 +209,323 @@ require 'header.php';
 
 
 
-    <div class="">
-      <div class="">
-        <h1>Vision</h1>
-      </div>
 
-      <p>RMMC is an an institution of innovative development and excellence.</p>
+    <div class="h1">
+      <h1>Vision</h1>
+    </div>
 
-      <div class="">
-        <h1>Mission</h2>
-      </div>
+    <p>RMMC is an an institution of innovative development and excellence.</p>
 
-      <p>RMMC is committed to realize human potentials through holistic education.</p>
+    <div class="h1">
+      <h1>Mission</h2>
+    </div>
 
-      <div class="jump">
-      <img alt="shapes"src="assets/img/shape/dot_shape_2.png">
-      </div>
+    <p>RMMC is committed to realize human potentials through holistic education.</p>
 
-      <div class="mb-35 mb-xl-2">
-        <h1 class="h2">Goals and Objectives</h1>
-      </div>
+    <div class="jump">
+      <img alt="shapes" src="assets/img/shape/dot_shape_2.png">
+    </div>
 
-      <p>Provide holistic academic programs aligned with industry needs and standards.</p>
+    <div class="h1">
+      <h1>Goals and Objectives</h1>
+    </div>
 
-      <p>Create, disseminate, and utilize researches for the benefit of the community.</p>
+    <p>Provide holistic academic programs aligned with industry needs and standards.</p>
 
-      <p>Establish a highly visible community outreach program.</p>
+    <p>Create, disseminate, and utilize researches for the benefit of the community.</p>
 
-      <p>Collaborate with working networks, linkages and consortia.</p>
+    <p>Establish a highly visible community outreach program.</p>
 
-      <div>
-        <h1>Core Values</h1>
-      </div>
+    <p>Collaborate with working networks, linkages and consortia.</p>
 
-      <p>Love of God</p>
+    <div class="h1">
+      <h1>Core Values</h1>
+    </div>
 
-      <p>Integrity</p>
+    <p>Love of God</p>
 
-      <p>Patriotism</p>
+    <p>Integrity</p>
 
-      <p>Service</p>
+    <p>Patriotism</p>
 
-      <p>Excellence</p>
+    <p>Service</p>
 
-      <div class="checklist">
-        <ul>
-          <li>
-            <h1 class="check-title">Competitive Rates</h1>
+    <p>Excellence</p>
 
-            <p class="check-text"> </p>
-          </li>
-          <li>
-            <h1 class="check-title">Online Certificates</h1>
+    <div class="checklist">
 
-            <p class="check-text"> </p>
-          </li>
-        </ul>
-      </div>
+      <span class="checkbox-text">
+        <span class="checkbox-icon">&#x2713;</span> Competitive Rates
+      </span>
 
 
+      <span class="checkbox-text">
+        <span class="checkbox-icon">&#x2713;</span> Online Certificates
+      </span>
 
-      
+
 
     </div>
-    
+
+
+
+
+
+
+
+
   </div>
   </div>
   </div>
 
   </div>
-
 
 </section>
+
+
+
+<section class="newsevents-container">
+  <div>
+  <div class="news-container">
+
+  <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/NEWS/pasigarbokleggy.jpg">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ITEM 1 -->
+    <div class="grid-item">
+
+      <div class="grid-image">
+        <img src="assets/img/normal/student_1_3_new.png">
+      </div>
+
+      <div class="grid-content">
+        <div class="grid-date">
+          <p>2023-11-09 10:04:00</h3>
+        </div>
+
+        <div class="grid-title">
+          <h2>PASIGARBO 2023 Featuring Banda ni Kleggy</h2>
+        </div>
+
+        <div class="grid-footer">
+          <div class="view-content">
+            <a class="button" href="">View</a>
+          </div>
+
+          <div class="author">
+            <div class="avater">
+              <img alt="" src="assets/img/event/avater.jpg">
+            </div>
+            <span class="author-name">Admin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <div class="view-content">
+    <a class="button" href="">VIEW ALL</a>
+  </div>
+</section>
+
 
 <script src="Assets/js/index.js"></script>
 <?php include 'footer.php' ?>

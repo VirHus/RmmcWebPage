@@ -7,30 +7,31 @@
           <div class="footer_main__footer_area__container">
             <div class="footer_main__footer_area__container__row_footer">
 
-                <div class="footer_main__footer_area__container__row_footer__col_footer">
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
-                            <div class="object_logo">
-                                <a href="#"><img alt="Rmmc" src="assets/img/white-logo.png"></a>   
-                            </div>
-                        <h4 class="footer_info_title">Follow Us On:</h4>
-                        <div class="social">
-                            <a href="https://www.facebook.com/rmmcgensanofficial" target ="_block"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/" target ="_block"><i class="fab fa-twitter"></i></a>
-                            <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target ="_block"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.instagram.com/rmmcsmcc/"target ="_block"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185"target ="_block"><i class="fab fa-youtube"></i></a>
-                        </div>
-
-                        <div class ="iso_logo">
-                        <img src="assets/img/iso.png" alt="Rmmc" class="iso_logo__iso_img"/>
+            <div class="footer_main__footer_area__container__row_footer__col_footer">
+                <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
+                    <div class="object_logo">
+                        <a href="#"><img alt="Rmmc" src="assets/img/white-logo.png"></a>   
+                    </div>
+                    <p class="iso_description">Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges  and Universities -Commission on Accreditation. </p>
+                    <h4 class="footer_info_title">Follow Us On:</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/rmmcgensanofficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/rmmcsmcc/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="iso_logo">
+                        <img src="assets/img/iso.png" alt="Rmmc" class="iso_logo__iso_img" />
                         <span class="iso_logo__iso_text">ISO 9001:2015 CERTIFIED</span>
-                        </div>
-                        </div>
+                    </div>
                 </div>
+            </div>
+
 
                 <div class="footer_main__footer_area__container__row_footer__col_footer">
                     <div class="object nav footer_object">
-                        <h3 class="object_title">Quck Link</h3>
+                        <h3 class="object_title">Quick Link</h3>
                         <div class="all_pages_container">
                             <ul class="all_pages_menu">
                                 <li><a href="#">Life Coach</a></li>
@@ -44,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="col_footer">
+                <div class="footer_main__footer_area__container__row_footer__col_footer">
                     <div class="object nav footer_object">
                         <h3 class="object_title">Resources</h3>
                         <div class="all_pages_container">
@@ -60,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="col_footer">
+                <div class="footer_main__footer_area__container__row_footer__col_footer">
                     <div class="object footer_object form">
                         <h3 class="object_title">Get in touch!</h3>
                         <form class="newsletter_object">
@@ -90,9 +91,9 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="bckgrnd_img">
+        <div class="bckgrnd_img">
         <img src="assets/img/shape/footer_shape_3.png" alt="background">
-        </div> -->
+        </div>
        </div>
 </footer>
 

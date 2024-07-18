@@ -66,6 +66,9 @@
     <?php elseif ($page == 'index'): ?>
         <link rel="stylesheet" href="Styles/index.css">
         <title>RMMC - OFFICIAL WEBSITE</title>
+    <?php elseif ($page == 'contact'): ?>
+        <link rel="stylesheet" href="styles/contact.css">
+        <title>RMMC - OFFICIAL WEBSITE</title>
     <?php endif; ?>
 
 

@@ -10,8 +10,7 @@
 /* FOR NAVIGATIONS CONTAINER*/
 .navigations-container{
     width:100vw;
-    margin:auto;
-    
+    margin:auto;    
 }
 .college-top-navigation-container{
     width:100vw;
@@ -192,13 +191,12 @@
 /* MEDIA QUERY FOR PORTRAIT- WHEN THE SCREEN MINIMIZE*/
 @media only screen and (orientation: portrait) {
 
-    .navigations-container{
-        margin-top:10px;
-    }
+  
     .college-top-navigation-container{
         margin:auto;
         
     }
+  
     .college-top-navigation-container ul li a{
         padding:5px 10px;
 

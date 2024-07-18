@@ -289,6 +289,7 @@ p {
   display: flex;
   gap: 20px; /* Adds space between the logos */
   margin-bottom: 20px; /* Adds space between the logos and the text/button container */
+  z-index: 0;
 }
 
 .welcome-section  .text-button-container {
@@ -334,6 +335,7 @@ p {
   transform: translateY(-50%); /* Adjust to center vertically */
   height: 100%; /* Match the container's height */
   width: auto; /* Adjust width as needed */
+  bottom: 0;
 }
 
 .welcome-section  .student-right img{
@@ -354,7 +356,7 @@ p {
   -webkit-transform: rotate(25.36deg);
   -ms-transform: rotate(25.36deg);
   transform: rotate(25.36deg);
-  z-index: 2;
+  z-index: 0;
   -webkit-animation: spin 40s linear infinite;
   animation: spin 40s linear infinite;
 }
@@ -554,7 +556,7 @@ p {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
   background-color: white;
   max-width: 500px;
-  width: 500px;
+  width: 450px;
   height: auto;
   margin: 1%;
 }

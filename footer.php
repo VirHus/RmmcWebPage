@@ -65,7 +65,7 @@
                     <div class="object footer_object form">
                         <h3 class="object_title">Get in touch!</h3>
                         <form class="newsletter_object">
-                            <div class="form_group">
+                            <div class="form_group input_container">
                                 <input type = "email" class="form_control" placeholder = "Enter Email" required = "">
                                 <i class = "fal fa-envelope"></i>
                             </div>

@@ -205,7 +205,7 @@ include "nav_bar.php"
 
 
 
-  <div class="text-container">
+    <div class="text-container">
 
 
 
@@ -278,7 +278,7 @@ include "nav_bar.php"
   </div>
   </div>
 
-  </div>
+    </div>
 
 </section>
 
@@ -528,4 +528,4 @@ include "nav_bar.php"
 
 
 <script src="Assets/js/index.js"></script>
-<?php include 'footer.php' ?>
+  <?php include 'footer.php' ?>

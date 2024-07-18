@@ -50,28 +50,27 @@
 
 
 
-
-    <?php if ($page == 'requirements'): ?>
-        <link rel="stylesheet" href="styles/requirementsStyle.css">
-        <title>Requirements</title>
-    <?php elseif ($page == 'college'): ?>
-        <link rel="stylesheet" href="styles/college.css">
-        <title>College Of Engineering</title>
-    <?php elseif ($page == 'news'): ?>
-        <link rel="stylesheet" href="styles/news.css">
-        <title>News</title>
-    <?php elseif ($page == 'enrollment'): ?>
-        <link rel="stylesheet" href="styles/enrollment.css">
-        <title>Enrollment</title>
-    <?php elseif ($page == 'index'): ?>
+    <?php if ($page == 'index'): ?>
         <link rel="stylesheet" href="Styles/index.css">
         <title>RMMC - OFFICIAL WEBSITE</title>
+    <?php elseif ($page == 'enrollment'): ?>
+        <link rel="stylesheet" href="styles/enrollment.css">
+        <title>RMMC - Enrollment</title>
+    <?php elseif ($page == 'requirements'): ?>
+        <link rel="stylesheet" href="styles/requirementsStyle.css">
+        <title>RMMC - Requirements</title>
+    <?php elseif ($page == 'college'): ?>
+        <link rel="stylesheet" href="styles/college.css">
+        <title>RMMC - College Of Engineering</title>
+    <?php elseif ($page == 'news'): ?>
+        <link rel="stylesheet" href="styles/news.css">
+        <title>RMMC - News</title>
     <?php elseif ($page == 'contact'): ?>
         <link rel="stylesheet" href="styles/contact.css">
-        <title>RMMC - OFFICIAL WEBSITE</title>
+        <title>RMMC - Contact Us</title>
+    <?php elseif ($page == 'course'): ?>
+        <link rel="stylesheet" href="/RmmcWebPage/styles/course.css">
+        <title>RMMC - Courses</title>
     <?php endif; ?>
-
-
-    <title>Document</title>
 
 </head>

@@ -1,20 +1,21 @@
 
 <?php 
-$page = 'requirements';
+$page = 'course';
 require 'header.php';
 ?>
 <?php include 'nav_bar.php' ?>
     
    
-<link rel="stylesheet" href="/RmmcWebPage/styles/course.css">
+
 
     <div class="course-wrapper">
         <div class="container__courses_title">
-            <h1 class="breadcrumb-title">Our Courses</h1>
+            <h1 class="breadcrumb-title">OUR COURSES</h1>
             <ul class="breadcrumb-menu">
-                <li><a href="index.php" class="homepage">Home</a></li>
-                >
-                <li class="our__courses">Our Courses</li>
+                <li><a href="index.php" class="homepage">Home </a></li>
+                
+
+                <li class="our__courses"><i class="fa fa-angle-right" aria-hidden="true"></i> Our Courses</li>
             </ul>
         </div>
     </div>

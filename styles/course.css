@@ -1,36 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-body{
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url('/RmmcWebPage/assets/img/FGMNEW.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 
 
-
-.breadcrumb-wrapper {
+.course-wrapper {
     background-image: url('/RmmcWebPage/assets/img/breadcumb/breadcumb-bg.jpg');
     padding: 2rem 0;
     background-position: center;
     background-repeat: no-repeat;
-    height: 18rem;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #f9f9f9;
+    width: 100%;
+ 
 }
 
 .container__courses_title {
     width: 90%;
     margin: auto;
-    max-width: 1200px;
+   
   
 }
 

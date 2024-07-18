@@ -3,11 +3,12 @@
 
 .course-wrapper {
     background-image: url('/RmmcWebPage/assets/img/breadcumb/breadcumb-bg.jpg');
-    padding: 2rem 0;
+    padding: 120px 1rem;
     background-position: center;
     background-repeat: no-repeat;
-   height: 18rem;
+    background-size: cover;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -24,19 +25,22 @@
 }
 
 .breadcrumb-title {
-    font-size: 3.5rem;
-   
-    text-decoration: underline;
+    font-size: 3rem;
     letter-spacing: 2px;
+    color: white;
 
 }
 
 .breadcrumb-menu {
     list-style: none;
     padding: 0;
-    display: inline-flex;
+    display: flex;
     color: #f9f9f9;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
 }
+
 .homepage{
     color: #f9f9f9;
     text-decoration: none;

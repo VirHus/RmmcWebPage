@@ -11,7 +11,8 @@ require 'header.php';
     <div class="breadcrumb-card__box">
         <h1 class="breadcrumb-card__box__title">CONTACT US</h1>
         <ul class="breadcrumb-card__box__menu">
-            <a class="breadcrumb-card__box__menu__item__link" href="index.php">Home</a></li>
+            <a class="breadcrumb-card__box__menu__item__link" href="index.php">Home</a>
+            <a class="breadcrumb-card__box__menu__item__link" href="index.php"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a>
         </ul>
     </div>
 </div>
@@ -65,7 +66,7 @@ require 'header.php';
                     <br>
                     
                 </p>
-                <a class="btn btn-danger" href="https://maps.app.goo.gl/wuAmGDoBfMUnuJ67A">NAVIGATE LOCATION</a>
+                <a class="btn btn-danger" href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu">NAVIGATE LOCATION</a>
 
             </div>
             

@@ -41,13 +41,13 @@
 
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="Styles/index.css">
 
 
 
 
 
-    
+
+
 
 
 
@@ -63,6 +63,9 @@
     <?php elseif ($page == 'enrollment'): ?>
         <link rel="stylesheet" href="styles/enrollment.css">
         <title>Enrollment</title>
+    <?php elseif ($page == 'index'): ?>
+        <link rel="stylesheet" href="Styles/index.css">
+        <title>RMMC - OFFICIAL WEBSITE</title>
     <?php endif; ?>
 
 

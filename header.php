@@ -71,6 +71,9 @@
     <?php elseif ($page == 'course'): ?>
         <link rel="stylesheet" href="/RmmcWebPage/styles/course.css">
         <title>RMMC - Courses</title>
+    <?php elseif ($page == 'college_acad_prog' || $page == 'college_faculty_staff'): ?>
+        <link rel="stylesheet" href="styles/college.css">
+        <title>RMMC - Course</title>
     <?php endif; ?>
 
 </head>

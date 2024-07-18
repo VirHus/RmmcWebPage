@@ -11,7 +11,7 @@
 .navigations-container{
     width:100vw;
     margin:auto;
-    margin-top:18px;
+    
 }
 .college-top-navigation-container{
     width:100vw;
@@ -21,6 +21,7 @@
 }
 .college-top-navigation-container ul{
     list-style: none;
+    padding-top:10px;
 }
 .college-top-navigation-container ul li{
     display:inline-block;

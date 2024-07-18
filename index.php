@@ -18,7 +18,7 @@ require 'header.php';
       <h1 class="accredited-text" style="font-size:25px">PACUCOA ACCREDITED SCHOOL &amp;<br>
         ISO 9001:2015 CERTIFIED</h1>
       <br>
-      <a class="button-enroll" href="course.php">Enroll Now</a>
+      <a class="button enroll" href="course.php">Enroll Now</a>
     </div>
   </div>
 

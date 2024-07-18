@@ -205,8 +205,54 @@ p {
 
 
 
+/*#region BUTTONS */
+.button {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #0d5ef4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 20.5px 29px;
+  box-shadow: 0px 6px 16px rgba(13, 94, 244, 0.24);
+  border-radius: 5px;
+  transition: 300ms;
+}
 
+.button:before {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  background-color: #ffffff;
+  transform: translateX(-50%) translateY(-50%) rotate(60deg);
+  z-index: -1;
+  transition: 0.4s ease;
+}
 
+.button:hover,
+.button.active {
+  color: #0f2239;
+}
+
+.button:hover::before,
+.button.active::before {
+  height: 320%;
+}
+
+.button.btn_style {
+  box-shadow: none;
+}
+/*endregion  */
 
 
 .welcome-section {
@@ -261,20 +307,9 @@ p {
   display: flex;
 }
 
-.welcome-section  .button-enroll {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px; /* Adds space between text and button */
-  
-}
 
-.welcome-section  .button-enroll:hover {
-  background-color: #0056b3;
-}
+
+
 
 
 .welcome-section  .background-shape {

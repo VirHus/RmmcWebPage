@@ -6,13 +6,13 @@
     padding: 2rem 0;
     background-position: center;
     background-repeat: no-repeat;
-   
+   height: 18rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #f9f9f9;
-    width: 100%;
+   
  
 }
 

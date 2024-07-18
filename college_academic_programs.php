@@ -1,5 +1,5 @@
 <?php 
-$page = 'college_of_engineering';
+$page = 'college';
 require 'header.php';
 ?>
 <?php include 'nav_bar.php' ?>

@@ -25,6 +25,7 @@ nav {
     background: #0d5ef4;
     padding: 1.3rem 2rem;
     z-index: 999;
+    position: relative;
 }
 
 .header_top_links {

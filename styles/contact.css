@@ -47,16 +47,12 @@ body {
 /* Add to your existing CSS */
 
 .map-sec {
-    position: relative;
-    z-index: 1;
-    padding: 20px 0;
+    width: 100vw;
+    padding: 0;
   }
 .map-sec .space {
-    padding-bottom: var(--section-space);
-}
 
-.map-sec .space {
-    padding-top: var(--section-space);
+    padding-bottom: var(--section-space);
 }
 
 .map {
@@ -68,6 +64,10 @@ body {
     object-fit: cover;
 }
 
+iframe {
+    width: 100%;
+}
+
 .map-sec .map {
     
     inset: 0;
@@ -76,19 +76,25 @@ body {
 }
 
 .map_container {
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    position: relative;
     margin-bottom: 3rem;
 }
 
 .map_container__contact {
     max-width: 440px;
+    position: absolute;
     height: auto;
     padding: 40px;
     background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin: 1rem 0.5rem;
+    top: 15%;
+    left: 20%;
     z-index: 3;
 
 }
@@ -99,6 +105,17 @@ body {
     margin-bottom: 21px;
     margin-top: -0.22em;
     font-weight: 600;
+}
+
+.map_container__contact__border__title::before {
+    content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 80px;
+  background-color: #0C5CF0    ;
+  box-sizing: border-box;
 }
 
 .map_container__contact__info {
@@ -115,13 +132,14 @@ body {
     height: 70px;
     line-height: 70px;
     font-size: 30px;
-    background-color: rgba(13, 94, 244, 0.07);
+    background-color: rgba(13, 94, 244, 0.09);
     text-align: center;
     color: var(--theme-color);
     border-radius: 5px;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
+
 
 .map_container__contact__info__body {
     -webkit-box-flex: 1;
@@ -139,6 +157,13 @@ body {
   line-height: 1.5;
   display: block;
   max-width: fit-content;
+
+}
+
+.map_container__contact__info__body__text a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
 }
 .btn {
     display: inline-block;
@@ -153,10 +178,15 @@ body {
     font-size: 1rem;
     border-radius: .25rem;
 }
+
+.btn:hover {
+    background-color: #9c1f2c;
+}
 .btn-danger {
     color: white;
     background-color: #dc3545;
     border-color: #dc3545;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -174,33 +204,41 @@ body {
     }
 
     .map_container__contact {
-        max-width: 100%;
-        padding: 20px;
-        margin: 1rem;
+        max-width: 200px;
+        height: 400px;
+        padding: 10px;
+        position: absolute;
+        top: -0.7%;
+        left: 50%;
+        border-radius: 0px;
     }
 
     .map_container__contact__info {
         max-width: 100%;
-        gap: 15px;
+        gap: 10px;
     }
 
     .map_container__contact__info__icon {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
         font-size: 20px;
     }
 
     .map_container__contact__info__body__title {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .map_container__contact__info__body__text {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .btn {
         padding: .25rem .5rem;
-        font-size: 0.875rem;
+        font-size: 0.7rem;
+    }
+
+    .textP {
+        font-size: 10px;
     }
 }

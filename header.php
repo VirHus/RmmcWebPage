@@ -50,8 +50,13 @@
 
 
 
-
-    <?php if ($page == 'requirements'): ?>
+    <?php if ($page == 'index'): ?>
+        <link rel="stylesheet" href="Styles/index.css">
+        <title>RMMC - OFFICIAL WEBSITE</title>
+    <?php elseif ($page == 'enrollment'): ?>
+        <link rel="stylesheet" href="styles/enrollment.css">
+        <title>Enrollment</title>
+    <?php elseif ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>Requirements</title>
     <?php elseif ($page == 'college'): ?>
@@ -60,18 +65,9 @@
     <?php elseif ($page == 'news'): ?>
         <link rel="stylesheet" href="styles/news.css">
         <title>News</title>
-    <?php elseif ($page == 'enrollment'): ?>
-        <link rel="stylesheet" href="styles/enrollment.css">
-        <title>Enrollment</title>
-    <?php elseif ($page == 'index'): ?>
-        <link rel="stylesheet" href="Styles/index.css">
-        <title>RMMC - OFFICIAL WEBSITE</title>
     <?php elseif ($page == 'contact'): ?>
         <link rel="stylesheet" href="styles/contact.css">
         <title>RMMC - OFFICIAL WEBSITE</title>
     <?php endif; ?>
-
-
-    <title>Document</title>
 
 </head>

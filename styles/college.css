@@ -253,3 +253,96 @@
 }
 
 
+/*FOR FACULTY AND STAFF *//* FOR FACULTY AND STAFF */
+.faculty_and_staff_data_container {
+    width: 100vw;
+    padding: 100px 0px;
+}
+
+.faculty_and_staff_data_container .staff_container {
+    display: block;
+    margin: auto;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.staff_name_and_profile_button_container {
+    border-bottom: 3px solid;
+}
+
+.faculty_and_staff_data_container .staff_container
+.staff_name_and_profile_button_container ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    gap: 5px;
+}
+
+.staff_name_and_profile_button_container ul li img {
+    width: 12px;
+}
+
+.staff_name_and_profile_button_container ul li:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.staff_name_and_profile_button_container ul li.active {
+    background-color: rgb(189, 189, 189);
+}
+
+.staff_container .staff_info_container {
+    width: 100%;
+}
+
+.staff_info_container .profile_name_container .profile_container {
+    display: inline-block;
+    padding: 45px 40px;
+}
+
+.staff_info_container .profile_name_container .profile_container .staff_profile {
+    width: 170px;
+    border-radius: 50%;
+}
+
+.staff_info_container .profile_name_container .name_container {
+    display: inline-block;
+    padding: 40px;
+}
+
+.staff_info_container .profile_name_container .name_container h1 {
+    margin-bottom: 30px;
+}
+
+.staff_info_container .profile_name_container .name_container ul {
+    list-style: none;
+}
+
+.staff_info_container .staff_profile_background_container {
+    padding: 40px 50px;
+    display: none;
+}
+
+.staff_info_container .staff_profile_background_container .educ_attainment_container {
+    padding: 30px 10px;
+}
+
+.staff_info_container .staff_profile_background_container .fields_specialization_container {
+    padding: 30px 10px;
+}
+
+.staff_info_container .staff_profile_background_container .research_interest_container {
+    padding: 30px 10px;
+}
+
+.staff_info_container .staff_profile_background_container .educ_attainment_container h4,
+.staff_info_container .staff_profile_background_container .fields_specialization_container h4,
+.staff_info_container .staff_profile_background_container .research_interest_container h4 {
+    color: rgb(0, 0, 51);
+}

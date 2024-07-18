@@ -177,111 +177,111 @@ require 'header.php';
 <section class="vision-container">
 
 
-<div class="right-wrapper">
-  
-<div class="picture-left">
-    <img src="assets/img/normal/about_1_2.jpg">
-  </div>
-
-
-  <div class="student-count">
-    <h2 class="title">Total Students</h2>
-
-    <div class="avatar-list">
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-
-      <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-      <span class="count">9000+</span>
-    </div>
-  </div>
-</div>
-  
-
-
-
-
-
-
-  <div class="text-container">
-
-
-
-    <div class="">
-      <div class="">
-        <h1>Vision</h1>
-      </div>
-
-      <p>RMMC is an an institution of innovative development and excellence.</p>
-
-      <div class="">
-        <h1>Mission</h2>
-      </div>
-
-      <p>RMMC is committed to realize human potentials through holistic education.</p>
-
-      <div class="jump">
-      <img alt="shapes"src="assets/img/shape/dot_shape_2.png">
-      </div>
-
-      <div class="mb-35 mb-xl-2">
-        <h1 class="h2">Goals and Objectives</h1>
-      </div>
-
-      <p>Provide holistic academic programs aligned with industry needs and standards.</p>
-
-      <p>Create, disseminate, and utilize researches for the benefit of the community.</p>
-
-      <p>Establish a highly visible community outreach program.</p>
-
-      <p>Collaborate with working networks, linkages and consortia.</p>
-
-      <div>
-        <h1>Core Values</h1>
-      </div>
-
-      <p>Love of God</p>
-
-      <p>Integrity</p>
-
-      <p>Patriotism</p>
-
-      <p>Service</p>
-
-      <p>Excellence</p>
-
-      <div class="checklist">
-        <ul>
-          <li>
-            <h1 class="check-title">Competitive Rates</h1>
-
-            <p class="check-text"> </p>
-          </li>
-          <li>
-            <h1 class="check-title">Online Certificates</h1>
-
-            <p class="check-text"> </p>
-          </li>
-        </ul>
-      </div>
-
-
-
+    <div class="right-wrapper">
       
+    <div class="picture-left">
+        <img src="assets/img/normal/about_1_2.jpg">
+      </div>
+
+
+      <div class="student-count">
+        <h2 class="title">Total Students</h2>
+
+        <div class="avatar-list">
+          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+
+          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+          <span class="count">9000+</span>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+    <div class="text-container">
+
+
+
+      <div class="">
+        <div class="">
+          <h1>Vision</h1>
+        </div>
+
+        <p>RMMC is an an institution of innovative development and excellence.</p>
+
+        <div class="">
+          <h1>Mission</h2>
+        </div>
+
+        <p>RMMC is committed to realize human potentials through holistic education.</p>
+
+        <div class="jump">
+        <img alt="shapes"src="assets/img/shape/dot_shape_2.png">
+        </div>
+
+        <div class="mb-35 mb-xl-2">
+          <h1 class="h2">Goals and Objectives</h1>
+        </div>
+
+        <p>Provide holistic academic programs aligned with industry needs and standards.</p>
+
+        <p>Create, disseminate, and utilize researches for the benefit of the community.</p>
+
+        <p>Establish a highly visible community outreach program.</p>
+
+        <p>Collaborate with working networks, linkages and consortia.</p>
+
+        <div>
+          <h1>Core Values</h1>
+        </div>
+
+        <p>Love of God</p>
+
+        <p>Integrity</p>
+
+        <p>Patriotism</p>
+
+        <p>Service</p>
+
+        <p>Excellence</p>
+
+        <div class="checklist">
+          <ul>
+            <li>
+              <h1 class="check-title">Competitive Rates</h1>
+
+              <p class="check-text"> </p>
+            </li>
+            <li>
+              <h1 class="check-title">Online Certificates</h1>
+
+              <p class="check-text"> </p>
+            </li>
+          </ul>
+        </div>
+
+
+
+        
+
+      </div>
+      
+    </div>
+    </div>
+    </div>
 
     </div>
-    
-  </div>
-  </div>
-  </div>
-
-  </div>
 
 
 </section>
 
 <script src="Assets/js/index.js"></script>
-<?php include 'footer.php' ?>
+  <?php include 'footer.php' ?>

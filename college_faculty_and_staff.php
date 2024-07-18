@@ -32,18 +32,26 @@ require 'header.php';
 <!-- CONTENT-->
 
 <div class="faculty_and_staff_data_container">
+
     <div class="staff_container">
-        <div class="staff_name_and_profile_button_container">
-            <ul>
-                <li class="profile_name_tab"><img src="assets/img/icon/user-icon.png"><span>BENJAR BULACON</span></li>
-                <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
-            </ul>
+        <div class="profile_container">
+            <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
         </div>
+
+        
+        
         <div class="staff_info_container">
+            <div class="staff_name_and_profile_button_container">
+                <ul>
+                    <li class="profile_name_tab"><img src="assets/img/icon/user-icon.png"><span>BENJAR BULACON</span></li>
+                    <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
+                </ul>
+            </div>
+
+
+
             <div class="profile_name_container">
-                <div class="profile_container">
-                    <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
-                </div>
+               
                 <div class="name_container">
                     <h1>BENJAR BULACON</h1>
                     <ul>
@@ -80,6 +88,16 @@ require 'header.php';
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
@@ -129,10 +147,10 @@ require 'header.php';
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const profileNameTab = document.querySelector(".profile_name_tab");
-            const profileBackgroundTab = document.querySelector(".profile_background_tab");
-            const profileNameContainer = document.querySelector(".profile_name_container");
-            const profileBackgroundContainer = document.querySelector(".staff_profile_background_container");
+            let profileNameTab = document.querySelector(".profile_name_tab");
+            let profileBackgroundTab = document.querySelector(".profile_background_tab");
+            let profileNameContainer = document.querySelector(".profile_name_container");
+            let profileBackgroundContainer = document.querySelector(".staff_profile_background_container");
 
             profileNameTab.addEventListener("click", function() {
                 profileNameContainer.style.display = "block";

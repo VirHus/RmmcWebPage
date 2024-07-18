@@ -3,6 +3,7 @@ $page = 'requirements';
 require 'header.php';
 ?>
 <?php include 'nav_bar.php' ?>
+
 <p class="admission_name">ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">
         <div class="container">
@@ -103,5 +104,7 @@ require 'header.php';
             </div>
         </div>
     </div>
+
+    <?php include 'footer.php' ?>
 
 

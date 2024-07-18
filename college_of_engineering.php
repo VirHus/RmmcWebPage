@@ -1,7 +1,10 @@
 
    
-<?php  include 'header.php'?>
-<?php  include 'nav_bar.php'?>
+<?php 
+$page = 'college_of_engineering';
+require 'header.php';
+?>
+<?php include 'nav_bar.php' ?>
 
 <div class="colleges_main-container">
 

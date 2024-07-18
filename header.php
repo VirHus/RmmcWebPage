@@ -32,23 +32,43 @@
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&amp;family=Jost:wght@300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="styles/news.css">
+
     <link rel="stylesheet" href="styles/floating_footer.css">
 
-    <script src="header.js" defer></script>
+    <script src="scripts/header.js" defer></script>
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
     <!-- LINK YUOUR CSS FILES BELOW -->
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="Styles/index.css">
-    <link rel="stylesheet" href="styles/college_of_engineering.css">
+    <link rel="stylesheet" href="styles/header.css">
 
 
-    <?php if ($page == 'requirements') : ?>
+
+
+
+
+
+
+
+
+    <?php if ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>Requirements</title>
-        
+    <?php elseif ($page == 'college_of_engineering'): ?>
+        <link rel="stylesheet" href="styles/college_of_engineering.css">
+        <title>College Of Engineering</title>
+    <?php elseif ($page == 'news'): ?>
+        <link rel="stylesheet" href="styles/news.css">
+        <title>News</title>
+    <?php elseif ($page == 'enrollment'): ?>
+        <link rel="stylesheet" href="styles/enrollment.css">
+        <title>Enrollment</title>
+    <?php elseif ($page == 'index'): ?>
+        <link rel="stylesheet" href="Styles/index.css">
+        <title>RMMC - OFFICIAL WEBSITE</title>
+    <?php elseif ($page == 'contact'): ?>
+        <link rel="stylesheet" href="styles/contact.css">
+        <title>RMMC - OFFICIAL WEBSITE</title>
     <?php endif; ?>
 
 

@@ -49,12 +49,12 @@
                         <h3 class="object_title">Resources</h3>
                         <div class="all_pages_container">
                             <ul class="all_pages_menu">
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Video Guides</a></li>
-                                <li><a href="#">Documentation</a></li>
-                                <li><a href="#">Security</a></li>
-                                <li><a href="#">Template</a></li>
+                                <li><a href="underCons.php"target = "_block">Community</a></li>
+                                <li><a href="underCons.php"target = "_block">Support</a></li>
+                                <li><a href="underCons.php"target = "_block">Video Guides</a></li>
+                                <li><a href="underCons.php"target = "_block">Documentation</a></li>
+                                <li><a href="underCons.php"target = "_block">Security</a></li>
+                                <li><a href="underCons.php"target = "_block">Template</a></li>
                             </ul>
                         </div>
                     </div>
@@ -84,8 +84,8 @@
                 </div>
                 <div class="col_footer text_end">
                     <div class="footer_links">
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Terms of Use</a>
+                            <a href="underCons.php"target = "_block">Privacy Policy</a>
+                            <a href="underCons.php"target = "_block">Terms of Use</a>
                     </div>
                 </div>
             </div>

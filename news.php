@@ -1,5 +1,7 @@
-<?php include "header.php" ?>
-
+<?php 
+$page = 'news';
+require 'header.php';
+?>
 
 <body style = "overflow-x:hidden">
 <?php include "nav_bar.php" ?>
@@ -13,7 +15,7 @@
       </div>
     </div>
 
-    <div class= "news_card_cont">
+    <!-- <div class= "news_card_cont">
         <div class="news-card__item">
           <div class="news-card__item__element">
             <div class="news-card__item__element__author">
@@ -150,7 +152,7 @@
         <img id="news-card__item__img" src="norman/img/cardo.jpeg" alt="">
       </div>
 
-    </div>
+    </div> -->
 
     <div class = "carousel">
       <button class = "carousel__carousel_Btn">1</button>

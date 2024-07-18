@@ -1,7 +1,5 @@
-
-   
 <?php 
-$page = 'college_of_engineering';
+$page = 'college';
 require 'header.php';
 ?>
 <?php include 'nav_bar.php' ?>
@@ -29,67 +27,14 @@ require 'header.php';
                 <image src="assets/img/breadcumb/CETNEWBKG.png" class="bg-logo"></image>
             </div>
 
-             <!--FOR COLLEGES SUB NAVIGATION-->           
-            <div class="courses-subNav-container">
-                <ul class="colleges-list">
-                    <li><a href="#" class="college-home">COLLEGE OF ENGINEERING AND TECHNOLOGY</a></li>
-
-                    <ul class="college-department-list">
-                        <li><a href="#">ITE </a></li> 
-                        <li><a href="#">CE </a></li>                      
-                    </ul>
-                    
-                </ul>
-                
+            <div class="organizational_chart_container">
             </div>
+
         </div>
+
+
    
- <!--FOR COLLEGE LOGO, MISSION, VISSION, AND GOALS-->
-    <section>
-        <div class="logo-and-mv-container">
 
-            <div class="logo-container">
-                <image src="_assets/COLLEGE_LOGOS/CET.png" class="logo"></image>
-            </div>
-
-            <div class="mission-vission-container">
-                <!--FOR MISSION-->
-                <div class="mission-container">
-                    <div class="mission-text">Mission</div>
-                    <p>
-                        Our mission is to offer a transformative educational program that develops critical
-                        thinking, creativity, and technical proficiency in engineering and technology. We want to build a
-                        diverse community of students and professors committed to solving complex problems and changing the
-                        world via cutting-edge research, industrial partnerships, and community involvement.
-                    </p>
-                </div>
-
-                <!--FOR VISSION-->
-                <div class="vission-container">
-                    <div class="vission-text">Vission</div>
-                    <p>
-                        To be recognized as an institution of excellence in engineering and technology
-                        education, research, and innovation that equips students to become ethical and skilled professionals
-                        who contribute to society and promote sustainable development.
-                    </p>
-                </div>
-                <!--FOR GOALS-->
-                <div class="goals-container">
-                    <div class="goals-text">Goals</div>
-                    <ul>
-                        <li>Academic Excellence </li>
-                        <li>Research and Innovation </li>
-                        <li>Student Success </li>
-                        <li>Global Engagement </li>
-                        <li>Community Outreach</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-     
 
  <!-- FOR SCROLL UP BUTTON-->
     <div class="colleges_scroll-button-container">

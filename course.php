@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Courses</title>
-    <link rel="stylesheet" href="/RmmcWebPage/styles/course.css">
+<?php 
+$page = 'requirements';
+require 'header.php';
+?>
+<?php include 'nav_bar.php' ?>
+    
+   
+<link rel="stylesheet" href="/RmmcWebPage/styles/course.css">
 
-</head>
-
-<body>
-    <div class="breadcrumb-wrapper">
+    <div class="course-wrapper">
         <div class="container__courses_title">
             <h1 class="breadcrumb-title">Our Courses</h1>
             <ul class="breadcrumb-menu">
@@ -187,29 +185,6 @@
             <li><a class="pagination-list" href="#"><i class="far fa-arrow-right"></i></a></li>
         </ul>
     </div>
-    <section class="cta-section">
-       
-            <div class="cta-wrap">
-              
-                    <div class="floating_footer">
-                        <div class="cta-img"><img src="assets/img/normal/cta_1_1.png" alt="Image" /></div>
-                    </div>
-                    <div class="floating_content">
-                            <h2 class="text-theme">Learn From Our Platform</h2>
-                            <h2 class="text-level">That Take You Next Level</h2>
-                            <div class="btn_container">
-                                <a href="contact.php" class="btn">Register Now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                         
-                    </div>
-                
-               
-            </div>
-       
-    </section>
+    <?php include "footer.php" ?>
 
 
-
-</body>
-
-</html>

@@ -54,8 +54,8 @@
     <?php if ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>Requirements</title>
-    <?php elseif ($page == 'college_of_engineering'): ?>
-        <link rel="stylesheet" href="styles/college_of_engineering.css">
+    <?php elseif ($page == 'college'): ?>
+        <link rel="stylesheet" href="styles/college.css">
         <title>College Of Engineering</title>
     <?php elseif ($page == 'news'): ?>
         <link rel="stylesheet" href="styles/news.css">

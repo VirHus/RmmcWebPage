@@ -152,7 +152,24 @@ nav {
     margin: 0;
 }
 
+.menu_header_main_menu_has_children__college {
+    display: none;
+    position: absolute;
+    left: 0%;
+    background: #000000;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    margin: 0;
+}
+
+
 .menu_header_main_menu_has_children:hover ul {
+    display: block;
+}
+
+/* Display the sublist on hover */
+.menu_header_main_menu_has_children:hover .menu_header_main_menu_has_children__college {
     display: block;
 }
 

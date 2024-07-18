@@ -41,6 +41,7 @@ body {
 }
 
 .breadcrumb-card__box__menu__item__link {
+    text-decoration: none;
     color: white;
 }
 

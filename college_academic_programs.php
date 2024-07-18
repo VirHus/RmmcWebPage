@@ -14,6 +14,7 @@ require 'header.php';
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ACADEMIC PROGRAMS</a></li>
+                    <li><a href="#">FACULTY AND STAFF</a></li>
                     <li><a href="#">ORGANIZATIONAL CHART</a></li>
                     <li><a href="#">PUBLICATION</a></li>
                     <li><a href="#">STUDENT ORGANIZATION</a></li>
@@ -27,9 +28,9 @@ require 'header.php';
                 <image src="assets/img/breadcumb/CETNEWBKG.png" class="bg-logo"></image>
             </div>
 
-            <div class="organizational_chart_container">
-            </div>
+        </div>
 
+        <div class="organizational_chart_container">
         </div>
 
 

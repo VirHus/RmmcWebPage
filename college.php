@@ -16,6 +16,7 @@ require 'header.php';
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ACADEMIC PROGRAMS</a></li>
+                    <li><a href="#">FACULTY AND STAFF</a></li>
                     <li><a href="#">ORGANIZATIONAL CHART</a></li>
                     <li><a href="#">PUBLICATION</a></li>
                     <li><a href="#">STUDENT ORGANIZATION</a></li>

@@ -44,14 +44,6 @@
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="styles/header.css">
 
-
-
-
-
-
-
-
-
     <?php if ($page == 'index'): ?>
         <link rel="stylesheet" href="Styles/index.css">
         <title>RMMC - OFFICIAL WEBSITE</title>

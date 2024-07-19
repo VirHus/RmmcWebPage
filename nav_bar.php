@@ -84,7 +84,7 @@
             <div class="menu_header__right__item__list__item__title">
               <i class="fa-solid fa-book"></i>
               Colleges
-            
+            </div>
             <ul class="menu_header__right__item__list__item__inner-list">
               <li>
                 <a href="">
@@ -116,7 +116,6 @@
                 </a>
               </li>
             </ul>
-            </div>
           </li>
           <li><a href="#"><i class="fa-solid fa-book"></i> ETEEAP</a></li>
                     <li><a href="#"><i class="fa-solid fa-book"></i> TECHVOC</a></li>

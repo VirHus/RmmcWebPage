@@ -137,7 +137,7 @@ nav {
   display: none;
   position: absolute;
   left: -10%;
-  top: 100%;
+  top: 150%;
   background: #ffffff;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -178,9 +178,8 @@ nav {
   color:#007bff;
 }
 
- .menu_header__right__item__list__item__title:hover .menu_header__right__item__list__item__inner-list {
+.menu_header__right__item__list__item:hover .menu_header__right__item__list__item__inner-list {
   display: block;
-  
 }
 
 .menu_header_main_menu_has_children__college {
@@ -231,6 +230,7 @@ nav {
 .menu_header__right__item__list div {
   padding: 10px 20px;
   white-space: nowrap;
+  pointer-events: none;
 }
 
 .menu_header__right__item__list a:hover,
@@ -342,22 +342,28 @@ nav {
   .menu_header__right__item ul.active {
     display: block;
     position: relative;
-    width: 50vw;
+    width:100%;
     left: 0;
     top: 100%;
-    background: rgba(206, 206, 206, 0.3);
     border-radius: 2px;
+    background-color: inherit;
     list-style: none;
-    padding: 5px 5px;
+    box-shadow: unset;
+    padding: unset;
     margin: 0;
   }
-
+  .menu_header__right__item__list a,
+  .menu_header__right__item__list div {
+    padding: 10px 0;
+  }
+.menu_header__right__item__list__item__inner-list li{
+  padding: 0 10px;
+}
   .menu_header__right__item__list__item__inner-list.active {
     display: block;
     position: absolute;
     left: 0;
     top: 100%;
-    background: #ff0404;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     list-style: none;

@@ -61,9 +61,11 @@
                     <li class="colleges_list"><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
                      <div class="colleges_content">
                         <ul>
-                            <li><a href="">hello</a></li>
-                            <li><a href="">hello</a></li>
-                            <li><a href=""> hello</a></li>
+                            <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College Of Engineering Technology</a></li>
+                            <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Business Educatiuon</a></li>
+                            <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Arts and Sciences</a></li>
+                            <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Criminal Justice</a></li>
+                            <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Teacher Education</a></li>
                         </ul>
                      </div>
                    </li>

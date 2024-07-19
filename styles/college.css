@@ -295,12 +295,13 @@
     display: block;
     margin: auto;
     width: 75%;
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: rgba(255, 255, 255, 0.797);
     padding: 30px;
     border-radius: 10px;
     margin-top: 10px; 
     display: flex;
     justify-content:start ;
+   
 }
 
 .staff_name_and_profile_button_container {

@@ -263,10 +263,15 @@ nav {
         display: block;
     }
 
-    .header_top_links_collection li{
+    /* .header_top_links_collection li{
         display: none;
-    }
+    } */
 
+    .header_top {
+        align-items: center;
+        justify-content: center;
+        gap: 7rem;
+    }
     .header_top_social {
         display: flex;
         align-items: center; 
@@ -305,6 +310,10 @@ nav {
         list-style: none;
         padding: 5px 5px;
         margin: 0;
+    }
+
+    .header_top_links_collection a span{
+        display: none;
     }
 
 }

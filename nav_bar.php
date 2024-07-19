@@ -6,11 +6,23 @@
     <div class="header_top">
         <div class="header_top_links">
             <ul class="header_top_links_collection">
+<<<<<<< HEAD
                 <li><i class="fa fa-phone"></i><a href="tel:+256214203215" style="color:white; text-decoration:none;" class="icon_text">+63 83 5523348</a></li>
                 <li><i class="fa fa-map-marker" target="_block"></i> <a class="icon_text" href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu" target="_block">Pioneer Ave.,
                         GSC, South Cotabato, Philippines</a></li>
                 <li><i class="fa-regular fa-clock"></i>
                     <a href="" class="icon_text">contactus@rmmc.edu.ph</a>
+=======
+                <li><a href="tel:+256214203215" style="color:white; text-decoration:none;" class="icon_text"><i
+                            class="fa fa-phone"></i> <span> +63 83 5523348</span> </a></li>
+                <li><a class="icon_text"
+                        href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
+                        target="_block"><i class="fa fa-map-marker" target="_block"></i><span> Pioneer Ave.,
+                            GSC, South Cotabato, Philippines</span></a></li>
+                <li>
+                    <a href="" class="icon_text"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span> contact us@rmmc.edu.ph</span></a>
+>>>>>>> d1fe929249d5b77d7d6abbdbfa173d639858ae4d
                 </li>
             </ul>
         </div>

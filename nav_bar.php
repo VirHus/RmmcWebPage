@@ -40,7 +40,7 @@
       </div>
 
       <button class="menu_header__left__button">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <i class="fa-solid fa-bars"></i>
       </button>
     </div>
 

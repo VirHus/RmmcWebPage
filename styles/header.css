@@ -85,7 +85,7 @@ nav {
   z-index: 9999;
 }
 
-.menu_items {
+.menu_header__left {
   /* background-color: red; */
   display: flex;
   justify-content: space-between;
@@ -93,11 +93,11 @@ nav {
   padding: 1rem;
 }
 
-.menu_items_button {
+.menu_header__left__button {
   display: none;
 }
 
-.menu_header_main_menu {
+.menu_header__right {
   text-transform: uppercase;
   font-weight: 500;
   display: flex;
@@ -110,33 +110,33 @@ nav {
   z-index: 999;
 }
 
-.menu_header_main_menu > li {
+.menu_header__right li {
   position: relative;
 }
 
-.menu_header_main_menu li:hover {
+.menu_header__right li:hover {
   transition: color 0.3s;
   color: #007bff;
 }
 
-.menu_header_main_menu a {
+.menu_header__right a {
   text-decoration: none;
   color: #232020;
   /* font-size: 0.9rem; */
   display: block;
-  transition: background 1s, color 0.3s;
+  transition: background 700ms, color 0.3s;
 }
 
-.menu_header_main_menu a:hover {
+.menu_header__right a:hover {
   color: #007bff;
 }
 
 /* Dropdown Menu Styles */
 
-.menu_header_main_menu_has_children ul {
+.menu_header__right__item ul {
   display: none;
   position: absolute;
-  left: 0;
+  left: -10%;
   top: 100%;
   background: #ffffff;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
@@ -144,6 +144,43 @@ nav {
   list-style: none;
   padding: 10px;
   margin: 0;
+}
+.menu_header__right__item__list div {
+  color: black;
+}
+
+.menu_header__right__item__list div:hover {
+  transition: background 700ms, color 0.3s;
+  color: #007bff;
+  
+}
+
+.menu_header__right__item__list div:hover i {
+
+  color: #007bff;
+}
+.menu_header__right__item__list__item ul {
+  display: none;
+  position: absolute;
+  left: 90%;
+  top: 25.8%;
+  background: #ffffff;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu_header__right__item:hover .menu_header__right__item__list {
+  display: block;
+  background: #fff;
+  color:#007bff;
+}
+
+ .menu_header__right__item__list__item__title:hover .menu_header__right__item__list__item__inner-list {
+  display: block;
+  
 }
 
 .menu_header_main_menu_has_children__college {
@@ -178,42 +215,43 @@ nav {
   .colleges_content {
     display: none;
   }
+
   .colleges_list:hover .colleges_content {
     display: block;
   }
-  .menu_header_main_menu_has_children:hover ul {
-    display: block;
-  }
+
 }
 
-/* Display the sublist on hover */
-.menu_header_main_menu_has_children:hover
-  .menu_header_main_menu_has_children__college {
-  display: block;
-}
 
-.menu_header_main_menu_has_children ul li {
+.menu_header__right__item__list {
   position: relative;
 }
 
-.menu_header_main_menu_has_children ul li a {
+.menu_header__right__item__list a,
+.menu_header__right__item__list div {
   padding: 10px 20px;
   white-space: nowrap;
 }
 
-.menu_header_main_menu_has_children ul li a :hover {
-  background: #007bff;
-  color: #fff;
+.menu_header__right__item__list a:hover,
+.menu_header__right__item__list div:hover {
+  background: #ffffff;
+  color: #005eff;
 }
 
 /* Icon Styles */
-.menu_header_main_menu_has_children ul li a i {
+.menu_header__right__item__list a i,
+.menu_header__right__item__list div i {
   color: #005eff;
   margin-right: 5px;
 }
 
 .menu_header_main_menu_has_children__sublist__sublist__title {
   pointer-events: none;
+}
+
+.menu_header_main_menu_has_children__sublist__sublist__title:hover menu_header__right__item__list__item__inner-list {
+  display: block;
 }
 
 /* Responsive Styles */
@@ -226,7 +264,7 @@ nav {
     display: none;
   }
 
-  .menu_header_main_menu {
+  .menu_header__right {
     display: none;
   }
 
@@ -236,12 +274,12 @@ nav {
     align-items: flex-start;
   }
 
-  .menu_items {
+  .menu_header__left {
     background-color: rgba(0, 0, 0, 0.07);
     width: 100%;
   }
 
-  .menu_header_main_menu {
+  .menu_header__right {
     padding: 2.5rem 1rem;
     display: none;
     flex-direction: column;
@@ -249,68 +287,38 @@ nav {
     width: 100%;
   }
 
-  .menu_header_main_menu li:hover {
+  .menu_header__right li:hover {
     transition: color 0.3s;
     color: #007bff;
   }
 
-  .menu_header_main_menu.active {
+  .menu_header__right.active {
     display: flex;
   }
 
-  .menu_header_main_menu_has_children ul {
+  .menu_header__right__item ul {
     position: relative;
   }
 
-  .menu_header_main_menu_has_children:hover ul {
+  .menu_header__right__item:hover ul {
     display: none;
   }
 
-<<<<<<< HEAD
-  .menu_header_main_menu_has_children.open ul {
+  .menu_header__right__item.open ul {
     display: block;
   }
 
   .header_top_links_collection li {
     display: none;
   }
-=======
-    /* .header_top_links_collection li{
-        display: none;
-    } */
-
-    .header_top {
-        align-items: center;
-        justify-content: center;
-        gap: 7rem;
-    }
-    .header_top_social {
-        display: flex;
-        align-items: center; 
-        width: 100%;   
-    }
-    .menu_items_button{
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 25px;
-        background-color: rgb(17, 93, 235);
-        color: white;
-        border-radius: 7px;
-        box-shadow:  rgba(0, 0, 0, 0.5);
-        cursor: pointer;
-    }
->>>>>>> d1fe929249d5b77d7d6abbdbfa173d639858ae4d
 
   .header_top_social {
     display: flex;
     align-items: center;
     width: 100%;
   }
-  .menu_items_button {
+
+  .menu_header__left__button {
     width: 50px;
     height: 50px;
     padding: 0;
@@ -325,30 +333,35 @@ nav {
     cursor: pointer;
   }
 
-<<<<<<< HEAD
-  .menu_items_button:hover {
+  .menu_header__left__button:hover {
     background-color: rgb(5, 56, 151);
     transition: background 1s, color 0.3s;
     color: white;
   }
 
-  .menu_header_main_menu_has_children ul.active {
+  .menu_header__right__item ul.active {
     display: block;
     position: relative;
     width: 50vw;
     left: 0;
     top: 100%;
     background: rgba(206, 206, 206, 0.3);
-
     border-radius: 2px;
     list-style: none;
     padding: 5px 5px;
     margin: 0;
   }
-=======
-    .header_top_links_collection a span{
-        display: none;
-    }
 
->>>>>>> d1fe929249d5b77d7d6abbdbfa173d639858ae4d
+  .menu_header__right__item__list__item__inner-list.active {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #ff0404;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
 }

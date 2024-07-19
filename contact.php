@@ -83,6 +83,30 @@ require 'header.php';
     </div>
 </div>
 
+<section class = "contacts">
+    <div class="contacts__contact_container">
+        <div class="contacts__contact_container__contact_form background_img" style="background-image: url('assets/img/bg/contact_bg_1.png');">
+            <span class="contacts__contact_container__contact_form__sub_title">Contact with Us!</span>
+            <h2 class="contacts__contact_container__contact_form__border_title">Have any Questions?</h2>
+            <form class="contacts__contact_container__contact_form__contact_form" method="POST">
+                <div class="contacts__contact_container__contact_form__contact_form__row">
+                    <div class="contacts__contact_container__contact_form__contact_form__row__form_btn">
+                        <button class = "contacts_btn" type="submit">Inquiry</button>
+                        <button class = "contacts_btn" type="submit">Concerns</button>
+                    </div>
+                    <div class="contacts__contact_container__contact_form__contact_form__row__form_btn">
+                        <button class = "contacts_btn"type="submit">Suggestions</button>
+                        <button class = "contacts_btn"type="submit">Complaints</button>
+                    </div>
+                    <div class="contacts__contact_container__contact_form__contact_form__row__form_btn">
+                        <button class = "contacts_btn" type="submit" >Appreciation</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
 <?php include 'footer.php' ?>
 
 

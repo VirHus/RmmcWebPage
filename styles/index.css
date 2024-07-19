@@ -201,6 +201,14 @@ p {
     line-height: 1.75;
 }
 
+.text-theme {
+  color: #0d5ef4;
+}
+
+.fw-light {
+  font-weight: 300
+}
+
 /*#endregion */
 
 
@@ -262,7 +270,7 @@ p {
   padding: 20px;
   height: 650px; /* Adjust height as needed */
   position: relative;
- 
+
 }
 
  .welcome-section::before {
@@ -272,7 +280,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #041122;
+  background-color: #001f47;
   opacity: 0.85; /* Set the opacity of the background */
  
 }  
@@ -752,6 +760,24 @@ margin: -10px;
   flex-direction: column;
   align-items: center;
 }
+
+
+/* NEWS TITLE */
+.newsevents-container .title-container {
+  margin-top: 20px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* NEWS EVENTS */

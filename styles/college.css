@@ -265,36 +265,53 @@
 }
 
 
-/*FOR FACULTY AND STAFF *//* FOR FACULTY AND STAFF */
+/* FOR FACULTY AND STAFF */
+
+.page_titlle_container{
+    width:100%; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding:20px 0px;
+    color: rgb(0, 6, 57);
+    font-family: "Jost", sans-serif;
+    margin-top: 30px;
+  
+
+}
+.page_titlle_container span{
+    border-bottom: 2px solid;
+    padding:0px 50px;
+}
+
 .faculty_and_staff_data_container {
     width: 100vw;
-    padding: 100px 0px;
-    background-color: rgba(255, 255, 255, 0.459);
+    padding: 50px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 200px;
 }
 
 .faculty_and_staff_data_container .staff_container {
     display: block;
     margin: auto;
     width: 75%;
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: rgba(255, 255, 255, 0.797);
     padding: 30px;
     border-radius: 10px;
-    margin-top:10px;
+    margin-top: 10px; 
     display: flex;
     justify-content:start ;
-    align-items: start;
-  
+   
 }
 
 .staff_name_and_profile_button_container {
-    border-bottom: 2px solid;
-    
+    border-bottom: 2px solid; 
+  
 }
-
 
 .staff_name_and_profile_button_container ul li {
     display: inline-flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
     font-size: 13px;
     cursor: pointer;
@@ -302,11 +319,12 @@
     width: 200px;
     text-align: left;
     gap: 5px;
-    padding:0px 10px;
+    padding: 0px 10px;
+  
 }
 
 .staff_name_and_profile_button_container ul li img {
-    width: 12px;
+    width: 13px;
 }
 
 .staff_name_and_profile_button_container ul li:hover {
@@ -318,49 +336,70 @@
 }
 
 .staff_info_container {
-  display: inline-block;
-}
-.profile_container {  
-  
-    padding:  20px;
-    margin-top: 50px;
-   
-}
- .staff_profile {
-    width: 180px;
-    border-radius: 50%;
-  
-}
-
-.name_container {
     display: inline-block;
-    padding: 40px;
-   
     width:100%;
 }
 
-.name_container h1 {
-    margin-bottom: 30px;
+.profile_container {
+    display: inline-flex;
+    width:300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
+
+.staff_profile {
+    width: 150px;
+    border-radius: 50%;
+   
+}
+
+.name_container { 
+    width: 100%;
+    padding:10px;
+}
+
+.name_container h1 {
+    margin-bottom: 20px;
+}
+
 .name_container ul {
     list-style: none;
 }
 
- .staff_profile_background_container {
-    padding: 10px 50px;
-    display: none;
-  
+.profile_name_container,
+.staff_profile_background_container {
+    display:none;
+    padding: 10px;
+    width: 100%;
 }
+
+.profile_name_container.active,
+.staff_profile_background_container.active {
+   
+    display: block;
+}
+
 .educ_attainment_container {
-    padding: 20px 10px;
+    padding: 20px 40px; 
+    width:100%;
 }
- .fields_specialization_container {
-    padding: 20px 10px;
+
+.fields_specialization_container {
+    padding: 20px 40px;
+    width:100%;
 }
- .research_interest_container {
-    padding: 20px 10px;
+
+.research_interest_container {
+    padding: 20px 40px; 
+    width:100%;
 }
- .educ_attainment_container h4,
+
+.educ_attainment_container h4,
+.fields_specialization_container h4,
 .research_interest_container h4 {
     color: rgb(0, 0, 51);
 }
+         

@@ -234,3 +234,99 @@ iframe {
         font-size: 10px;
     }
 }
+.contacts {
+    padding: 50px 0 120px 0;
+    width: 100%;
+}
+
+.contacts__contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('assets/img/bg/contact_bg_1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.contacts__contact_container__contact_form {
+    background-color: #F3F7FB;
+    padding: 120px;
+    border-radius: 10px;
+    max-width: 1119px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacts__contact_container__contact_form__sub_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0D5EF4;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 22px;
+    display: block;
+}
+
+.contacts__contact_container__contact_form__border_title {
+    font-size: 48px;
+    line-height: 1.2;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #0F2239;
+}
+
+.contacts__contact_container__contact_form__contact_form__row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contacts__contact_container__contact_form__contact_form__row__form_btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contacts_btn{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #0d5ef4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 20.5px 29px;
+    box-shadow: 0px 6px 16px rgba(13, 94, 244, 0.24);
+    border-radius: 5px;
+    transition: 300ms;
+    margin-right: 5px;
+}
+
+.contacts_btn:before {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    background-color: #0f2239;
+    transform: translateX(-50%) translateY(-50%) rotate(60deg);
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.contacts_btn:hover,
+.contacts_btn.active {
+  color: #fff;
+}
+
+.contacts_btn:hover::before,
+.contacts_btn.active::before {
+  height: 320%;
+}

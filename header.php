@@ -38,17 +38,11 @@
     <script src="scripts/header.js" defer></script>
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
     <!-- LINK YUOUR CSS FILES BELOW -->
     <link rel="stylesheet" href="styles/header.css">
-
-
-
-
-
-
-
-
 
     <?php if ($page == 'index'): ?>
         <link rel="stylesheet" href="Styles/index.css">

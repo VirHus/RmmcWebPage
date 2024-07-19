@@ -285,9 +285,13 @@ include "nav_bar.php"
 
 
 <section class="newsevents-container">
+<div class="title-container">
+      <h2 class="sec-title">News &amp; <span class="text-theme fw-light">Events</span></h2>
+    </div>
   <div>
-  <div class="news-container">
+  
 
+  <div class="news-container">
   <!-- ITEM 1 -->
     <div class="grid-item">
 

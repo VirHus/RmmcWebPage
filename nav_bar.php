@@ -6,14 +6,15 @@
     <div class="header_top">
         <div class="header_top_links">
             <ul class="header_top_links_collection">
-                <li><i class="fa fa-phone"></i><a href="tel:+256214203215" style="color:white; text-decoration:none;"
-                        class="icon_text">+63 83 5523348</a></li>
-                <li><i class="fa fa-map-marker" target="_block"></i> <a class="icon_text"
+                <li><a href="tel:+256214203215" style="color:white; text-decoration:none;" class="icon_text"><i
+                            class="fa fa-phone"></i> <span> +63 83 5523348</span> </a></li>
+                <li><a class="icon_text"
                         href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
-                        target="_block">Pioneer Ave.,
-                        GSC, South Cotabato, Philippines</a></li>
-                <li><i class="fa-regular fa-clock"></i>
-                    <a href="" class="icon_text">contactus@rmmc.edu.ph</a>
+                        target="_block"><i class="fa fa-map-marker" target="_block"></i><span> Pioneer Ave.,
+                            GSC, South Cotabato, Philippines</span></a></li>
+                <li>
+                    <a href="" class="icon_text"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span> contact us@rmmc.edu.ph</span></a>
                 </li>
             </ul>
         </div>
@@ -59,14 +60,21 @@
                 <ul class="menu_header_main_menu_has_children__sublist">
                     <li><a href="MAED.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate Studies</a></li>
                     <li class="colleges_list"><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
-                     <div class="colleges_content">
-                        <ul>
-                            <li><a href="">hello</a></li>
-                            <li><a href="">hello</a></li>
-                            <li><a href=""> hello</a></li>
-                        </ul>
-                     </div>
-                   </li>
+                        <div class="colleges_content">
+                            <ul>
+                                <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College Of Engineering
+                                        Technology</a></li>
+                                <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Business
+                                        Educatiuon</a></li>
+                                <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Arts and
+                                        Sciences</a></li>
+                                <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Criminal
+                                        Justice</a></li>
+                                <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> College of Teacher
+                                        Education</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <!-- <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a></li>
                     <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a></li> -->
                 </ul>
@@ -74,10 +82,10 @@
             <li class="menu_header_main_menu_has_children">News <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">
                     <li><a href="news.php"><i class="fa fa-book" aria-hidden="true"></i> News</a>
-                    </li> 
-                     <!-- <li><a href="gallery.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
+                    </li>
+                    <!-- <li><a href="gallery.php"><i class="fa fa-book" aria-hidden="true"></i> Gallery</a>
                     </li>  -->
-                </ul> 
+                </ul>
             </li>
             <li class="menu_header_main_menu_has_children">Student <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">

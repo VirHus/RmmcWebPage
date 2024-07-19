@@ -29,36 +29,89 @@ require 'header.php';
             </div>
         </div>
 
-<!-- CONTENT-->
-
-<div class="faculty_and_staff_data_container">
-
-    <div class="staff_container">
-        <div class="profile_container">
-            <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
+        <div class="page_titlle_container">
+            <span>FACULTY AND STAFF</span>
         </div>
 
-        
-        
+<!-- CONTENT-->
+<div class="faculty_and_staff_data_container">
+    <?php
+    // Example PHP array for staff data
+    $staffMembers = [
+        [
+            'name' => 'FULL NAME ',
+            'email' => 'your@gmail.com',
+            'tel' => '##########',
+            'orcid' => '######',
+            'profileImg' => 'assets/img/normal/student_1_3_new.png',
+            'positions' => ['MSIS, Dean of College of Engineering and Technology'],
+            'educationalAttainment' => [
+                'List',
+                'List',
+                'List',
+                '...'
+            ],
+            'fieldsOfSpecialization' => ['List','List','...'],
+            'researchInterests' => ['List', 'List', 'List','...']
+        ],
+        [
+            'name' => 'BENJAR BULACON',
+            'email' => 'ikawbahaladiriah@gmail.com',
+            'tel' => 'wewewewewe',
+            'orcid' => '34234234',
+            'profileImg' => 'assets/img/normal/student_1_3_new.png',
+            'positions' => ['Company Director ng wala naga exist na company'],
+            'educationalAttainment' => [
+                'Bachelor of Di Sigurado sa Life',
+                'Master of Malaks Kumain Pero Di Tumataba',
+                'Doctor of Philosophy in Virtual World Language (Completed Academic Requirements)Doctor of Philosophy in Virtual World Language (Completed Academic Requirements)'
+            ],
+            'fieldsOfSpecialization' => ['Language'],
+            'researchInterests' => ['Linguistics', 'Language and Culture', 'Mindanao Studies']
+        ],
+        [
+            'name' => 'BENJAR BULACON',
+            'email' => 'bastaoki@gmail.com',
+            'tel' => 'oki kaayo',
+            'orcid' => '123alabyu',
+            'profileImg' => 'assets/img/normal/student_1_3_new.png',
+            'positions' => ['Tambay lng sa kanto'],
+            'educationalAttainment' => [
+                'Bachelor of Arts in English',
+                'Master of English in Applied Linguistics',
+                'Doctor of Philosophy in English Studies major in Language (Completed Academic Requirements)'
+            ],
+            'fieldsOfSpecialization' => ['Language'],
+            'researchInterests' => ['Linguistics', 'Language and Culture', 'Mindanao Studies']
+        ]
+       
+    ];
+
+    foreach ($staffMembers as $index => $staff) {
+    ?>
+    <div class="staff_container">
+        <div class="profile_container">
+            <img src="<?php echo $staff['profileImg']; ?>" class="staff_profile">
+        </div>
+             
         <div class="staff_info_container">
             <div class="staff_name_and_profile_button_container">
                 <ul>
-                    <li class="profile_name_tab"><img src="assets/img/icon/user-icon.png"><span>BENJAR BULACON</span></li>
+                    <li class="profile_name_tab <?php echo $index === 0 ? 'active' : ''; ?>"><img src="assets/img/icon/user-icon.png"><span><?php echo $staff['name']; ?></span></li>
                     <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
                 </ul>
             </div>
 
-
-
-            <div class="profile_name_container">
-               
+            <div class="profile_name_container <?php echo $index === 0 ? 'active' : ''; ?>">
                 <div class="name_container">
-                    <h1>BENJAR BULACON</h1>
+                    <h1><?php echo $staff['name']; ?></h1>
                     <ul>
-                        <li>Assistant Professor Head, CAS Extension</li>
-                        <li>Email: <span>wahahah@gmail.com</span></li>
-                        <li>Tel:<span>wewewewewe</span></li>
-                        <li>ORCID No.:<span>34234234</span></li>
+                        <?php foreach ($staff['positions'] as $position) { ?>
+                        <li><?php echo $position; ?></li>
+                        <?php } ?>
+                        <li>Email: <span><?php echo $staff['email']; ?></span></li>
+                        <li>Tel: <span><?php echo $staff['tel']; ?></span></li>
+                        <li>ORCID No.: <span><?php echo $staff['orcid']; ?></span></li>
                     </ul>
                 </div>
             </div>
@@ -66,42 +119,34 @@ require 'header.php';
                 <div class="educ_attainment_container">
                     <h4>EDUCATIONAL ATTAINMENT</h4>
                     <ul>
-                        <li>Bachelor of Arts in English</li>
-                        <li>Master of English in Applied Linguistics</li>
-                        <li>Doctor of Philosophy in English Studies major in Language (Completed Academic Requirements)</li>
+                        <?php foreach ($staff['educationalAttainment'] as $education) { ?>
+                        <li><?php echo $education; ?></li>
+                        <?php } ?>
                     </ul>
                 </div>
                 <div class="fields_specialization_container">
                     <h4>FIELD/S OF SPECIALIZATION</h4>
                     <ul>
-                        <li>Language</li>
+                        <?php foreach ($staff['fieldsOfSpecialization'] as $field) { ?>
+                        <li><?php echo $field; ?></li>
+                        <?php } ?>
                     </ul>
                 </div>
                 <div class="research_interest_container">
-                    <h4>RESERCH INTEREST</h4>
+                    <h4>RESEARCH INTEREST</h4>
                     <ul>
-                        <li>Linguistics</li>
-                        <li>Language and Culture</li>
-                        <li>Mindanao Studies</li>
+                        <?php foreach ($staff['researchInterests'] as $interest) { ?>
+                        <li><?php echo $interest; ?></li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    <?php
+    }
+    ?>
 </div>
-
-
-
    
 
 
@@ -145,28 +190,44 @@ require 'header.php';
 
         </script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let profileNameTab = document.querySelector(".profile_name_tab");
-            let profileBackgroundTab = document.querySelector(".profile_background_tab");
-            let profileNameContainer = document.querySelector(".profile_name_container");
-            let profileBackgroundContainer = document.querySelector(".staff_profile_background_container");
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let staffContainers = document.querySelectorAll(".staff_container");
 
-            profileNameTab.addEventListener("click", function() {
-                profileNameContainer.style.display = "block";
-                profileBackgroundContainer.style.display = "none";
-                profileNameTab.classList.add("active");
-                profileBackgroundTab.classList.remove("active");
-            });
+    staffContainers.forEach(function(container) {
+        let profileNameTab = container.querySelector(".profile_name_tab");
+        let profileBackgroundTab = container.querySelector(".profile_background_tab");
+        let profileNameContainer = container.querySelector(".profile_name_container");
+        let profileBackgroundContainer = container.querySelector(".staff_profile_background_container");
 
-            profileBackgroundTab.addEventListener("click", function() {
-                profileNameContainer.style.display = "none";
-                profileBackgroundContainer.style.display = "block";
-                profileBackgroundTab.classList.add("active");
-                profileNameTab.classList.remove("active");
+        profileNameTab.addEventListener("click", function() {
+            // Remove 'active' class from all tabs and containers within the same staff_container
+            container.querySelectorAll('.profile_name_tab, .profile_background_tab, .profile_name_container, .staff_profile_background_container').forEach(function(el) {
+                el.classList.remove('active');
             });
+            profileNameContainer.classList.add("active");
+            profileNameTab.classList.add("active");
         });
-    </script>
+
+        profileBackgroundTab.addEventListener("click", function() {
+            // Remove 'active' class from all tabs and containers within the same staff_container
+            container.querySelectorAll('.profile_name_tab, .profile_background_tab, .profile_name_container, .staff_profile_background_container').forEach(function(el) {
+                el.classList.remove('active');
+            });
+            profileBackgroundContainer.classList.add("active");
+            profileBackgroundTab.classList.add("active");
+        });
+    });
+
+    // Set the default active tab and content for all staff containers
+    staffContainers.forEach(function(container) {
+        let profileNameTab = container.querySelector(".profile_name_tab");
+        let profileNameContainer = container.querySelector(".profile_name_container");
+        profileNameTab.classList.add("active");
+        profileNameContainer.classList.add("active");
+    });
+});
+</script>
 
         
 

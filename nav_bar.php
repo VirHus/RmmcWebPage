@@ -58,7 +58,15 @@
             <li class="menu_header_main_menu_has_children">Academics <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="menu_header_main_menu_has_children__sublist">
                     <li><a href="MAED.php"><i class="fa fa-book" aria-hidden="true"></i> Graduate Studies</a></li>
-                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a></li>
+                    <li class="colleges_list"><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Colleges</a>
+                     <div class="colleges_content">
+                        <ul>
+                            <li><a href="">hello</a></li>
+                            <li><a href="">hello</a></li>
+                            <li><a href=""> hello</a></li>
+                        </ul>
+                     </div>
+                   </li>
                     <!-- <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> ETEEAP</a></li>
                     <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> TECHVOC</a></li> -->
                 </ul>

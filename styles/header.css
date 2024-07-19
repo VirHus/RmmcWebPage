@@ -163,6 +163,22 @@ nav {
     margin: 0;
 }
 
+/*colleges_list css*/
+.colleges_list{
+    position: relative;
+  
+}
+
+.colleges_content{
+    position: absolute;
+    top: 20%;
+    right: 0;
+   display: none;
+}
+
+.colleges_list:hover .colleges_content{
+   display: block;
+}
 
 .menu_header_main_menu_has_children:hover ul {
     display: block;

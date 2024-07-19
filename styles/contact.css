@@ -244,8 +244,9 @@ iframe {
     }
 }
 .contacts {
-    padding: 50px 0 120px 0;
+    padding: 100px 0 120px 0;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .contacts__contact_container {
@@ -259,9 +260,9 @@ iframe {
 
 .contacts__contact_container__contact_form {
     background-color: #F3F7FB;
-    padding: 120px;
+    padding: 79px;
     border-radius: 10px;
-    max-width: 1119px;
+    max-width: 1337px;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

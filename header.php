@@ -45,7 +45,9 @@
     <link rel="stylesheet" href="styles/header.css">
 
     <?php if ($page == 'index'): ?>
+        <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="Styles/index.css">
+        <script src="assets/js/index.js" defer></script>
         <title>RMMC - OFFICIAL WEBSITE</title>
     <?php elseif ($page == 'enrollment'): ?>
         <link rel="stylesheet" href="styles/enrollment.css">

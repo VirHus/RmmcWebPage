@@ -3,10 +3,6 @@
   require 'header.php';
   include "nav_bar.php"
 ?>
-
-<link rel="stylesheet" href="styles/index.css">
-<link rel="stylesheet" href="styles/root.css">
-
 <section class="welcome-section index--section">
   <div class="welcome-section__background"></div>
   <div class="welcome-section__blob"></div>
@@ -117,5 +113,4 @@
   </div>
 </section>
 
-<script src="Assets/js/index.js"></script>
 <?php include 'footer.php' ?>

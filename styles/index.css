@@ -406,7 +406,6 @@ p {
   
   width: 100%; /* Adjust the width as needed, can use percentage or fixed values */
   margin: 0 auto; /* Center the container horizontally */
-  background-color: hotpink;
 }
 
 /* Container for the image */
@@ -493,7 +492,6 @@ p {
   max-width: 100%;
   
   align-items: center;
-  background-color: crimson;
 }
 
 
@@ -653,7 +651,6 @@ p {
   content: space-between;
   width: 100%;
   margin: 0 auto;
-  background-color: blueviolet;
 }
 
 .vision-container .right-wrapper {
@@ -665,7 +662,7 @@ p {
 }
 
 .vision-container .text-container .h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .vision-container  .checklist {
@@ -764,8 +761,8 @@ margin: -10px;
 
 /* NEWS TITLE */
 .newsevents-container .title-container {
-  margin-top: 20px;
-  font-size: 40px;
+  margin-top: 100px;
+  font-size: 35px;
   text-decoration: underline;
 }
 
@@ -782,7 +779,7 @@ margin: -10px;
 
 /* NEWS EVENTS */
 .newsevents-container .news-container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
@@ -793,7 +790,7 @@ margin: -10px;
 }
 
 .newsevents-container .news-container .grid-item {
-  background: #f0f0f0; /* Add a background color for better visibility */
+  background: white; /* Add a background color for better visibility */
   padding: 20px; /* Add padding inside each grid item */
   border-radius: 10px; /* Add rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */

@@ -295,12 +295,13 @@
     display: block;
     margin: auto;
     width: 75%;
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: rgba(255, 255, 255, 0.797);
     padding: 30px;
     border-radius: 10px;
     margin-top: 10px; 
     display: flex;
     justify-content:start ;
+   
 }
 
 .staff_name_and_profile_button_container {
@@ -368,28 +369,17 @@
     list-style: none;
 }
 
-.profile_name_container {
-    display: none;
-    opacity: 0; 
-    padding:10px;
-    width:100%;
-}
-
+.profile_name_container,
 .staff_profile_background_container {
+    display:none;
     padding: 10px;
-    display: none;
-    transition: opacity 2s ease;
-    opacity: 0;
-    visibility: hidden; 
-    width:100%;
- 
+    width: 100%;
 }
 
 .profile_name_container.active,
 .staff_profile_background_container.active {
-    display: inline-block;
-    opacity: 1;
-    visibility: visible;
+   
+    display: block;
 }
 
 .educ_attainment_container {

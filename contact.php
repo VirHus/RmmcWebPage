@@ -25,7 +25,7 @@ require 'header.php';
         <h2 class="map_container__contact__border__title">Get in Touch</h2>
         <p class="textP">Have an inquiry or some feedback for us? Send your inquiries to info@rmmc.edu.ph</p>
         <div class="map_container__contact__info">
-            <div class="map_container__contact__info__icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+            <div class="map_container__contact__info__icon"><i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="map_container__contact__info__body">
                 <h4 class="map_container__contact__info__body__title">Our Address</h4>
@@ -35,7 +35,7 @@ require 'header.php';
         </div>
 
         <div class="map_container__contact__info">
-            <div class="map_container__contact__info__icon"><i class="fa fa-phone" aria-hidden="true"></i>
+            <div class="map_container__contact__info__icon"><i class="fa-solid fa-phone"></i>
             </div>
             <div class="map_container__contact__info__body">
                 <h4 class="map_container__contact__info__body__title">Phone Number</h4>

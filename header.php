@@ -47,7 +47,7 @@
     <link rel="stylesheet" href="styles/footer.css">
 
     <script src="scripts/header.js" defer></script>
-    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/nav-bar.css">
     <link rel="stylesheet" href="./styles/root.css">
 
     <?php if ($page == 'index'): ?>

@@ -1,8 +1,8 @@
-<?php 
+<?php
 $page = 'college_faculty_staff';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 
 <div class="colleges_main-container">
 
@@ -21,8 +21,8 @@ require 'header.php';
                     <li><a href="#">NEWS & GALLERY</a></li>
                 </ul>
             </div>
-          
-           
+
+
             <!-- FOR COLLEGE LOGO-->
             <div class="bg-logo-container">
                 <image src="assets/img/breadcumb/CETNEWBKG.png" class="bg-logo"></image>
@@ -84,7 +84,7 @@ require 'header.php';
             'fieldsOfSpecialization' => ['Language'],
             'researchInterests' => ['Linguistics', 'Language and Culture', 'Mindanao Studies']
         ]
-       
+
     ];
 
     foreach ($staffMembers as $index => $staff) {
@@ -93,7 +93,7 @@ require 'header.php';
         <div class="profile_container">
             <img src="<?php echo $staff['profileImg']; ?>" class="staff_profile">
         </div>
-             
+
         <div class="staff_info_container">
             <div class="staff_name_and_profile_button_container">
                 <ul>
@@ -147,7 +147,7 @@ require 'header.php';
     }
     ?>
 </div>
-   
+
 
 
  <!-- FOR SCROLL UP BUTTON-->
@@ -229,8 +229,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-        
 
-   
+
+
 </div>
 <?php  include 'footer.php'?>

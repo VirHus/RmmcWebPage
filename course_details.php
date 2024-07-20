@@ -1,8 +1,8 @@
-<?php 
+<?php
 $page = 'course_details';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 <link rel="stylesheet" href="styles/course_details.css">
 <div class="breadcrumb-card">
     <div class="breadcrumb-card__box">

@@ -1,7 +1,7 @@
 <?php
   $page = 'index';
   require 'header.php';
-  include "nav_bar.php"
+  include "nav-bar.php"
 ?>
 <section class="welcome-section index--section">
   <div class="welcome-section__background"></div>

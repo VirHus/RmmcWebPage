@@ -1,8 +1,8 @@
-<?php 
+<?php
 $page = 'requirements';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 
 <p class="admission_name">ADMISSION REQUIREMENTS<br>(FRESHMEN & TRANSFEREES)</p>
     <div class="space">

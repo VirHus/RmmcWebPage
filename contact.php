@@ -5,7 +5,7 @@ require 'header.php';
 
 
 
-<?php include "nav_bar.php" ?>
+<?php include "nav-bar.php" ?>
 
 <div class="breadcrumb-card">
     <div class="breadcrumb-card__box">
@@ -64,14 +64,14 @@ require 'header.php';
 
                     </span>
                     <br>
-                    
+
                 </p>
                 <a class="btn btn-danger" href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu">NAVIGATE LOCATION</a>
 
             </div>
-            
+
         </div>
-        
+
     </div>
     <div class="map-sec space">
         <div class="map">

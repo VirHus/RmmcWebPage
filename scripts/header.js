@@ -1,13 +1,12 @@
-const menuItemsButton = document.querySelector('.menu_header__left__button');
-const menuHeaderMainMenu = document.querySelector('.menu_header__right');
+const navBottom = document.getElementById('nav-bottom-right');
 
-menuItemsButton.onclick = () => menuHeaderMainMenu.classList.toggle('active');
-
-const menuItemsParent = document.querySelector('.menu_header__right');
+// Shows the nav bottom items when button is clicked on phone
+const navBottomItems = navBottom.querySelector('.phone-toggle-nav-bottom-right');
+navBottomItems.onclick = () => navBottom.classList.toggle('active');
 
 // This code is a simple concept of, if a ul exist inside an li, set it active.
-menuItemsParent.onclick = (event) => {
-  const ulCollection = [...menuItemsParent.querySelectorAll('ul')];
+navBottom.onclick = (event) => {
+  const ulCollection = [...navBottom.querySelectorAll('ul')];
 
   if (ulCollection.length <= 0) {
     return;

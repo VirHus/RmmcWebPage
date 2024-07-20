@@ -1,10 +1,10 @@
-<?php 
+<?php
 $page = 'enrollment';
 require 'header.php';
 ?>
 
 <body>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 
     <div class="space">
         <div class="container">
@@ -96,9 +96,9 @@ require 'header.php';
                             Please contact the Guidance Office for scheduling.<br>
                             <b class="room">ROOM: AGM106</b>
                         </p>
-                      
+
                     </div>
-                   
+
                 </div>
                 <div class="col">
                     <div class="feature-block">

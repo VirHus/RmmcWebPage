@@ -1,10 +1,10 @@
 
-   
-<?php 
+
+<?php
 $page = 'college';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 
 <div class="colleges_main-container">
 
@@ -23,28 +23,28 @@ require 'header.php';
                     <li><a href="#">NEWS & GALLERY</a></li>
                 </ul>
             </div>
-          
-           
+
+
             <!-- FOR COLLEGE LOGO-->
             <div class="bg-logo-container">
                 <image src="assets/img/breadcumb/CETNEWBKG.png" class="bg-logo"></image>
             </div>
 
-             <!--FOR COLLEGES SUB NAVIGATION-->           
+             <!--FOR COLLEGES SUB NAVIGATION-->
             <div class="courses-subNav-container">
                 <ul class="colleges-list">
                     <li><a href="#" class="college-home">COLLEGE OF ENGINEERING AND TECHNOLOGY</a></li>
 
                     <ul class="college-department-list">
-                        <li><a href="#">ITE </a></li> 
-                        <li><a href="#">CE </a></li>                      
+                        <li><a href="#">ITE </a></li>
+                        <li><a href="#">CE </a></li>
                     </ul>
-                    
+
                 </ul>
-                
+
             </div>
         </div>
-   
+
  <!--FOR COLLEGE LOGO, MISSION, VISSION, AND GOALS-->
     <section>
         <div class="logo-and-mv-container">
@@ -90,7 +90,7 @@ require 'header.php';
         </div>
     </section>
 
-     
+
 
  <!-- FOR SCROLL UP BUTTON-->
     <div class="colleges_scroll-button-container">
@@ -131,6 +131,6 @@ require 'header.php';
                });
 
         </script>
-   
+
 </div>
 <?php  include 'footer.php'?>

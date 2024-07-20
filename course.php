@@ -1,11 +1,11 @@
 
-<?php 
+<?php
 $page = 'course';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
-    
-   
+<?php include 'nav-bar.php' ?>
+
+
 
 
     <div class="course-wrapper">
@@ -13,21 +13,21 @@ require 'header.php';
             <h1 class="breadcrumb-title">OUR COURSES</h1>
             <ul class="breadcrumb-menu">
                 <li><a href="index.php" class="homepage">Home </a></li>
-                
+
 
                 <li class="our__courses"><i class="fa fa-angle-right" aria-hidden="true"></i> Our Courses</li>
             </ul>
         </div>
     </div>
     <section class="space-top space-extra-bottom">
-       
+
             <div class="row_courses">
                 <span class="course-result-count">We found <span class="count_courses">37 courses</span> available for
                     you</span>
             </div>
 
 
-       
+
         <div class="container__courses">
 
             <div class="courses_flex_box">
@@ -51,7 +51,7 @@ require 'header.php';
 
 
                 </div>
-               
+
                 <div class="tab-content">
 
                     <div class="course-box">

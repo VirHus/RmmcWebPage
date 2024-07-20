@@ -1,10 +1,3 @@
-* {
-  font-family: 'Jost';
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,7 +145,7 @@ nav {
 .menu_header__right__item__list div:hover {
   transition: background 700ms, color 0.3s;
   color: #007bff;
-  
+
 }
 
 .menu_header__right__item__list div:hover i {
@@ -218,7 +211,6 @@ nav {
   .colleges_list:hover .colleges_content {
     display: block;
   }
-
 }
 
 

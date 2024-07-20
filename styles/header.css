@@ -136,8 +136,8 @@ nav {
 .menu_header__right__item ul {
   display: none;
   position: absolute;
-  left: -10%;
-  top: 110%;
+  left: 0;
+  top: 100%;
   background: #ffffff;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -230,7 +230,13 @@ nav {
 .menu_header__right__item__list div {
   padding: 10px 20px;
   white-space: nowrap;
-  pointer-events: none;
+}
+
+@media screen and (orientation: portrait) {
+  .menu_header__right__item__list a,
+  .menu_header__right__item__list div {
+    pointer-events: none;
+  }
 }
 
 .menu_header__right__item__list a:hover,

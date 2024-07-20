@@ -21,7 +21,8 @@
       <a class="button--primary" href="course.php">Enroll Now</a>
     </div>
 
-    <img src="assets/img/hero/hero_img_1_1_newnew.png" alt="RMMC Students">
+    <!-- Uncomment or add a new image here -->
+    <!-- <img src="assets/img/hero/hero_img_1_1_newnew.png" alt="RMMC Students"> -->
   </div>
 </section>
 

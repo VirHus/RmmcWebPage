@@ -110,6 +110,7 @@ nav {
 .menu_header__right li:hover {
   transition: color 0.3s;
   color: #007bff;
+  
 }
 
 .menu_header__right a {
@@ -155,7 +156,7 @@ nav {
 .menu_header__right__item__list__item ul {
   display: none;
   position: absolute;
-  left: 90%;
+  left: 105%;
   top: 25.8%;
   background: #ffffff;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
@@ -163,6 +164,7 @@ nav {
   list-style: none;
   padding: 10px;
   margin: 0;
+
 }
 
 .menu_header__right__item:hover .menu_header__right__item__list {
@@ -306,9 +308,14 @@ nav {
     display: block;
   }
 
-  .header_top_links_collection li {
+  .header_top {
+    gap: 50px;
+  }
+
+  .header_top_links_collection li span{
     display: none;
   }
+
 
   .header_top_social {
     display: flex;

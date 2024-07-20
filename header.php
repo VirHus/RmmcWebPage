@@ -42,15 +42,16 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
     <link rel="stylesheet" href="styles/floating_footer.css">
     <link rel="stylesheet" href="styles/footer.css">
 
     <script src="scripts/header.js" defer></script>
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/root.css">
 
     <?php if ($page == 'index'): ?>
         <link rel="stylesheet" href="styles/index.css">
-        <link rel="stylesheet" href="Styles/index.css">
         <script src="assets/js/index.js" defer></script>
         <title>RMMC - OFFICIAL WEBSITE</title>
     <?php elseif ($page == 'enrollment'): ?>

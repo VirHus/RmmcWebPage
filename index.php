@@ -111,6 +111,17 @@
       </div>
     </div>
   </div>
+
+  <section id="index-blogs">
+    <div id="index-blogs__content">
+      <p>News &amp; <span>Events</span></p>
+      <div id="index-blogs__content__items"> <!-- News cards here ---> </div>
+      <div id="index-blogs__content__option">
+        <button class="button--primary" href="news.php">VIEW ALL</button>
+      </div>
+    </div>
+  </section>
+
 </section>
 
-<?php include 'footer.php' ?>
+<?php include "footer.php" ?>

@@ -1,0 +1,27 @@
+{
+  "name": "rmmcwebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module"
+    }
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}

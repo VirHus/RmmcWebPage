@@ -13,25 +13,3 @@ require 'header.php';
         </ul>
     </div>
 </div>
-
-<div class="details__container">
-        <div class="details__container__left">
-            <div class="details__container__left__top">
-                <div class="details__container__left__top__course__image">
-                    <img src="assets/img/course/teacher.jpg" alt="Course Image">
-                </div>
-                <h2 class="details__container__left__top__coursetitle">Bachelor of Science in Computer Science</h2>
-                <div class="details__container__left__top__info">
-                    <a href=""><img src="assets/img/favicons/ms-icon-144x144.png" alt="author"><span text-theme>Instructor:</span> Kevin Nunez</a>
-                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="details__container__left__top__ratings"></div>
-                </div>
-            </div>
-            <div class="details__container__left__bottom"></div>
-        </div>
-
-        <div class="details__container__right">
-
-        </div>
-</div>

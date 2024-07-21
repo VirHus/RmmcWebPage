@@ -46,3 +46,247 @@ body {
     color: white;
 }
 
+.course__container__content__top__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+
+/* Course Section */
+.course {
+    width: 95%;
+    padding: 2rem 0;
+}
+
+.course__content {
+    display: flex;
+    gap: 2rem;
+}
+
+.course__content__left {
+    padding: 0 1rem;
+    flex: 2;
+}
+
+.course__content__left__top {
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    background: #fff;
+}
+
+.course__content__left__top__header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.course__content__left__top__header__image{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.course__content__left__top__header__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.course__body {
+    margin-top: 2rem;
+}
+
+.course__tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.course__tab {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.course__tab--active {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.course__tab-content {
+    display: none;
+}
+
+.course__tab-content--active {
+    display: block;
+}
+
+.course__description,
+.course__curriculum,
+.course__instructor,
+.course__reviews {
+    padding: 1rem 0;
+}
+
+.checklist {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.checklist li {
+    margin-bottom: 0.5rem;
+}
+
+.course__author-box {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.author-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.author-info {
+    flex: 1;
+}
+
+.author-meta,
+.author-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.author-social a {
+    color: #007bff;
+}
+
+.review-list {
+    padding: 0;
+    list-style: none;
+}
+
+.review {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.review__content {
+    flex: 1;
+}
+
+.review-form {
+    margin-top: 2rem;
+}
+
+.review-form__rating {
+    margin-bottom: 1rem;
+}
+
+.review-form__textarea,
+.review-form__input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.review-form__submit {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form__submit:hover {
+    background: #0056b3;
+}
+
+/* Sidebar */
+.course__content__right{
+    flex: 1;
+}
+
+.course__content__right__info {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.course__content__right__info__title {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.course__content__right__info__list{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.course__content__right__info__list li {
+    list-style: none;
+    border-bottom: 1px dashed #D3DBEB;
+    padding: 1rem;
+
+}
+
+.course__content__right__info__list li i{
+    color: #007bff;
+    margin-right: 15px;
+
+}
+
+.course__content__right__info__button{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    
+}
+
+.course__content__right__info__button i {
+    margin-right: 10px;
+}
+
+
+.course__content__right__info__button:hover {
+    background: #0056b3;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background: #fff;
+    color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: #fff;
+}

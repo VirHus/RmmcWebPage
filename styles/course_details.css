@@ -259,12 +259,13 @@ body {
     display: inline-block;
     padding: 0.5rem 1rem;
     border: 1px solid #007bff;
-    background: #007bff;
-    color: #fff;
+    background: #ffffff;
+    color: #007bff;
     border-radius: 5px;
     text-align: center;
     margin-top: 1rem;
     width: 100%;
+    text-decoration: none;
     
 }
 
@@ -274,19 +275,15 @@ body {
 
 
 .course__content__right__info__button:hover {
-    background: #0056b3;
+    background: #007bff;
+    color: #fff;
 }
 
-.btn {
+/* .btn {
     padding: 0.75rem 1.5rem;
     background: #fff;
     color: #007bff;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-}
-
-.btn:hover {
-    background: #007bff;
-    color: #fff;
-}
+} */

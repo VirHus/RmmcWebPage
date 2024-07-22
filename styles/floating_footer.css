@@ -13,29 +13,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   flex-wrap: nowrap;
   position: relative;
   overflow: hidden;
-  /* box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.664); */
 }
 
 .register-container .link-container h1 {
-  /* FOR "Learn From Our Platform" text*/
-  text-decoration: underline;
-  font-family: "Jost", sans-serif;
+  margin: 0 0 10px 50px;
+  font-weight: 600;
+  border-bottom: 1px dashed #4D5765;
   color: rgba(13, 94, 244, 255);
 }
 
-.register-container .link-container .h2 {
-  /* FOR "That Takes You To The Next Level" text*/
-  text-decoration: underline;
-  font-family: "Jost", sans-serif;
+.register-container .link-container h2 {
   color: rgba(15, 34, 57, 255);
-  margin-left: 50px;
-  font-size: 35px;
+  margin-bottom: 50px;
 }
 
 .register-link-button {

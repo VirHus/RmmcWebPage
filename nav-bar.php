@@ -105,12 +105,12 @@
             </li>
             <li>
               <a href="#">
-                <i class="fa-solid fa-book"></i> ETEEAP
+                <i class="fa-solid fa-book"></i> Expanded Tertiary Education Acceleration Program
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa-solid fa-book"></i> TECHVOC
+                <i class="fa-solid fa-book"></i> Technical & Vocational
               </a>
             </li>
             <li>

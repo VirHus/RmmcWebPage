@@ -2,8 +2,8 @@
 <section class = "registration_section">
         <div class="register-container">
             <div class="link-container">
-                <h1>Learn From Our Platform</h1>
-                <h1 class="h2">That Takes You To The Next Level</h1>
+                <h1>KRISTOFFER FRANZ MARI R. MILLADO, EdD</h1>
+                <h2>SCHOOL PRESIDENT</h2>
 
                 <!--FOR REGISTRATION LINK BUTTON-->
                 <div class="register-button-container">

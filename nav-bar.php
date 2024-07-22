@@ -25,23 +25,23 @@
 
       <div id="nav-top-content-social">
         <p>Follow Us: </p>
-        <a href="https://www.facebook.com/rmmcgensanofficial">
+        <a href="https://www.facebook.com/rmmcgensanofficial" target = "_block">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="https://www.twitter.com/RMMCGensan">
+        <a href="https://www.twitter.com/RMMCGensan"target = "_block">
           <i class="fab fa-twitter"></i>
         </a>
         <a
-          href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0?challengeId=AQGaeZ0b2lDpYQAAAZB8RIQggJ3MIi6LVBWyAVYUQovoIz33Nb6mlZntZK0e9AgpEPzh5adtPc5cvWiLE7c4S9bkA7hLOSTCUA&submissionId=19bccf66-2cec-de17-45d1-cc444fa5852e&challengeSource=AgE9SX3lGFu5QAAAAZB8RJUpq5NKZv1Nwd5LhDV_T55cY6AJRelwLahIqRDuwms&challegeType=AgGkQL4yPVrW5gAAAZB8RJUsUnu9HJGCSwWzirDUIcLxYdL0T_PpfE0&memberId=AgHCGF89nq7PAQAAAZB8RJUw202sniBCGep67Wbeo6ux9nw&recognizeDevice=AgHyZGa19Y6lbQAAAZB8RJUz_Loc5kULObvz_MVp9JnQTV7i22_r">
+          href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0?challengeId=AQGaeZ0b2lDpYQAAAZB8RIQggJ3MIi6LVBWyAVYUQovoIz33Nb6mlZntZK0e9AgpEPzh5adtPc5cvWiLE7c4S9bkA7hLOSTCUA&submissionId=19bccf66-2cec-de17-45d1-cc444fa5852e&challengeSource=AgE9SX3lGFu5QAAAAZB8RJUpq5NKZv1Nwd5LhDV_T55cY6AJRelwLahIqRDuwms&challegeType=AgGkQL4yPVrW5gAAAZB8RJUsUnu9HJGCSwWzirDUIcLxYdL0T_PpfE0&memberId=AgHCGF89nq7PAQAAAZB8RJUw202sniBCGep67Wbeo6ux9nw&recognizeDevice=AgHyZGa19Y6lbQAAAZB8RJUz_Loc5kULObvz_MVp9JnQTV7i22_r" target = "_block">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://www.instagram.com/rmmcsmcc/">
+        <a href="https://www.instagram.com/rmmcsmcc/"target = "_block">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185">
+        <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185"target = "_block">
           <i class="fab fa-youtube"></i>
         </a>
-        <a href="https://mail.rmmc.edu.ph:2096">
+        <a href="https://mail.rmmc.edu.ph:2096" target = "_block">
           Login
         </a>
       </div>
@@ -80,7 +80,7 @@
               </a>
             </li>
             <li>
-              <a href="http://system.rmmc.edu.ph/rmmcweb/collegeenroll/">
+              <a href="http://system.rmmc.edu.ph/rmmcweb/collegeenroll/" target = "_block">
                 <i class="fa-solid fa-book"></i> Registration
               </a>
             </li>
@@ -173,12 +173,12 @@
 
           <ul>
             <li>
-              <a href="http://system.rmmc.edu.ph/rmmcweb/index.php">
+              <a href="http://system.rmmc.edu.ph/rmmcweb/index.php" target = "_block">
                 <i class="fa-solid fa-book"></i> Portal Login
               </a>
             </li>
             <li>
-              <a href="https://rmmc.instructure.com/login/canvas">
+              <a href="https://rmmc.instructure.com/login/canvas" target = "_block">
                 <i class="fa-solid fa-book"></i> LMS Login
               </a>
             </li>

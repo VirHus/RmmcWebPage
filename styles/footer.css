@@ -10,6 +10,7 @@
 }
 
 
+
 .footer_main__footer_area {
   padding-top: 150px;
   position: relative;
@@ -156,6 +157,12 @@
   margin-bottom: 40px;
   font-size: 1.6rem;
   color: #fff;
+}
+
+
+::after,
+::before {
+  box-sizing: border-box;
 }
 
 .footer_main__footer_area__container__row_footer__col_footer__object_title::before,

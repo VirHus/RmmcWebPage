@@ -3,7 +3,7 @@ $page = 'course_details';
 require 'header.php';
 ?>
 <?php include 'nav-bar.php' ?>
-<link rel="stylesheet" href="styles/course_details.css">
+
 <div class="breadcrumb-card">
     <div class="breadcrumb-card__box">
         <h1 class="breadcrumb-card__box__title">COURSE DETAILS</h1>
@@ -148,16 +148,6 @@ require 'header.php';
         </aside>
     </div>
 
-    <script>
-        function showContent(id) {
-            const tabs = document.querySelectorAll('.course__content__left__bottom__tabs__tab');
-            const contents = document.querySelectorAll('.course__content__left__bottom__content');
-            tabs.forEach(course__content__left__bottom__tabs__tab => course__content__left__bottom__tabs__tab.classList.remove('active'));
-            contents.forEach(course__content__left__bottom__content => course__content__left__bottom__content.style.display = 'none');
-            document.getElementById(id).style.display = 'block';
-            document.querySelector(`.course__content__left__bottom__tabs__tab[onclick="showContent('${id}')"]`).classList.add('active');
-        }
-    </script>
 </section>
 
 <?php include 'footer.php' ?>

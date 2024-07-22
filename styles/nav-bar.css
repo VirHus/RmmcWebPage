@@ -26,8 +26,8 @@ nav {
 
 #nav-top-content {
   margin: 0 auto;
-  width: 70%;
   display: flex;
+  width: 95%;
   justify-content: space-between;
   padding: 0.75rem 0;
 }
@@ -46,7 +46,7 @@ nav {
   align-items: center;
   gap: 5px;
   border-right: 1px solid #dddddd6d;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 #nav-top-content-links li:first-child {
@@ -62,6 +62,7 @@ nav {
   text-decoration: none;
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif !important;
+  white-space: nowrap;
 }
 
 #nav-top-content-links a>i {
@@ -75,6 +76,7 @@ nav {
   font-size: 1.2rem;
   color: white;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 #nav-top-content-social a {
@@ -236,5 +238,54 @@ nav {
 
   #nav-bottom-content-right.active {
     display: flex;
+  }
+}
+
+/*
+  If the screen width ranges from 0 - 1100px hide the school address
+
+  +------------------------+
+  | tel | email            |
+  +------------------------+
+*/
+@media screen and (max-width: 1100px) {
+  #nav-top-content-links li:nth-child(2) {
+    display: none;
+  }
+}
+
+/*
+  Any screen width lesser than 1300px will set the width back to default in its own styling.
+
+  In line 27: #nav-top-content {
+    width: 95%;
+  }
+
+  - This will be used as default
+*/
+
+/*
+  If the screen is wider than 1300px set the width to 90%
+
+  +---------------------------+
+  |  |                     |  |
+  +--------------------------+
+*/
+@media screen and (min-width: 1300px) {
+  #nav-top-content {
+    width: 90%;
+  }
+}
+
+/*
+  If the screen is wider than 1500px set the width to 70%
+
+  +------------------------------+
+  |     |                  |     |
+  +------------------------------+
+*/
+@media screen and (min-width: 1500px) {
+  #nav-top-content {
+    width: 70%;
   }
 }

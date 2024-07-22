@@ -5,7 +5,7 @@ require 'header.php';
 
 
 
-<?php include "nav_bar.php" ?>
+<?php include "nav-bar.php" ?>
 
 <div class="breadcrumb-card">
     <div class="breadcrumb-card__box">
@@ -25,7 +25,7 @@ require 'header.php';
         <h2 class="map_container__contact__border__title">Get in Touch</h2>
         <p class="textP">Have an inquiry or some feedback for us? Send your inquiries to info@rmmc.edu.ph</p>
         <div class="map_container__contact__info">
-            <div class="map_container__contact__info__icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+            <div class="map_container__contact__info__icon"><i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="map_container__contact__info__body">
                 <h4 class="map_container__contact__info__body__title">Our Address</h4>
@@ -35,7 +35,7 @@ require 'header.php';
         </div>
 
         <div class="map_container__contact__info">
-            <div class="map_container__contact__info__icon"><i class="fa fa-phone" aria-hidden="true"></i>
+            <div class="map_container__contact__info__icon"><i class="fa-solid fa-phone"></i>
             </div>
             <div class="map_container__contact__info__body">
                 <h4 class="map_container__contact__info__body__title">Phone Number</h4>
@@ -64,14 +64,14 @@ require 'header.php';
 
                     </span>
                     <br>
-                    
+
                 </p>
                 <a class="btn btn-danger" href="https://www.google.com/maps/@6.1117421,125.1725222,3a,75y,198.74h,85.78t/data=!3m6!1e1!3m4!1stmVcsnfjnT2cl5WyuCHmwQ!2e0!7i16384!8i8192?coh=205409&entry=ttu">NAVIGATE LOCATION</a>
 
             </div>
-            
+
         </div>
-        
+
     </div>
     <div class="map-sec space">
         <div class="map">

@@ -1,0 +1,291 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('../assets/img/FGMNEW.png');
+}
+
+nav {
+  width: 100%;
+}
+
+/*
+  +---------------------------------+
+  |               HERE              |
+  +_________________________________+
+  |                                 |
+  | RMMC                      pages |
+  |                                 |
+  +----------------------------------+
+*/
+#nav-top {
+  background-color: #0d5ef4;
+  z-index: 3;
+  position: relative;
+}
+
+#nav-top-content {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+#nav-top-content-links {
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+#nav-top-content-links li {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-right: 1px solid #dddddd6d;
+  padding: 0 1.5rem;
+}
+
+#nav-top-content-links li:first-child {
+  padding-left: unset;
+}
+
+#nav-top-content-links li:last-child {
+  border-right: unset;
+}
+
+#nav-top-content-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif !important;
+  white-space: nowrap;
+}
+
+#nav-top-content-links a>i {
+  margin-right: 5px;
+}
+
+#nav-top-content-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+#nav-top-content-social a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/*
+  +---------------------------------+
+  |  LINKS                   social |
+  +_________________________________+
+  |                                 |
+  | RMMC         HERE         pages |
+  |                                 |
+  +----------------------------------+
+*/
+#nav-bottom {
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 3;
+}
+
+#nav-bottom-content {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-bottom-content-left {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#phone-toggle-nav-bottom-content-right {
+  display: none;
+}
+
+#nav-bottom-content-right {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-bottom-content-right__item {
+  position: relative;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-bottom-content-right__item:hover {
+  transition: color 0.3s;
+  color: #007bff;
+}
+
+#nav-bottom-content-right a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-decoration: none;
+  color: #232020;
+}
+
+/* All nav links with a will be blue when hovered */
+#nav-bottom-content-right a:hover {
+  color: #007bff;
+}
+
+/* Style for all ul for each nav item no matter how deeply nested */
+.nav-bottom-content-right__item ul {
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 1rem;
+  display: none;
+}
+
+/* Overriden style for all ul deeply nested except for the first ul of nav item */
+.nav-bottom-content-right__item ul li ul {
+  position: unset;
+  padding: 1rem 0 0 1rem;
+}
+
+/* Shows the ul if an li is hovered in the nav item no matter how deeply nested the li > ul is */
+#nav-bottom-content-right li:hover > ul {
+  display: flex;
+}
+
+/* prevents all links inside the ul to wrap */
+.nav-bottom-content-right__item a {
+  white-space: nowrap;
+}
+
+/* Set book color to blue to all ul with i inside of it no matter how deeply nested */
+.nav-bottom-content-right__item > ul i {
+  color: #007bff;
+}
+
+@media screen and (orientation: portrait) {
+  #nav-top-content-social {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  #nav-top-content-links li {
+    display: none;
+  }
+
+  #nav-bottom-content-right {
+    display: none;
+  }
+
+  #nav-bottom-content {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #nav-bottom-content-left {
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 100%;
+  }
+
+  #phone-toggle-nav-bottom-content-right {
+    display: grid;
+  }
+
+  #nav-bottom-content-right {
+    padding: 2.5rem 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #nav-bottom-content-right li:hover {
+    transition: color 0.3s;
+    color: #007bff;
+  }
+
+  #nav-bottom-content-right.active {
+    display: flex;
+  }
+}
+
+/*
+  If the screen width ranges from 0 - 1100px hide the school address
+
+  +------------------------+
+  | tel | email            |
+  +------------------------+
+*/
+@media screen and (max-width: 1100px) {
+  #nav-top-content-links li:nth-child(2) {
+    display: none;
+  }
+}
+
+/*
+  Any screen width lesser than 1300px will set the width back to default in its own styling.
+
+  In line 27: #nav-top-content {
+    width: 95%;
+  }
+
+  - This will be used as default
+*/
+
+/*
+  If the screen is wider than 1300px set the width to 90%
+
+  +---------------------------+
+  |  |                     |  |
+  +--------------------------+
+*/
+@media screen and (min-width: 1300px) {
+  #nav-top-content {
+    width: 90%;
+  }
+}
+
+/*
+  If the screen is wider than 1500px set the width to 70%
+
+  +------------------------------+
+  |     |                  |     |
+  +------------------------------+
+*/
+@media screen and (min-width: 1500px) {
+  #nav-top-content {
+    width: 70%;
+  }
+}

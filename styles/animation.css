@@ -1,0 +1,60 @@
+/*
+                +----------------------+
+                |                      |
+                |                      |
+          ******|                      |
+      ***       |                      |
+   **           |                      |
+  *             |                      |
+  *             |                      |
+  *             |                      |
+  *             +----------------------+
+  *                          *
+  *                          *
+  *                          *
+   **                     **
+      ***              ***
+          ************
+*/
+
+/*
+    Remove rotate if necessary.
+    This is only added as blob on index wont rotate to 50 if this keyframe animation is used
+*/
+@keyframes orbit {
+    0% {
+        transform: rotate(50deg) translate(0, -10px);
+    }
+
+    12.5% {
+        transform: rotate(50deg) translate(7.07px, -7.07px);
+    }
+
+    25% {
+        transform: rotate(50deg) translate(10px, 0);
+    }
+
+    37.5% {
+        transform: rotate(50deg) translate(7.07px, 7.07px);
+    }
+
+    50% {
+        transform: rotate(50deg) translate(0, 10px);
+    }
+
+    62.5% {
+        transform: rotate(50deg) translate(-7.07px, 7.07px);
+    }
+
+    75% {
+        transform: rotate(50deg) translate(-10px, 0);
+    }
+
+    87.5% {
+        transform: rotate(50deg) translate(-7.07px, -7.07px);
+    }
+
+    100% {
+        transform: rotate(50deg) translate(0, -10px);
+    }
+}

@@ -1,95 +1,36 @@
-// const menuItemsButton= document.querySelector('.menu_items_button');
-// const menuHeaderMainMenu = document.querySelector('.menu_header_main_menu');
+const navBottom = document.getElementById('nav-bottom-right');
 
-// menuItemsButton.onclick = () => menuHeaderMainMenu.classList.toggle('active');
+// Shows the nav bottom items when button is clicked on phone
+const navBottomItems = navBottom.querySelector('.phone-toggle-nav-bottom-right');
+navBottomItems.onclick = () => navBottom.classList.toggle('active');
 
-// const colleges_List = document.querySelector('.colleges_list');
-// const colleges_cont = document.querySelector('.colleges_content');
+// This code is a simple concept of, if a ul exist inside an li, set it active.
+navBottom.onclick = (event) => {
+  const ulCollection = [...navBottom.querySelectorAll('ul')];
 
-// colleges_List.onclick = () => colleges_cont.classList.toggle('active')
-
-// const menuItemsParent = document.querySelector('.menu_header_main_menu')
-
-// menuItemsParent.onclick = event=> {
-//     const sublistCollection = [...document.querySelectorAll('.menu_header_main_menu_has_children__sublist')];
-// ``
-
-//     if(sublistCollection && sublistCollection.length > 0){
-//         sublistCollection.forEach(sublist => sublist.classList.remove("active"));
-//     }
-//     /**
-//      * @type {HTMLElement}
-//      */
-//     const isMenuItemTitle = event.target.classList.contains("menu_header_main_menu_has_children");
-
-//     if(isMenuItemTitle){
-//         const sublist = event.target.querySelector('.menu_header_main_menu_has_children__sublist');
-//         if(!sublist){
-//             return;
-//         }
-
-//         sublist.classList.add("active")
-//     }
-// }
-
-// //for colleges js function adding toggle
-
-const menuItemsButton = document.querySelector('.menu_items_button');
-const menuHeaderMainMenu = document.querySelector('.menu_header_main_menu');
-
-menuItemsButton.onclick = () => menuHeaderMainMenu.classList.toggle('active');
-
-const menuItemsParent = document.querySelector('.menu_header_main_menu');
-
-menuItemsParent.onclick = (event) => {
-  const sublistCollection = [
-    ...document.querySelectorAll(
-      '.menu_header_main_menu_has_children__sublist'
-    ),
-  ];
-
-  const innerSublistCollection = Array.from(
-    document.querySelectorAll(
-      '.menu_header_main_menu_has_children__sublist__sublist'
-    )
-  );
-
-  // close all active inner sublist
-  if (innerSublistCollection && innerSublistCollection.length > 0) {
-    innerSublistCollection.forEach((sublist) =>
-      sublist.lastElementChild.classList.remove('active')
-    );
-  }
-
-  // open specific inner sublist
-  const clickedOnInnerSublist = event.target.classList.contains(
-    'menu_header_main_menu_has_children__sublist__sublist'
-  );
-
-  if (clickedOnInnerSublist) {
-    event.target.lastElementChild.classList.add('active');
+  if (ulCollection.length <= 0) {
     return;
   }
 
-  if (sublistCollection && sublistCollection.length > 0) {
-    sublistCollection.forEach((sublist) => sublist.classList.remove('active'));
-  }
-  /**
-   * @type {HTMLElement}
-   */
-  const isMenuItemTitle = event.target.classList.contains(
-    'menu_header_main_menu_has_children'
-  );
+  // Clears all open sublist
+  ulCollection.forEach((ulElement) => {
+    //  Except if the target is a nested sublist, it prevents its active parent to be closed
+    if (ulElement.contains(event.target)) {
+      return;
+    }
 
-  if (isMenuItemTitle) {
-    const sublist = event.target.querySelector(
-      '.menu_header_main_menu_has_children__sublist'
-    );
+    ulElement.classList.remove('active');
+  });
+
+  // Opens the targeted sublist
+  if (event.target.tagName === 'LI') {
+    const listElements = [...event.target.children].filter((child) => child.tagName === 'UL');
+    const sublist = listElements.length > 0 ? listElements[0] : null;
 
     if (!sublist) {
       return;
     }
 
-    sublist.classList.add('active');
+    sublist.classList.toggle('active');
   }
 };

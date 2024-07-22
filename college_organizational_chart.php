@@ -1,8 +1,8 @@
-<?php 
+<?php
 $page = 'college';
 require 'header.php';
 ?>
-<?php include 'nav_bar.php' ?>
+<?php include 'nav-bar.php' ?>
 
 <div class="colleges_main-container">
 
@@ -21,8 +21,8 @@ require 'header.php';
                     <li><a href="#">NEWS & GALLERY</a></li>
                 </ul>
             </div>
-          
-           
+
+
             <!-- FOR COLLEGE LOGO-->
             <div class="bg-logo-container">
                 <image src="assets/img/breadcumb/CETNEWBKG.png" class="bg-logo"></image>
@@ -33,7 +33,7 @@ require 'header.php';
         </div>
 
 
-   
+
 
 
  <!-- FOR SCROLL UP BUTTON-->
@@ -75,6 +75,6 @@ require 'header.php';
                });
 
         </script>
-   
+
 </div>
 <?php  include 'footer.php'?>

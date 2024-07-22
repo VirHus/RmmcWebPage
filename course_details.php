@@ -121,6 +121,63 @@ require 'header.php';
                             </div>
                         </div>
                     </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="reviews" class="course__content__left__bottom__content" style="display:none;">

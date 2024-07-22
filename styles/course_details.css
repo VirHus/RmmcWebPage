@@ -127,6 +127,10 @@ body {
 
 }
 
+.course__content__left__bottom__tabs__tab:hover {
+    color: #007bff;
+}
+
 .course__content__left__bottom__tabs__tab.active {
     color: #007BFF;
     font-weight: bold;
@@ -286,6 +290,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: #007BFF;
     text-decoration: none;
+}
+
+.course__content__left__bottom__content__instructor__card__social a:hover {
+    color: #ffffff;
+    background-color: #007BFF;
 }
 .course__content__left__bottom__content__instructor__card__social a i {
     font-size: 1.2em;

@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
     <link rel="stylesheet" href="styles/floating_footer.css">
+    <link rel="stylesheet" href="styles/president.css">
     <link rel="stylesheet" href="styles/footer.css">
 
     <script src="scripts/header.js" defer></script>

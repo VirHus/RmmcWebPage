@@ -1,7 +1,7 @@
-const navBottom = document.getElementById('nav-bottom-right');
+const navBottom = document.getElementById('nav-bottom-content-right');
 
 // Shows the nav bottom items when button is clicked on phone
-const navBottomItems = navBottom.querySelector('.phone-toggle-nav-bottom-right');
+const navBottomItems = document.getElementById('phone-toggle-nav-bottom-content-right');
 navBottomItems.onclick = () => navBottom.classList.toggle('active');
 
 // This code is a simple concept of, if a ul exist inside an li, set it active.

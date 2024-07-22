@@ -3,13 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
     <meta name="author" content="Rmmc">
     <meta name="description" content="Rmmc - Events and News">
     <meta name="keywords" content="Rmmc - Events and News">
     <meta name="robots" content="INDEX,FOLLOW">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
@@ -32,6 +30,7 @@
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
 
     <meta name="theme-color" content="#ffffff">
+    <script src="scripts/header.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -46,9 +45,8 @@
     <link rel="stylesheet" href="styles/floating_footer.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <script src="scripts/header.js" defer></script>
-    <link rel="stylesheet" href="./styles/nav-bar.css">
-    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="styles/nav-bar.css">
+    <link rel="stylesheet" href="styles/root.css">
 
     <?php if ($page == 'index'): ?>
         <link rel="stylesheet" href="styles/index.css">

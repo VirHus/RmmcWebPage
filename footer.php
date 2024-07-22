@@ -1,18 +1,13 @@
-
-
- 
- <link rel="stylesheet" href="./styles/footer.css">
- <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 <footer class ="footer_main">
         <?php include 'floating_footer.php' ?>
             <div class="footer_main__footer_area">
               <div class="footer_main__footer_area__container">
                 <div class="footer_main__footer_area__container__row_footer">
-    
+
                 <div class="footer_main__footer_area__container__row_footer__col_footer">
                     <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object_about__object_logo">
-                            <a href="#"><img alt="Rmmc" src="assets/img/white-logo.png"></a>   
+                            <a href="#"><img alt="Rmmc" src="assets/img/white-logo.png"></a>
                         </div>
                         <p class="footer_main__footer_area__container__row_footer__col_footer__object_about__iso_description">Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges  and Universities -Commission on Accreditation. </p>
                         <h4 class="footer_main__footer_area__container__row_footer__col_footer__object_about__footer_info_title">Follow Us On:</h4>
@@ -29,8 +24,8 @@
                         </div>
                     </div>
                 </div>
-    
-    
+
+
                     <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__nav footer_main__footer_area__container__row_footer__col_footer__footer_object">
                             <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Quick Link</h3>
@@ -46,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__nav footer_main__footer_area__container__row_footer__col_footer__footer_object">
                             <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Resources</h3>
@@ -62,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="footer_main__footer_area__container__row_footer__col_footer">
                         <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__footer_object footer_main__footer_area__container__row_footer__col_footer__form">
                             <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Get in touch!</h3>
@@ -75,10 +70,10 @@
                             </form>
                         </div>
                     </div>
-                </div>   
+                </div>
              </div>
            </div>
-    
+
            <div class="footer_main__container">
             <div class="footer_main__container__copyright_wrap">
                 <div class="footer_main__container__copyright_wrap__row_footer">

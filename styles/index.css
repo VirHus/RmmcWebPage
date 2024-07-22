@@ -2,6 +2,8 @@
 /*endregion  */
 .index--section {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .welcome-section {
@@ -10,8 +12,6 @@
   justify-content: center;
   align-items: center;
   height: 700px;
-  position: relative;
-  z-index: 0;
 }
 
 .welcome-section__background {
@@ -25,7 +25,7 @@
 
 .welcome-section__blob {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   right: -26%;
   top: 14%;
   width: 67%;
@@ -46,7 +46,7 @@
   width: 70%;
   height: fit-content;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
 }
 
 .welcome-section__content__left{
@@ -91,15 +91,13 @@
   margin: 0 auto; /* Center the container horizontally */
   margin-top: 250px;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .school-description__main {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 14rem;
-  padding-left: 5rem;
 }
 
 /* Container for the image */
@@ -281,7 +279,7 @@
   border-radius: 50px;
   padding: 20px 20px; /* Adjust padding to increase button size */
   cursor: pointer;
-  z-index: 3;
+  z-index: 4;
 }
 
 .prev-button {
@@ -293,9 +291,9 @@
 }
 
 .charter {
-  display: grid;
-  place-items: center;
-  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .charter__content {
@@ -442,4 +440,156 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
+}
+
+/*
+  If the screen width ranges from 0 - 1300px.
+  Any screen width lesser than 1300px will set the width back to default in its own styling.
+*/
+@media screen and (max-width: 1600px) {
+  .school-description__main__content h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+/*
+  If the screen is wider than 1500px set the width to 70%
+
+  +------------------------------+
+  |     |                  |     |
+  +------------------------------+
+*/
+@media screen and (min-width: 1600px) {
+  .school-description__main {
+    gap: 14rem;
+    padding-left: 5rem;
+  }
+}
+
+@media screen and (orientation: portrait) {
+
+  .welcome-section__background {
+    width: 2000vw;
+  }
+
+  .welcome-section__content__left__texts__item {
+    font-size: 1.5rem;
+  }
+
+  .welcome-section__blob {
+    display: none;
+  }
+
+  .school-description {
+    margin-top: 100px;
+  }
+
+  .school-description__main {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .school-description__main__photo {
+    width: 100%;
+  }
+
+  .school-description__main__content h3 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .school-description__main__content {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .school-description__main__content > :not(a) {
+    margin-bottom: 2rem;
+  }
+
+  .school-description__main__content__checkbox__icon {
+    width: 25px;
+  }
+
+  .top-courses__title-box > p {
+    font-size: 1rem;
+  }
+
+  .top-courses__title-box > h2 {
+    display: flex;
+    white-space: nowrap;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .top-courses {
+    padding: 10rem 1rem;
+    gap: 10rem;
+  }
+
+  .course-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .course-cards__item {
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.212);
+  }
+
+  .charter__content {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .charter__content__left {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .charter__content__left > img {
+    width: 100%;
+  }
+
+  .charter__content__left__student {
+    top: 70%;
+    transform: unset;
+    right: unset;
+    left: 0%;
+    width: fit-content;
+  }
+
+  .charter__content__right__checklist div div {
+    width: 33px;
+  }
+
+  #index-blogs__content {
+    width: 90%;
+  }
+
+  #index-blogs__content > p {
+    font-size: 2rem;
+  }
+
+  #index-blogs__content__items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    place-items: unset;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.212);
+  }
+
+  .blog-card__image-box {
+    width: 100%;
+  }
 }

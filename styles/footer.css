@@ -343,12 +343,6 @@
   width: 160%;
 }
 
-
-img:not([draggable]) {
-  max-width: 100%;
-  height: auto;
-}
-
 .footer_main__container__copyright_wrap__row_footer {
   display: flex;
   justify-content: space-between;

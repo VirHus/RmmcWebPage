@@ -1,6 +1,6 @@
 const courses = [
   {
-    href: 'course3.php',
+    href: '#',
     imgSrc: 'assets/img/course/it.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'BS in Information Technology',
@@ -9,7 +9,7 @@ const courses = [
     views: '13K',
   },
   {
-    href: 'course3.php',
+    href: '#',
     imgSrc: 'assets/img/course/course_2_3.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'BS in Tourism Management',
@@ -18,7 +18,7 @@ const courses = [
     views: '32K',
   },
   {
-    href: 'course3.php',
+    href: '#',
     imgSrc: 'assets/img/course/teacher.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'Bachelor of Elementary Education',
@@ -27,7 +27,7 @@ const courses = [
     views: '14K',
   },
   {
-    href: 'course3.php',
+    href: '#',
     imgSrc: 'assets/img/course/justice.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'Bachelor of Science in Criminology',

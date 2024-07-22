@@ -3,6 +3,9 @@
   require 'header.php';
   include "nav-bar.php"
 ?>
+
+<img id="rmmc-background-image" src="assets/img/FGMNEW.png" alt="RMMC Background">
+
 <section class="welcome-section index--section">
   <div class="welcome-section__background"></div>
   <div class="welcome-section__blob"></div>
@@ -112,17 +115,16 @@
       </div>
     </div>
   </div>
+</section>
 
-  <section id="index-blogs">
-    <div id="index-blogs__content">
-      <p>News &amp; <span>Events</span></p>
-      <div id="index-blogs__content__items"> <!-- News cards here ---> </div>
-      <div id="index-blogs__content__option">
-        <button class="button--primary" href="news.php">VIEW ALL</button>
-      </div>
+<section id="index-blogs">
+  <div id="index-blogs__content">
+    <p>News &amp; <span>Events</span></p>
+    <div id="index-blogs__content__items"> <!-- News cards here ---> </div>
+    <div id="index-blogs__content__option">
+      <button class="button--primary" href="news.php">VIEW ALL</button>
     </div>
-  </section>
-
+  </div>
 </section>
 
 <?php include "footer.php" ?>

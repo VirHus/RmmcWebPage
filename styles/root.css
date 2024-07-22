@@ -64,3 +64,19 @@ body {
 .button--primary.btn_style {
     box-shadow: none;
 }
+
+#rmmc-background-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0;
+    width: 100%;
+}
+
+@media screen and (orientation: portrait) {
+    #rmmc-background-image {
+        display: none;
+    }
+}

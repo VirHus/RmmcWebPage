@@ -1,117 +1,72 @@
 /* FOR REGISTRATION BUTTON CONTAINER STYLE */
-.registration_section {
+#floating-footer {
   position: absolute;
   /* top: 50%; */
   left: 50%;
   bottom: 100%;
   transform: translate(-50%, 50%);
-  z-index: 9999;
+  z-index: 8;
   width: 70%;
-}
-
-.register-container {
   display: flex;
-  justify-content: space-between;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+#floating-footer > div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  flex-wrap: nowrap;
-  position: relative;
-  overflow: hidden;
+  justify-content: center;
+  width: 100%;
 }
 
-.register-container .link-container h1 {
-  margin: 0 0 10px 50px;
+#floating-footer > div > h1 {
   font-weight: 600;
-  border-bottom: 1px dashed #4D5765;
+  border-bottom: 2px dashed #4D5765;
   color: rgba(13, 94, 244, 255);
-}
-
-.register-container .link-container h2 {
-  color: rgba(15, 34, 57, 255);
-  margin-bottom: 50px;
-}
-
-.register-link-button {
-  position: relative;
-  z-index: 2;
-  font-family: "Jost", sans-serif;
-  overflow: hidden;
-  vertical-align: middle;
-  display: inline-block;
-  border: none;
-  text-transform: uppercase;
   text-align: center;
-  background-color: rgba(13, 94, 244, 255);
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1;
-  padding: 18px 20px;
-  box-shadow: 0px 6px 16px rgba(13, 94, 244, 0.24);
-  border-radius: 5px;
-  transition: 300ms;
-  text-decoration: none;
-  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-.register-link-button:before {
-  content: "";
-  position: absolute;
-  height: 0%;
-  left: 50%;
-  top: 50%;
-  width: 600%;
-  background-color: rgba(15, 34, 57, 255);
-  transform: translateX(-50%) translateY(-50%) rotate(60deg);
-  z-index: -1;
-  transition: 1s ease;
+#floating-footer > div > h2 {
+  color: rgba(15, 34, 57, 255);
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.register-link-button:hover,
-.register-link-button.active {
-  color: #ffffff;
+#floating-footer-register {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.register-link-button:hover::before,
-.register-link-button.active::before {
-  height: 560%;
-}
-
-.right-arrow {
+#floating-footer-right-arrow {
   width: 15px;
   display: inline-block;
   margin-left: 10px;
 }
 
-.dots-design {
+#floating-footer-dots {
   width: 550px;
   z-index: 10;
   position: absolute;
-  top: 20px;
   left: 50%;
   transform: translateX(-50%);
   animation: moveDots 5s infinite alternate;
-  filter: drop-shadow(0px 0px 5px rgba(3, 1, 0, 0.397));
   z-index: 1;
 }
 
-.link-container {
+#floating-footer > div {
   text-align: center;
   z-index: 5;
 }
 
-.president-pic-container {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
-.president-pic {
+#floating-footer-president-image {
   height: 350px;
   z-index: 5;
   position: relative;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 1rem 1rem 1rem 0px;
   margin-left: auto;
 }
 
@@ -125,26 +80,50 @@
   }
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .register-container {
+@media screen and (max-width: 1100px) {
+    #floating-footer {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    #floating-footer {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #floating-footer {
+        width: 70%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+  #floating-footer {
+    width: 95%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.212);
     flex-direction: column;
-    align-items: center;
   }
 
-  .president-pic-container {
-    order: -1; /* Move to the top */
-    width: auto;
-    justify-content: center;
+  #floating-footer > div {
+    padding: 3rem 0;
   }
 
-  .president-pic {
-    margin-left: 0;
-    margin-bottom: 20px; /* Add space below the image */
+  #floating-footer-dots {
+    display: none;
   }
 
-  .link-container {
-    order: 1; /* Ensure this is below the president-pic */
-    margin-top: 20px; /* Add space above the container */
+  #floating-footer > div > h1 {
+    font-size: 1.2rem;
+  }
+
+  #floating-footer > div > h2 {
+    font-size: 1.2rem;
+  }
+
+  #floating-footer-president-image {
+    width: 100%;
+    object-fit: cover;
   }
 }

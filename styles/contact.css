@@ -16,11 +16,11 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 120px 1rem;
+    padding: 10.5rem 1rem;
 }
 
 .breadcrumb-card__box__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
 }
 
@@ -31,9 +31,25 @@ body {
     align-items: center;
 }
 
+.breadcrumb-card__box__menu {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 .breadcrumb-card__box__menu__item__link {
     text-decoration: none;
     color: white;
+    display: flex;
+    gap: 0.5rem;
+}
+
+#caret-right {
+    width: 1rem;
+}
+
+#caret-right > * {
+    stroke: white;
 }
 
 /* Add to your existing CSS */

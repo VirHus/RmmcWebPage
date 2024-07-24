@@ -1,22 +1,15 @@
 <?php
 $page = 'contact';
 require 'header.php';
+
+include "nav-bar.php";
+include 'breadcrumb.php';
+
+renderBreadcrumb('CONTACT US', [
+    ['url' => 'index.php', 'text' => 'Home'],
+    ['url' => 'index.php', 'text' => 'Contact Us', 'svg' => true]
+]);
 ?>
-
-
-
-<?php include "nav-bar.php" ?>
-
-<div class="breadcrumb-card">
-    <div class="breadcrumb-card__box">
-        <h1 class="breadcrumb-card__box__title">CONTACT US</h1>
-        <ul class="breadcrumb-card__box__menu">
-            <a class="breadcrumb-card__box__menu__item__link" href="index.php">Home</a>
-            <a class="breadcrumb-card__box__menu__item__link" href="index.php"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a>
-        </ul>
-    </div>
-</div>
-
 
 <div class="map_container">
 
@@ -29,8 +22,7 @@ require 'header.php';
             </div>
             <div class="map_container__contact__info__body">
                 <h4 class="map_container__contact__info__body__title">Our Address</h4>
-                <span class="map_container__contact__info__body__text">Pioneer Ave., GSC, South Cotabato,
-                    Philippines</span>
+                <span class="map_container__contact__info__body__text">Pioneer Ave., GSC, South Cotabato, Philippines</span>
             </div>
         </div>
 

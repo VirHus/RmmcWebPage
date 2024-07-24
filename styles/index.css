@@ -1,4 +1,3 @@
-
 /*endregion  */
 .index--section {
   width: 100%;
@@ -7,7 +6,8 @@
 }
 
 .welcome-section {
-  opacity: 0.85; /* Set the opacity of the background */
+  opacity: 0.85;
+  /* Set the opacity of the background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,15 +49,17 @@
   z-index: 3;
 }
 
-.welcome-section__content__left{
+.welcome-section__content__left {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Aligns items to the left */
+  align-items: flex-start;
+  /* Aligns items to the left */
 }
 
 .welcome-section__content__left__logos {
   display: flex;
-  gap: 1rem; /* Adds space between the logos */
+  gap: 1rem;
+  /* Adds space between the logos */
   margin-bottom: 0.5rem;
 }
 
@@ -70,7 +72,8 @@
 .welcome-section__content__left__texts {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Aligns items to the left */
+  align-items: flex-start;
+  /* Aligns items to the left */
   margin-bottom: 2rem;
   color: white;
 }
@@ -81,14 +84,18 @@
 }
 
 .welcome-section .background-shape img {
-  height: 100%; /* Ensure the image matches the height of the container */
-  width: 100%; /* Maintain aspect ratio */
+  height: 100%;
+  /* Ensure the image matches the height of the container */
+  width: 100%;
+  /* Maintain aspect ratio */
 }
 
 
 .school-description {
-  width: 80%; /* Adjust the width as needed, can use percentage or fixed values */
-  margin: 0 auto; /* Center the container horizontally */
+  width: 80%;
+  /* Adjust the width as needed, can use percentage or fixed values */
+  margin: 0 auto;
+  /* Center the container horizontally */
   margin-top: 250px;
   position: relative;
   z-index: 3;
@@ -117,7 +124,7 @@
 }
 
 /* Styling for the checkbox icon */
- .school-description__main__content__checkbox__icon {
+.school-description__main__content__checkbox__icon {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -138,7 +145,7 @@
   margin-top: 210px;
 }
 
-.school-description__main__content > :not(a) {
+.school-description__main__content> :not(a) {
   margin-bottom: 3rem;
 }
 
@@ -159,7 +166,6 @@
   font-size: 4.5rem;
   line-height: 5rem;
 }
-
 
 .top-courses {
   max-width: 100%;
@@ -183,31 +189,33 @@
   text-align: center;
 }
 
-.top-courses__title-box > p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #0d5ef4;
-    font-family: 'Jost', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 0.8rem;
-    display: block;
+.top-courses__title-box>p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0d5ef4;
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  display: block;
 }
 
-.top-courses__title-box > h2 {
+.top-courses__title-box>h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
 }
 
-.top-courses__title-box > h2 > span {
+.top-courses__title-box>h2>span {
   font-weight: 300 !important;
   color: #0d5ef4 !important;
 }
 
 /* General card styling */
-.course-cards__item > a {
-  text-decoration: none; /* Remove default link styling */
-  color: inherit; /* Inherit text color */
+.course-cards__item>a {
+  text-decoration: none;
+  /* Remove default link styling */
+  color: inherit;
+  /* Inherit text color */
 }
 
 .course-cards {
@@ -236,21 +244,25 @@
   border-radius: 10px;
 }
 
-.course-cards__item:hover .course-cards__item__image-box > img {
-  transform: scale(1.05); /* Slightly enlarge the image */
+.course-cards__item:hover .course-cards__item__image-box>img {
+  transform: scale(1.05);
+  /* Slightly enlarge the image */
   overflow: visible;
 }
 
 .course-cards__item__image-box img {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  width: 100%; /* Full width of the container */
-  height: 100%; /* Maintain aspect ratio */
+  width: 100%;
+  /* Full width of the container */
+  height: 100%;
+  /* Maintain aspect ratio */
   object-fit: cover;
 }
 
 /* Title styling */
 .course-cards__item h3 {
-  padding: 1.5rem 0; /* Internal padding */
+  padding: 1.5rem 0;
+  /* Internal padding */
   font-size: 1.5rem;
   font-weight: 500;
   text-align: left;
@@ -262,22 +274,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px dashed #ddd; /* Border between content and footer */
+  border-top: 1px dashed #ddd;
+  /* Border between content and footer */
 }
 
 .course-cards__item__footer span {
-  font-size: 0.9rem; /* Smaller font size */
-  color: #666; /* Medium grey text color */
-  font-family: var(--body-font); /* Custom font */
+  font-size: 0.9rem;
+  /* Smaller font size */
+  color: #666;
+  /* Medium grey text color */
+  font-family: var(--body-font);
+  /* Custom font */
 }
 
-.prev-button, .next-button {
+.prev-button,
+.next-button {
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   border-radius: 50px;
-  padding: 20px 20px; /* Adjust padding to increase button size */
+  padding: 20px 20px;
+  /* Adjust padding to increase button size */
   cursor: pointer;
   z-index: 4;
 }
@@ -315,7 +333,7 @@
   margin-left: 8rem;
 }
 
-.charter__content__left > img {
+.charter__content__left>img {
   width: 80%;
 }
 
@@ -339,10 +357,11 @@
   transform: translateX(-50%);
 }
 
-.charter__content__left__student > p {
+.charter__content__left__student>p {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 /* count */
 .charter__content__left__student__avatar-list {
   margin-top: 25px;
@@ -352,7 +371,7 @@
   border: 2px;
 }
 
-.charter__content__left__student__avatar-list > * {
+.charter__content__left__student__avatar-list>* {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -426,12 +445,12 @@
 }
 
 /* News & Content message */
-#index-blogs__content > p {
+#index-blogs__content>p {
   font-size: 3.8rem;
   font-weight: 800;
 }
 
-#index-blogs__content > p > span {
+#index-blogs__content>p>span {
   font-weight: 300;
   color: #0d5ef4;
 }
@@ -442,8 +461,70 @@
   gap: 3rem;
 }
 
+/* Get called when window is landscape and its width starts from 0 until 1350px */
+@media screen and (max-width: 1100px) {
+  .charter__content {
+    flex-direction: column;
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .charter__content__left {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .charter__content__left>img {
+    width: 100%;
+  }
+
+  .charter__content__left__student {
+    top: 70%;
+    transform: unset;
+    right: unset;
+    left: 0%;
+    width: fit-content;
+  }
+
+  .charter__content__right {
+    width: 100%;
+  }
+
+  .charter__content__right>h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .charter__content__right>p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .charter__content__right__checklist {
+    gap: 2rem;
+    width: fit-content;
+    margin-top: 2rem;
+    overflow: visible;
+  }
+
+  .charter__content__right__checklist div {
+    font-size: 1rem;
+    overflow: visible;
+  }
+
+  .charter__content__right__checklist div div {
+    height: 2rem;
+    width: 2rem;
+    overflow: visible;
+  }
+
+  #index-blogs__content__items {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*
-  If the screen width ranges from 0 - 1300px.
+  Get called when window is landscape and its width starts from 0 until 1600px
   Any screen width lesser than 1300px will set the width back to default in its own styling.
 */
 @media screen and (max-width: 1600px) {
@@ -454,6 +535,7 @@
 }
 
 /*
+  Get called when window is landscape and its width starts from 0 until 1600px
   If the screen is wider than 1500px set the width to 70%
 
   +------------------------------+
@@ -504,7 +586,7 @@
     width: 100%;
   }
 
-  .school-description__main__content > :not(a) {
+  .school-description__main__content> :not(a) {
     margin-bottom: 2rem;
   }
 
@@ -512,11 +594,11 @@
     width: 25px;
   }
 
-  .top-courses__title-box > p {
+  .top-courses__title-box>p {
     font-size: 1rem;
   }
 
-  .top-courses__title-box > h2 {
+  .top-courses__title-box>h2 {
     display: flex;
     white-space: nowrap;
     gap: 0.5rem;
@@ -550,7 +632,7 @@
     margin-left: 0;
   }
 
-  .charter__content__left > img {
+  .charter__content__left>img {
     width: 100%;
   }
 
@@ -562,15 +644,43 @@
     width: fit-content;
   }
 
+  .charter__content__right {
+    width: 100%;
+  }
+
+  .charter__content__right>h1 {
+    font-size: 2rem;
+  }
+
+  .charter__content__right>p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .charter__content__right__checklist {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: fit-content;
+    margin-top: 2rem;
+    overflow: visible;
+  }
+
+  .charter__content__right__checklist div {
+    font-size: 1rem;
+    overflow: visible;
+  }
+
   .charter__content__right__checklist div div {
-    width: 33px;
+    height: 2rem;
+    width: 2rem;
+    overflow: visible;
   }
 
   #index-blogs__content {
     width: 90%;
   }
 
-  #index-blogs__content > p {
+  #index-blogs__content>p {
     font-size: 2rem;
   }
 

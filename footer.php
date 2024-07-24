@@ -1,95 +1,72 @@
-<footer class ="footer_main">
-        <?php include 'floating_footer.php' ?>
-            <div class="footer_main__footer_area">
-              <div class="footer_main__footer_area__container">
-                <div class="footer_main__footer_area__container__row_footer">
+<footer>
 
-                <div class="footer_main__footer_area__container__row_footer__col_footer">
-                    <div class="footer_main__footer_area__container__row_footer__col_footer__object_about">
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object_about__object_logo">
-                            <a href="#"><img alt="Rmmc" src="assets/img/white-logo.png"></a>
-                        </div>
-                        <p class="footer_main__footer_area__container__row_footer__col_footer__object_about__iso_description">Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges  and Universities -Commission on Accreditation. </p>
-                        <h4 class="footer_main__footer_area__container__row_footer__col_footer__object_about__footer_info_title">Follow Us On:</h4>
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object_about__social">
-                            <a href="https://www.facebook.com/rmmcgensanofficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.instagram.com/rmmcsmcc/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object_about__iso_logo">
-                            <img src="assets/img/iso.png" alt="Rmmc" class="footer_main__footer_area__container__row_footer__col_footer__object_about__iso_logo__iso_img" />
-                            <span class="footer_main__footer_area__container__row_footer__col_footer__object_about__iso_logo__iso_text">ISO 9001:2015 CERTIFIED</span>
-                        </div>
-                    </div>
-                </div>
+  <?php include 'floating_footer.php' ?>
 
+  <div id="footer-top">
 
-                    <div class="footer_main__footer_area__container__row_footer__col_footer">
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__nav footer_main__footer_area__container__row_footer__col_footer__footer_object">
-                            <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Quick Link</h3>
-                            <div class="footer_main__footer_area__container__row_footer__col_footer__all_pages_container">
-                                <ul class="footer_main__footer_area__container__row_footer__col_footer__all_pages_container__all_pages_menu">
-                                    <li><a href="#">Life Coach</a></li>
-                                    <li><a href="#">Business Coach</a></li>
-                                    <li><a href="#">Health Coach</a></li>
-                                    <li><a href="#">Development</a></li>
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">SEO Optimize</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <div class="footer-top__column">
+      <a href="/"><img src="assets/img/white-logo.png" alt="RMMC"></a>
+      <p>Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with
+        PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges and Universities
+        -Commission on Accreditation. </p>
+      <div>
+        <h4>Follow Us On:</h4>
+        <ul>
+          <a href="https://www.facebook.com/rmmcgensanofficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/rmmcsmcc/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
+        </ul>
+      </div>
+      <div>
+        <img src="assets/img/iso.png" alt="Rmmc" />
+        <p>ISO 9001:2015 CERTIFIED</p>
+      </div>
+    </div>
 
-                    <div class="footer_main__footer_area__container__row_footer__col_footer">
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__nav footer_main__footer_area__container__row_footer__col_footer__footer_object">
-                            <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Resources</h3>
-                            <div class="footer_main__footer_area__container__row_footer__col_footer__all_pages_container">
-                                <ul class="footer_main__footer_area__container__row_footer__col_footer__all_pages_container__all_pages_menu">
-                                    <li><a href="underCons.php"target = "_block">Community</a></li>
-                                    <li><a href="underCons.php"target = "_block">Support</a></li>
-                                    <li><a href="underCons.php"target = "_block">Video Guides</a></li>
-                                    <li><a href="underCons.php"target = "_block">Documentation</a></li>
-                                    <li><a href="underCons.php"target = "_block">Security</a></li>
-                                    <li><a href="underCons.php"target = "_block">Template</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <div class="footer-top__column">
+      <h3>Quick Link</h3>
+      <ul>
+        <li>Life Coach</li>
+        <li>Business Coach</li>
+        <li>Health Coach</li>
+        <li>Development</li>
+        <li>Web Design</li>
+        <li>SEO Optimize</li>
+      </ul>
+    </div>
 
-                    <div class="footer_main__footer_area__container__row_footer__col_footer">
-                        <div class="footer_main__footer_area__container__row_footer__col_footer__object footer_main__footer_area__container__row_footer__col_footer__footer_object footer_main__footer_area__container__row_footer__col_footer__form">
-                            <h3 class="footer_main__footer_area__container__row_footer__col_footer__object_title">Get in touch!</h3>
-                            <form class="footer_main__footer_area__container__row_footer__col_footer__object__newsletter_object">
-                                <div class="footer_main__footer_area__container__row_footer__col_footer__form_group footer_main__footer_area__container__row_footer__col_footer__input_container">
-                                    <input type = "email" class="footer_main__footer_area__container__row_footer__col_footer__form_group__form_control" placeholder = "Enter Email" required = "">
-                                    <i class = "fal fa-envelope"></i>
-                                </div>
-                                <button class="footer_main__footer_area__container__row_footer__col_footer__object__newsletter_object__subs_btn btn_style" type ="submit">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-             </div>
-           </div>
+    <div class="footer-top__column">
+      <h3>Recourses</h3>
+      <ul>
+        <li>Community</li>
+        <li>Support</li>
+        <li>Video Guides</li>
+        <li>Documentation</li>
+        <li>Security</li>
+        <li>Template</li>
+      </ul>
+    </div>
 
-           <div class="footer_main__container">
-            <div class="footer_main__container__copyright_wrap">
-                <div class="footer_main__container__copyright_wrap__row_footer">
-                    <div class="footer_main__container__copyright_wrap__row_footer__col_footer">
-                        <p class="footer_main__container__copyright_wrap__row_footer__col_footer__copyright_txt">Copyright 2024 <a href="#">Custard Apple</a>. All Rights Reserved.</p>
-                    </div>
-                    <div class="footer_main__container__copyright_wrap__row_footer__col_footer footer_main__container__copyright_wrap__row_footer__text_end">
-                        <div class="footer_main__container__copyright_wrap__row_footer__col_footer__footer_links">
-                                <a href="underCons.php"target = "_block">Privacy Policy</a>
-                                <a href="underCons.php"target = "_block">Terms of Use</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_main__container__bckgrnd_img">
-            <img src="assets/img/shape/footer_shape_3.png" alt="background">
-            </div>
-           </div>
-    </footer>
+    <div class="footer-top__column">
+      <form>
+        <h3>Get in touch!</h3>
+        <div>
+          <input type="email" placeholder="Enter Email" required="">
+          <i class="fal fa-envelope"></i>
+        </div>
+        <button class="button--primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer-bottom">
+    <p>Copyright 2024 Custard Apple. All Rights Reserved.</p>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+    </div>
+  </div>
+
+</footer>

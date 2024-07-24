@@ -38,7 +38,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -58,7 +58,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -77,7 +77,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -94,7 +94,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -111,7 +111,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -128,7 +128,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -145,7 +145,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>
@@ -162,7 +162,7 @@ require 'header.php';
                         <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="course-details.php" class="name_course">Bachelor of
+                            <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
                                     Science in Criminology</a></h3>
                             <div class="course-meta">
                                 <span>Lesson 18</span>

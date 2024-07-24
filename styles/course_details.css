@@ -127,12 +127,16 @@ body {
 
 }
 
+.course__content__left__bottom__tabs__tab:hover {
+    color: #007bff;
+
+}
+
 .course__content__left__bottom__tabs__tab.active {
     color: #007BFF;
     font-weight: bold;
     border-top: 3px solid #007BFF;
 }
-
 
 /* .btn {
     padding: 0.75rem 1.5rem;
@@ -142,12 +146,6 @@ body {
     text-decoration: none;
     display: inline-block;
 } */
-
-
-
-
-
-
 
 .course__content__left__bottom__content {
     width: 100%;
@@ -166,9 +164,6 @@ body {
     font-size: 13px;
     margin-bottom: 1rem;
 }
-
-
-
 
 /* Sidebar */
 .course__content__right {
@@ -264,10 +259,11 @@ body {
     display: flex;
     align-items: center;
     margin-right: 20px;
-    color: #666;
+    
 }
 .course__content__left__bottom__content__instructor__card__stats div i {
     margin-right: 5px;
+    color: #007BFF;
 }
 .course__content__left__bottom__content__instructor__card__social {
     display: flex;
@@ -286,6 +282,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: #007BFF;
     text-decoration: none;
+}
+
+.course__content__left__bottom__content__instructor__card__social a:hover {
+    color: #ffffff;
+    background-color: #007BFF;
 }
 .course__content__left__bottom__content__instructor__card__social a i {
     font-size: 1.2em;

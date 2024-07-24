@@ -3,7 +3,7 @@ $page = 'course_details';
 require 'header.php';
 ?>
 <?php include 'nav-bar.php' ?>
-<link rel="stylesheet" href="styles/course_details.css">
+
 <div class="breadcrumb-card">
     <div class="breadcrumb-card__box">
         <h1 class="breadcrumb-card__box__title">COURSE DETAILS</h1>
@@ -121,6 +121,63 @@ require 'header.php';
                             </div>
                         </div>
                     </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course__content__left__bottom__content__instructor__card">
+                        <img src="assets\img\836.jpg" alt="Instructor">
+                        <div class="course__content__left__bottom__content__instructor__card__details">
+                            <h3>Kevin Nunez</h3>
+                            <p>Optimize resource leveling innovation whereas visionary value. Compellingly engage
+                                extensible process with business process improvements.</p>
+                            <div class="course__content__left__bottom__content__instructor__card__stats">
+                                <div><i class="fas fa-book"></i> 4 Courses</div>
+                                <div><i class="fas fa-user"></i> 2500 Students</div>
+                            </div>
+                            <div class="course__content__left__bottom__content__instructor__card__social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="reviews" class="course__content__left__bottom__content" style="display:none;">
@@ -148,16 +205,6 @@ require 'header.php';
         </aside>
     </div>
 
-    <script>
-        function showContent(id) {
-            const tabs = document.querySelectorAll('.course__content__left__bottom__tabs__tab');
-            const contents = document.querySelectorAll('.course__content__left__bottom__content');
-            tabs.forEach(course__content__left__bottom__tabs__tab => course__content__left__bottom__tabs__tab.classList.remove('active'));
-            contents.forEach(course__content__left__bottom__content => course__content__left__bottom__content.style.display = 'none');
-            document.getElementById(id).style.display = 'block';
-            document.querySelector(`.course__content__left__bottom__tabs__tab[onclick="showContent('${id}')"]`).classList.add('active');
-        }
-    </script>
 </section>
 
 <?php include 'footer.php' ?>

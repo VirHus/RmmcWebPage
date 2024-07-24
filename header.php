@@ -64,6 +64,7 @@
         <title>RMMC - College Of Engineering</title>
     <?php elseif ($page == 'news'): ?>
         <link rel="stylesheet" href="styles/news.css">
+        <script src="scripts/news.js" defer></script>
         <title>RMMC - News</title>
     <?php elseif ($page == 'contact'): ?>
         <link rel="stylesheet" href="styles/contact.css">

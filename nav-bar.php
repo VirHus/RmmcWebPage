@@ -57,7 +57,7 @@
           </a>
         </div>
 
-        <button id="phone-toggle-nav-bottom-content-right" class="button--primary">
+        <button id="phone-toggle-nav-bottom-content-right" class="button button--primary">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>

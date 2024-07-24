@@ -5,7 +5,7 @@
 
     <div>
       <a href="http://system.rmmc.edu.ph/rmmcweb/collegeenroll" id="floating-footer-register"
-        class="button--primary">REGISTER NOW
+        class="button button--primary">REGISTER NOW
         <img src="assets/img/icon/arrow-right.png" id="floating-footer-right-arrow">
       </a>
     </div>

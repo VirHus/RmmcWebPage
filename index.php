@@ -21,7 +21,7 @@
         <p class="welcome-section__content__left__texts__item">ISO 9001:2015 CERTIFIED</p>
       </div>
 
-      <a class="button--primary" href="course.php">Enroll Now</a>
+      <a class="button button--primary" href="course.php">Enroll Now</a>
     </div>
 
     <!-- Uncomment or add a new image here -->
@@ -48,7 +48,7 @@
         Our unique learning environment sparks physical growth
       </div>
 
-      <a class="button--primary" href="contact.php">Get More Info</a>
+      <a class="button button--primary" href="contact.php">Get More Info</a>
     </div>
 
   </div>
@@ -122,7 +122,7 @@
     <p>News &amp; <span>Events</span></p>
     <div id="index-blogs__content__items"> <!-- News cards here ---> </div>
     <div id="index-blogs__content__option">
-      <button class="button--primary" href="news.php">VIEW ALL</button>
+      <button class="button button--primary" href="news.php">VIEW ALL</button>
     </div>
   </div>
 </section>

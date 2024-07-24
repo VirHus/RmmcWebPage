@@ -1,20 +1,15 @@
 <?php
 $page = 'course_details';
 require 'header.php';
+
+include 'nav-bar.php';
+include 'breadcrumb.php';
+
+renderBreadcrumb('COURSE DETAILS', [
+    ['url' => 'index.php', 'text' => 'Home'],
+    ['url' => 'course_details.php', 'text' => 'Course Details', 'svg' => true]
+]);
 ?>
-<?php include 'nav-bar.php' ?>
-
-<div class="breadcrumb-card">
-    <div class="breadcrumb-card__box">
-        <h1 class="breadcrumb-card__box__title">COURSE DETAILS</h1>
-        <ul class="breadcrumb-card__box__menu">
-            <a class="breadcrumb-card__box__menu__item__link" href="index.php">Home</a>
-            <a class="breadcrumb-card__box__menu__item__link" href="index.php"><i class="fa-solid fa-angle-right"></i>
-                Course Details</a>
-        </ul>
-    </div>
-</div>
-
 <section class="course">
     <div class="course__content">
         <div class="course__content__left">
@@ -81,7 +76,7 @@ require 'header.php';
                         that you can never lose is your education.</p>
                 </div>
 
-                
+
                 <div id="instructor" class="course__content__left__bottom__content" style="display:none;">
 
                     <div class="course__content__left__bottom__content__instructor__card">

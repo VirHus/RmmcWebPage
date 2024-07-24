@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("./breadcrumb.css");
 @import url("./blog-card.css");
 @import url('./animation.css');
 
@@ -14,7 +15,7 @@ body {
     overflow-x: hidden;
 }
 
-.button--primary {
+.button {
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -23,12 +24,12 @@ body {
     border: none;
     text-transform: uppercase;
     text-align: center;
-    background-color: #0d5ef4;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
     padding: 20.5px 29px;
+    background-color: white;
     box-shadow: 0px 6px 16px rgba(13, 94, 244, 0.24);
     border-radius: 5px;
     transition: 300ms;
@@ -38,31 +39,44 @@ body {
     place-items: center;
 }
 
-.button--primary:before {
+.button--primary::before,
+.button--primary::after {
+    background-color: #0d5ef4;
+}
+
+.button--danger::before,
+.button--danger::after {
+    background-color: #dc3545;
+}
+
+.button::before, .button::after {
     content: "";
     position: absolute;
-    height: 0%;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    background-color: #ffffff;
-    transform: translateX(-50%) translateY(-50%) rotate(60deg);
+    width: 50%;
+    height: 100%;
+    top: 0;
+    transition: 0.6s ease-in-out;
     z-index: -1;
-    transition: 0.4s ease;
 }
 
-.button--primary:hover,
-.button--primary.active {
-    color: #0f2239;
+.button::before {
+    left: 0;
 }
 
-.button--primary:hover::before,
-.button--primary.active::before {
-    height: 320%;
+.button::after {
+    right: 0;
 }
 
-.button--primary.btn_style {
-    box-shadow: none;
+.button:hover {
+    color: black;
+}
+
+.button:hover::before {
+    transform: translateX(-100%);
+}
+
+.button:hover::after {
+    transform: translateX(100%);
 }
 
 #rmmc-background-image {

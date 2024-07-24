@@ -56,7 +56,7 @@
           <input type="email" placeholder="Enter Email" required="">
           <i class="fal fa-envelope"></i>
         </div>
-        <button class="button--primary" type="submit">Subscribe</button>
+        <button class="button button--primary" type="submit">Subscribe</button>
       </form>
     </div>
   </div>

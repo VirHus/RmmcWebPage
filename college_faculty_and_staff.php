@@ -35,83 +35,27 @@ require 'header.php';
 
 <!-- CONTENT-->
 <div class="faculty_and_staff_data_container">
-    <?php
-    // Example PHP array for staff data
-    $staffMembers = [
-        [
-            'name' => 'FULL NAME ',
-            'email' => 'your@gmail.com',
-            'tel' => '##########',
-            'orcid' => '######',
-            'profileImg' => 'assets/img/normal/student_1_3_new.png',
-            'positions' => ['MSIS, Dean of College of Engineering and Technology'],
-            'educationalAttainment' => [
-                'List',
-                'List',
-                'List',
-                '...'
-            ],
-            'fieldsOfSpecialization' => ['List','List','...'],
-            'researchInterests' => ['List', 'List', 'List','...']
-        ],
-        [
-            'name' => 'BENJAR BULACON',
-            'email' => 'ikawbahaladiriah@gmail.com',
-            'tel' => 'wewewewewe',
-            'orcid' => '34234234',
-            'profileImg' => 'assets/img/normal/student_1_3_new.png',
-            'positions' => ['Company Director ng wala naga exist na company'],
-            'educationalAttainment' => [
-                'Bachelor of Di Sigurado sa Life',
-                'Master of Malaks Kumain Pero Di Tumataba',
-                'Doctor of Philosophy in Virtual World Language (Completed Academic Requirements)Doctor of Philosophy in Virtual World Language (Completed Academic Requirements)'
-            ],
-            'fieldsOfSpecialization' => ['Language'],
-            'researchInterests' => ['Linguistics', 'Language and Culture', 'Mindanao Studies']
-        ],
-        [
-            'name' => 'BENJAR BULACON',
-            'email' => 'bastaoki@gmail.com',
-            'tel' => 'oki kaayo',
-            'orcid' => '123alabyu',
-            'profileImg' => 'assets/img/normal/student_1_3_new.png',
-            'positions' => ['Tambay lng sa kanto'],
-            'educationalAttainment' => [
-                'Bachelor of Arts in English',
-                'Master of English in Applied Linguistics',
-                'Doctor of Philosophy in English Studies major in Language (Completed Academic Requirements)'
-            ],
-            'fieldsOfSpecialization' => ['Language'],
-            'researchInterests' => ['Linguistics', 'Language and Culture', 'Mindanao Studies']
-        ]
-
-    ];
-
-    foreach ($staffMembers as $index => $staff) {
-    ?>
     <div class="staff_container">
         <div class="profile_container">
-            <img src="<?php echo $staff['profileImg']; ?>" class="staff_profile">
+            <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
         </div>
 
         <div class="staff_info_container">
             <div class="staff_name_and_profile_button_container">
                 <ul>
-                    <li class="profile_name_tab <?php echo $index === 0 ? 'active' : ''; ?>"><img src="assets/img/icon/user-icon.png"><span><?php echo $staff['name']; ?></span></li>
+                    <li class="profile_name_tab active"><img src="assets/img/icon/user-icon.png"><span>FULL NAME</span></li>
                     <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
                 </ul>
             </div>
 
-            <div class="profile_name_container <?php echo $index === 0 ? 'active' : ''; ?>">
+            <div class="profile_name_container active">
                 <div class="name_container">
-                    <h1><?php echo $staff['name']; ?></h1>
+                    <h1>FULL NAME</h1>
                     <ul>
-                        <?php foreach ($staff['positions'] as $position) { ?>
-                        <li><?php echo $position; ?></li>
-                        <?php } ?>
-                        <li>Email: <span><?php echo $staff['email']; ?></span></li>
-                        <li>Tel: <span><?php echo $staff['tel']; ?></span></li>
-                        <li>ORCID No.: <span><?php echo $staff['orcid']; ?></span></li>
+                        <li>MSIS, Dean of College of Engineering and Technology</li>
+                        <li>Email: <span>your@gmail.com</span></li>
+                        <li>Tel: <span>##########</span></li>
+                        <li>ORCID No.: <span>######</span></li>
                     </ul>
                 </div>
             </div>
@@ -119,33 +63,134 @@ require 'header.php';
                 <div class="educ_attainment_container">
                     <h4>EDUCATIONAL ATTAINMENT</h4>
                     <ul>
-                        <?php foreach ($staff['educationalAttainment'] as $education) { ?>
-                        <li><?php echo $education; ?></li>
-                        <?php } ?>
+                        <li>List</li>
+                        <li>List</li>
+                        <li>List</li>
+                        <li>...</li>
                     </ul>
                 </div>
                 <div class="fields_specialization_container">
                     <h4>FIELD/S OF SPECIALIZATION</h4>
                     <ul>
-                        <?php foreach ($staff['fieldsOfSpecialization'] as $field) { ?>
-                        <li><?php echo $field; ?></li>
-                        <?php } ?>
+                        <li>List</li>
+                        <li>List</li>
+                        <li>...</li>
                     </ul>
                 </div>
                 <div class="research_interest_container">
                     <h4>RESEARCH INTEREST</h4>
                     <ul>
-                        <?php foreach ($staff['researchInterests'] as $interest) { ?>
-                        <li><?php echo $interest; ?></li>
-                        <?php } ?>
+                        <li>List</li>
+                        <li>List</li>
+                        <li>List</li>
+                        <li>...</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <?php
-    }
-    ?>
+
+    <div class="staff_container">
+        <div class="profile_container">
+            <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
+        </div>
+
+        <div class="staff_info_container">
+            <div class="staff_name_and_profile_button_container">
+                <ul>
+                    <li class="profile_name_tab"><img src="assets/img/icon/user-icon.png"><span>BENJAR BULACON</span></li>
+                    <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
+                </ul>
+            </div>
+
+            <div class="profile_name_container">
+                <div class="name_container">
+                    <h1>BENJAR BULACON</h1>
+                    <ul>
+                        <li>Company Director ng wala naga exist na company</li>
+                        <li>Email: <span>ikawbahaladiriah@gmail.com</span></li>
+                        <li>Tel: <span>wewewewewe</span></li>
+                        <li>ORCID No.: <span>34234234</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="staff_profile_background_container">
+                <div class="educ_attainment_container">
+                    <h4>EDUCATIONAL ATTAINMENT</h4>
+                    <ul>
+                        <li>Bachelor of Di Sigurado sa Life</li>
+                        <li>Master of Malaks Kumain Pero Di Tumataba</li>
+                        <li>Doctor of Philosophy in Virtual World Language (Completed Academic Requirements)</li>
+                    </ul>
+                </div>
+                <div class="fields_specialization_container">
+                    <h4>FIELD/S OF SPECIALIZATION</h4>
+                    <ul>
+                        <li>Language</li>
+                    </ul>
+                </div>
+                <div class="research_interest_container">
+                    <h4>RESEARCH INTEREST</h4>
+                    <ul>
+                        <li>Linguistics</li>
+                        <li>Language and Culture</li>
+                        <li>Mindanao Studies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="staff_container">
+        <div class="profile_container">
+            <img src="assets/img/normal/student_1_3_new.png" class="staff_profile">
+        </div>
+
+        <div class="staff_info_container">
+            <div class="staff_name_and_profile_button_container">
+                <ul>
+                    <li class="profile_name_tab"><img src="assets/img/icon/user-icon.png"><span>BENJAR BULACON</span></li>
+                    <li class="profile_background_tab"><img src="assets/img/icon/circle-info-icon.png">PROFILE</li>
+                </ul>
+            </div>
+
+            <div class="profile_name_container">
+                <div class="name_container">
+                    <h1>BENJAR BULACON</h1>
+                    <ul>
+                        <li>Tambay lng sa kanto</li>
+                        <li>Email: <span>bastaoki@gmail.com</span></li>
+                        <li>Tel: <span>oki kaayo</span></li>
+                        <li>ORCID No.: <span>123alabyu</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="staff_profile_background_container">
+                <div class="educ_attainment_container">
+                    <h4>EDUCATIONAL ATTAINMENT</h4>
+                    <ul>
+                        <li>Bachelor of Arts in English</li>
+                        <li>Master of English in Applied Linguistics</li>
+                        <li>Doctor of Philosophy in English Studies major in Language (Completed Academic Requirements)</li>
+                    </ul>
+                </div>
+                <div class="fields_specialization_container">
+                    <h4>FIELD/S OF SPECIALIZATION</h4>
+                    <ul>
+                        <li>Language</li>
+                    </ul>
+                </div>
+                <div class="research_interest_container">
+                    <h4>RESEARCH INTEREST</h4>
+                    <ul>
+                        <li>Linguistics</li>
+                        <li>Language and Culture</li>
+                        <li>Mindanao Studies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -190,6 +235,8 @@ require 'header.php';
 
         </script>
 
+
+            <!-- SCRIPT FOR STAFF AND FACULTY DATA-->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     let staffContainers = document.querySelectorAll(".staff_container");

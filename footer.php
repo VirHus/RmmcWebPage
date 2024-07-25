@@ -62,7 +62,7 @@
   </div>
 
   <div id="footer-bottom">
-    <p>Copyright 2024 Custard Apple. All Rights Reserved.</p>
+    <p>Copyright 2024 <span><a href="">Custard Apple</a></span>. All Rights Reserved.</p>
     <div>
       <a href="#">Privacy Policy</a>
       <a href="#">Terms of Use</a>

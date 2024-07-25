@@ -23,10 +23,9 @@ navBottom.onclick = (event) => {
   });
 
   // Opens the targeted sublist
-  if (event.target.tagName === 'LI') {
+  if (event.target.tagName === 'LI' || event.target.parentElement.tagName === 'LI') {
     const listElements = [...event.target.children].filter((child) => child.tagName === 'UL');
     const sublist = listElements.length > 0 ? listElements[0] : null;
-
     if (!sublist) {
       return;
     }

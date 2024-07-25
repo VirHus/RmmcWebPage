@@ -177,7 +177,7 @@ if (blogs.length > 0) {
           <p class="blog-card__content__title">${blog.title}</p>
 
           <div class="blog-card__content__bottom">
-            <a class="button--primary" href="${blog.redirectLink}">View</a>
+            <a class="button button--primary" href="${blog.redirectLink}">View</a>
 
             <div class="blog-card__content__bottom__author">
               <img alt="Avatar" src="${blog.authorImage ?? defaultAvatar}">

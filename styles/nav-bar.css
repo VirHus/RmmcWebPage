@@ -178,6 +178,20 @@ nav {
   display: none;
 }
 
+/* Main nav bar items div */
+.nav-bottom-content-right__item div {
+  pointer-events: none;
+}
+
+/* Divs for nested li items */
+.nav-bottom-content-right__item li > div {
+  white-space: nowrap;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  pointer-events: none;
+}
+
 /* Overriden style for all ul deeply nested except for the first ul of nav item */
 .nav-bottom-content-right__item ul li ul {
   position: unset;
@@ -211,10 +225,6 @@ nav {
     display: none;
   }
 
-  #nav-bottom-content-right {
-    display: none;
-  }
-
   #nav-bottom-content {
     padding: 0.5rem 1rem;
     flex-direction: column;
@@ -237,6 +247,39 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    gap: unset;
+    padding: 0 1rem;
+  }
+
+  .nav-bottom-content-right__item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-bottom-content-right__item ul {
+    padding: 0.5rem;
+  }
+
+  .nav-bottom-content-right__item ul li ul {
+    width: 100%;
+    padding: 1rem 0 0 1rem;
+  }
+
+  .nav-bottom-content-right__item ul.active {
+    display: flex;
+    position: unset;
+    border-radius: unset;
+    background-color: unset;
+    padding-bottom: unset;
+    width: 100%;
+  }
+
+  .nav-bottom-content-right__item a {
+    white-space: unset;
+  }
+
+  .nav-bottom-content-right__item li > div {
+    white-space: wrap;
   }
 
   #nav-bottom-content-right li:hover {

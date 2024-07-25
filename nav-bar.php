@@ -57,7 +57,7 @@
           </a>
         </div>
 
-        <button id="phone-toggle-nav-bottom-content-right" class="button--primary">
+        <button id="phone-toggle-nav-bottom-content-right" class="button button--primary">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -71,7 +71,9 @@
         <li class="nav-bottom-content-right__item">
 
           <!-- Admission \/ -->
-          Admission <i class="fa-solid fa-angle-down"></i>
+          <div>
+            Admission <i class="fa-solid fa-angle-down"></i>
+          </div>
 
           <ul>
             <li>
@@ -95,28 +97,30 @@
         <li class="nav-bottom-content-right__item">
 
           <!-- Academics \/ -->
-          Academics <i class="fa-solid fa-angle-down"></i>
+          <div>
+            Academics <i class="fa-solid fa-angle-down"></i>
+          </div>
 
           <ul>
             <li>
-              <a href="#">
+              <div>
                 <i class="fa-solid fa-book"></i> Graduate Studies
-              </a>
+              </div>
             </li>
             <li>
-              <a href="#">
+              <div>
                 <i class="fa-solid fa-book"></i> Expanded Tertiary Education Acceleration Program
-              </a>
+              </div>
             </li>
             <li>
-              <a href="#">
+              <div>
                 <i class="fa-solid fa-book"></i> Technical & Vocational
-              </a>
+              </div>
             </li>
             <li>
-              <a href="#">
+              <div>
                 <i class="fa-solid fa-book"></i> Colleges
-              </a>
+              </div>
               <ul>
                 <li>
                   <a href="">
@@ -125,7 +129,7 @@
                 </li>
                 <li>
                   <a href="">
-                    <i class="fa-solid fa-book"></i> College of Business Educatiuon
+                    <i class="fa-solid fa-book"></i> College of Business Education
                   </a>
                 </li>
                 <li>
@@ -150,7 +154,9 @@
         <li class="nav-bottom-content-right__item">
 
           <!-- News \/ -->
-          News <i class="fa-solid fa-angle-down"></i>
+          <div>
+            News <i class="fa-solid fa-angle-down"></i>
+          </div>
 
           <ul>
             <li>
@@ -169,7 +175,9 @@
         <li class="nav-bottom-content-right__item">
 
           <!-- Student \/ -->
-          Student <i class="fa-solid fa-angle-down"></i>
+          <div>
+            Student <i class="fa-solid fa-angle-down"></i>
+          </div>
 
           <ul>
             <li>

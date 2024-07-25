@@ -1,0 +1,44 @@
+.breadcrumb-card {
+    background-image: url('../assets/img/breadcumb/breadcumb-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5rem 1rem;
+}
+
+.breadcrumb-card__box__title {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.breadcrumb-card__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.breadcrumb-card__box__menu {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.breadcrumb-card__box__menu__item__link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 0.5rem;
+}
+
+#caret-right {
+    width: 1rem;
+}
+
+#caret-right > * {
+    stroke: white;
+}

@@ -50,6 +50,28 @@ footer h3::before {
     margin-bottom: 1.2rem;
 }
 
+.footer-top__column > div > ul > a{
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #1e2c46;
+}
+
+.footer-top__column > div > ul > a:hover{
+    background-color: #007bff;
+    transition: 500ms ease;
+}
+
+.footer-top__column li:hover{
+    color: #ffffff;
+    transition: 500ms ease;
+}
+
 /* First column */
 .footer-top__column:first-child {
     align-items: flex-start;
@@ -83,7 +105,7 @@ footer h3::before {
     justify-content: center;
     border-radius: 50%;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     background-color: #1e2c46;
     font-size: 1.4rem;
 }
@@ -100,7 +122,7 @@ footer h3::before {
     align-items: center;
     gap: 1rem;
     font-size: 1rem;
-    color: white;
+    color: #ffffff;
 }
 
 /* First Column: ISO Image */
@@ -130,6 +152,7 @@ footer h3::before {
     background-color: transparent;
     font-size: 16px;
     outline: none;
+    color: #ffffff;
     caret-color: rgb(255, 255, 255);
     border: none;
 }
@@ -159,11 +182,24 @@ footer h3::before {
     gap: 1.7rem;
 }
 
+#footer-bottom >div >a:hover{
+    color: #ffffff;
+    transition: 500ms ease;
+}
+
 #footer-bottom > div > a {
     color: #b3c1d3;
     text-decoration: none;
 }
 
+#footer-bottom span > a {
+    color: #b3c1d3;
+    text-decoration: none;
+ }
+
+ #footer-bottom span > a:hover{
+    color: #ffffff;
+ }
 /* Last Column: Privacy Policy, Terms and Conditions elements */
 #footer-bottom top {
     text-decoration: none;

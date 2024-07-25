@@ -3,7 +3,7 @@ $page = 'library';
 require 'header.php';
 ?>
 <?php include 'nav-bar.php' ?>
-<link rel="stylesheet" href="styles/library.css">
+<link rel="stylesheet" href="styles/college.css">
 
 <div class="colleges_main-container">
 
@@ -32,15 +32,15 @@ require 'header.php';
     </div>
 
     <!--FOR COLLEGE LOGO, MISSION, VISSION, AND GOALS-->
-
+    <section>
         <div class="logo-and-mv-container">
 
-            <div class="logo-container">
+            <!-- <div class="logo-container">
                 <image src="assets/img/rmmc-library-logo.png" class="logo"></image>
             </div>
 
             <div class="mission-vission-container">
-                <!--FOR MISSION-->
+
                 <div class="mission-container">
                     <div class="mission-text">Vision</div>
                     <p>
@@ -50,7 +50,7 @@ require 'header.php';
                     </p>
                 </div>
 
-                <!--FOR VISSION-->
+
                 <div class="vission-container">
                     <div class="vission-text">Mission</div>
                     <p>
@@ -59,7 +59,7 @@ require 'header.php';
                         developing, enriching, and preserving its Filipiniana collections.
                     </p>
                 </div>
-                <!--FOR GOALS-->
+ 
                 <div class="goals-container">
                     <div class="goals-text">Goals</div>
                     <ul>Offer the clients with the best and relevant information within a suitable environment.
@@ -85,63 +85,13 @@ require 'header.php';
                     </ul>
                 </div>
 
+            </div> -->
 
+            
+        </div> 
 
-            </div>
-        </div>
-
-    <script>
-    function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
-
-        // Hide all tab contents
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Remove the active class from all tab links
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab and add an active class to the button
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-
-    // Set the default tab to be open
-    document.getElementsByClassName("tablinks")[0].click();
-</script>
-
-<script>
-    // Scroll Button Functionality
-    const scrollButton = document.querySelector('.colleges_scroll-up-link-button');
-
-    function toggleScrollButton() {
-        if (window.scrollY > 200) {
-            scrollButton.style.opacity = '1';
-            scrollButton.style.transform = 'translateY(0)';
-        } else {
-            scrollButton.style.opacity = '0';
-            scrollButton.style.transform = 'translateY(-100vh)';
-        }
-    }
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    window.addEventListener('scroll', toggleScrollButton);
-    scrollButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        scrollToTop();
-    });
-</script>
+        
+    </section>
 
 
 

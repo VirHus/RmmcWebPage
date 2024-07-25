@@ -109,7 +109,7 @@
     flex-wrap: wrap;
     padding-top:70px;
     background-color: rgba(255, 255, 255, 0.815);
-    padding: 50px 0px 200px 0px;
+    padding: 50px 0px 50px 0px;
     gap:100px;
     
 }  
@@ -401,81 +401,6 @@
 .fields_specialization_container h4,
 .research_interest_container h4 {
     color: rgb(0, 0, 51);
-}
-         
-
-
-.library-content-container {
-    display: flex;
-    gap: 20px; /* Add spacing between image container and tab menu */
-    margin: 1rem;
-    margin-bottom: 15rem;
-}
-
-.library-images-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px; /* Spacing between images */
-}
-
-.library-image {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.tab-menu {
-    flex: 2;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-}
-
-.tabs {
-    display: flex;
-    border-bottom: 1px solid #ccc;
-}
-
-.tablinks {
-    background-color: #f1f1f1;
-    color: #333;
-    padding: 10px 20px;
-    margin-right: 5px;
-    border: none;
-    cursor: pointer;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.tablinks:hover {
-    background-color: #ddd;
-}
-
-.tablinks.active {
-    background-color: #fff;
-    border-bottom: 2px solid #007bff;
-    color: #007bff;
-}
-
-.tabcontent {
-    display: none;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-top: none;
-    background-color: #fff;
-    height: 45vh;
-    width: 100%;
-}
-
-.tabcontent h3 {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.tabcontent p {
-    font-size: 16px;
-    line-height: 1.6;
-    justify-content: center;
 }
 
 .colleges_scroll-button-container {

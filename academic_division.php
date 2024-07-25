@@ -1,0 +1,87 @@
+<?php
+  $page = 'academic-division';
+  require 'header.php';
+  include 'nav-bar.php';
+?>
+
+<div id="academic-division">
+  <div id="academic-division-data">
+    <ul id="academic-division-data-top">
+      <li><a href="#">HOME</a></li>
+      <li><a href="college_academic_programs.php">ACADEMIC PROGRAMS</a></li>
+      <li><a href="college_faculty_and_staff.php">FACULTY AND STAFF</a></li>
+      <li><a href="college_organizational_chart.php">ORGANIZATIONAL CHART</a></li>
+      <li><a href="#">PUBLICATION</a></li>
+      <li><a href="#">STUDENT ORGANIZATION</a></li>
+      <li><a href="#">NEWS & GALLERY</a></li>
+    </ul>
+    <img src="assets/img/breadcumb/CETNEWBKG.png" id="academic-division-data-background" alt="RMMC">
+    <ul id="academic-division-data-bottom">
+      <li><a href="#">COLLEGE OF ENGINEERING AND TECHNOLOGY</a></li>
+      <ul id="academic-division-data-bottom-departments">
+        <li><a href="#">ITE</a></li>
+        <li><a href="#">CE</a></li>
+      </ul>
+    </ul>
+  </div>
+
+  <!--FOR COLLEGE LOGO, CHARTER -->
+  <div id="academic-division-logo-and-charter">
+    <div id="academic-division-logo-and-charter-logo">
+      <img src="_assets/COLLEGE_LOGOS/CET.png">
+    </div>
+    <div id="academic-division-logo-and-charter__items">
+      <div>
+        <p>Mission</p>
+        <p>Our mission is to offer a transformative educational program that develops critical thinking, creativity, and technical proficiency in engineering and technology. We want to build a diverse community of students and professors committed to solving complex problems and changing the world via cutting-edge research, industrial partnerships, and community involvement.
+        </p>
+      </div>
+      <div>
+        <p>Vission</p>
+        <p>To be recognized as an institution of excellence in engineering and technology education, research, and innovation that equips students to become ethical and skilled professionals who contribute to society and promote sustainable development.
+        </p>
+      </div>
+      <div>
+        <p>Goals</p>
+        <ul>
+          <li>Academic Excellence </li>
+          <li>Research and Innovation </li>
+          <li>Student Success</li>
+          <li>Global Engagement </li>
+          <li>Community Outreach</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOR SCROLL UP BUTTON-->
+  <div id="academic-division-back-to-top">
+    <img src="assets/img/icon/arrow-up.png" alt="Up Arrow">
+  </div>
+
+  <script>
+    const scrollButton = document.getElementById('academic-division-back-to-top');
+
+    function toggleScrollButton() {
+      if (window.scrollY > 200) {
+        scrollButton.style.opacity = '1';
+        scrollButton.style.transform = 'translateY(0)';
+      } else {
+        scrollButton.style.opacity = '0';
+        scrollButton.style.transform = 'translateY(-100vh)';
+      }
+    }
+
+    window.addEventListener('scroll', toggleScrollButton);
+
+    scrollButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+  </script>
+
+</div>
+<?php include 'footer.php' ?>

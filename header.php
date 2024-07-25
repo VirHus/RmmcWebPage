@@ -59,8 +59,8 @@
     <?php elseif ($page == 'requirements'): ?>
         <link rel="stylesheet" href="styles/requirementsStyle.css">
         <title>RMMC - Requirements</title>
-    <?php elseif ($page == 'college'): ?>
-        <link rel="stylesheet" href="styles/college.css">
+    <?php elseif ($page == 'academic-division'): ?>
+        <link rel="stylesheet" href="styles/academic-division.css">
         <title>RMMC - College Of Engineering</title>
     <?php elseif ($page == 'news'): ?>
         <link rel="stylesheet" href="styles/news.css">

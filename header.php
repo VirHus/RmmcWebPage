@@ -57,7 +57,7 @@
         <link rel="stylesheet" href="styles/enrollment.css">
         <title>RMMC - Enrollment</title>
     <?php elseif ($page == 'requirements'): ?>
-        <link rel="stylesheet" href="styles/requirementsStyle.css">
+        <link rel="stylesheet" href="styles/requirements-page.css">
         <title>RMMC - Requirements</title>
     <?php elseif ($page == 'academic-division'): ?>
         <link rel="stylesheet" href="styles/academic-division.css">

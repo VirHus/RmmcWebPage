@@ -46,4 +46,4 @@ include 'nav-bar.php';
 </div>
 <?php include 'back-to-top.php' ?>
 
-<!-- <?php include 'footer.php' ?> -->
+<?php include 'footer.php' ?>

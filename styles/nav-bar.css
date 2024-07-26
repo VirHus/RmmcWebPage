@@ -348,3 +348,17 @@ nav {
     width: 70%;
   }
 }
+
+@media screen and (orientation: portrait) and (max-width: 250px) {
+  #nav-bottom-content-left {
+    padding: 0.5rem 0;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #phone-toggle-nav-bottom-content-right {
+    width: 100%;
+    padding: unset;
+    height: 25px;
+  }
+}

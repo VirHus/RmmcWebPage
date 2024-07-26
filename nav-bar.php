@@ -123,26 +123,26 @@
               </div>
               <ul>
                 <li>
-                  <a href="academic_division.php">
+                  <a href="academic-division.php">
                     <i class="fa-solid fa-book"></i> College Of Engineering and Technology
                   </a>
                 </li>
                 <li>
-                  <a href="academic_division.php">
+                  <a href="academic-division.php">
                     <i class="fa-solid fa-book"></i> College of Business Education
                   </a>
                 </li>
                 <li>
-                  <a href="academic_division.php">
+                  <a href="academic-division.php">
                     <i class="fa-solid fa-book"></i> College of Arts and Sciences
                   </a>
                 </li>
                 <li>
-                  <a href="academic_division.php">
+                  <a href="academic-division.php">
                     <i class="fa-solid fa-book"></i> College of Criminal Justice</a>
                 </li>
                 <li>
-                  <a href="academic_division.php">
+                  <a href="academic-division.php">
                     <i class="fa-solid fa-book"></i> College of Teacher Education
                   </a>
                 </li>

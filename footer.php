@@ -1,6 +1,6 @@
 <footer>
 
-  <?php include 'floating_footer.php' ?>
+  <?php include 'floating-footer.php' ?>
 
   <div id="footer-top">
 

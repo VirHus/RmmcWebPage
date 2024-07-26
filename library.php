@@ -164,12 +164,12 @@ include 'nav-bar.php';
             <div class="library__page__list">
 
                 <div class="library__page__list__item">
-                    <img src="assets/img/lib1.png" alt="Library 1" class="content-image">
+                    <img src="assets/img/library_place.png" alt="Library 1" class="content-image">
                     <h3 class="content-title"></h3>
                     <p class="content-location"></p>
                 </div>
                 <div class="library__page__list__item">
-                    <img src="assets/img/lib2.png" alt="Library 2" class="content-image">
+                    <img src="assets/img/lib5.png" alt="Library 2" class="content-image">
                     <h3 class="content-title"></h3>
                     <p class="content-location"></p>
                 </div>

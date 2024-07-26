@@ -1,0 +1,208 @@
+body {
+    /*   background-color: red; */
+    width: 100dvw;
+    height: 100dvh;
+
+
+}
+
+.main {
+    padding:  0 1.5rem;
+}
+
+.home__page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(50, 65, 65);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 3rem;
+    border-radius: 3rem;
+    padding: 3rem 10rem;
+
+}
+.home__page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/library_place.png');
+    background-size: cover;
+    border-radius: 1rem;
+    background-position: center;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+
+    /* Remove default list style */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    position: relative;
+    /* Positioning relative to the parent */
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Center the navigation horizontally */
+    z-index: 1;
+    /* Ensure it is above the background image */
+}
+
+.nav__links  a {
+    height: 40px;
+    text-decoration: none;
+}
+
+.links {
+    
+    margin: 0 25px;
+    /* Spacing between the links */
+    font-size: 1rem;
+    /* Adjust the font size as needed */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Change cursor on hover */
+    justify-content: space-between;
+}
+
+.links:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+#title {
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: calc(20vw + 2rem);
+    font-weight: 300;
+}
+
+
+#subtitles {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.subtitles__item {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.text--mini {
+    font-size: 1rem;
+}
+
+
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    margin-top: 5px;
+}
+
+.search-bar {
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 60px;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.search-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex: 1;
+    cursor: pointer;
+    border-right: 1px solid #e0e0e0;
+}
+
+.search-item:last-child {
+    border-right: none;
+}
+
+.search-item span {
+    margin-right: 10px;
+}
+
+.dropdown-arrow {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.search-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content h3 {
+    margin-top: 0;
+}
+
+.dropdown-content p {
+    margin: 5px 0;
+}
+
+
+
+/* New CSS for the additional container */
+.additional__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto; /* Center the container */
+}

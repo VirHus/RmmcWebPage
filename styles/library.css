@@ -7,7 +7,8 @@ body {
 }
 
 .main {
-    padding:  0 1.5rem;
+    padding: 0 1.5rem;
+    margin-bottom: 15rem;
 }
 
 .home__page {
@@ -20,9 +21,10 @@ body {
     z-index: 0;
     border-radius: 3rem;
     border-radius: 3rem;
-    padding: 3rem 10rem;
+    padding: 0.5rem 10rem;
 
 }
+
 .home__page::before {
     content: '';
     position: absolute;
@@ -32,7 +34,8 @@ body {
     height: 100%;
     background-image: url('../assets/img/library_place.png');
     background-size: cover;
-    border-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     background-position: center;
     filter: brightness(0.5);
     z-index: -1;
@@ -49,6 +52,7 @@ body {
     /* Remove default margin */
     position: relative;
     /* Positioning relative to the parent */
+    align-items: end;
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
@@ -61,13 +65,13 @@ body {
     /* Ensure it is above the background image */
 }
 
-.nav__links  a {
+.nav__links a {
     height: 40px;
     text-decoration: none;
 }
 
 .links {
-    
+
     margin: 0 25px;
     /* Spacing between the links */
     font-size: 1rem;
@@ -190,19 +194,191 @@ body {
     margin: 5px 0;
 }
 
+.vmg__page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6.5rem 5rem;
+    z-index: -1;
+}
 
+.vmg__page__content {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    gap: 5rem;
+}
 
-/* New CSS for the additional container */
-.additional__content {
+.vmg__page__content__item__title {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #0f1b31;
+    margin-bottom: 1rem;
+    font-family: 'Poppins'!important;
+    text-align: left;
+    width: 100%;
+}
+
+.vmg__page__content__item{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.vmg__page__content__item:nth-child(2){
+    margin-top: 100px;
+}
+
+.vmg__page__content__item:last-child {
+    margin-top: 200px;
+}
+
+.vmg__page__content__item__description {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: left;
+    font-family: 'Poppins'!important;
+    font-weight: 300;
+}
+
+.logo__page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 5rem;
+    background-color: #0f1b31;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+
+}
+
+.logo__page__content-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.logo__page__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    gap: 5rem;
+}
+
+.logo__page__content__item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
-    padding: 2rem;
-    border-radius: 2rem;
-    margin-top: 2rem;
+    text-align: center;
+    max-width: 50%;
+    gap: 2rem;
+    border-radius: 10px;
+}
+
+.logo__page__content__item:first-child {
+    width: 40%;
+
+}
+
+.logo__page__content__item > img {
+    width: 30rem;
+    height: 30rem;
+}
+
+.logo__page__content__item__title{
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: 'Poppins'!important;
+    text-align: left;
+}
+
+.logo__page__content__item__description {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Poppins'!important;
+    font-weight: 200;
+
+}
+
+
+
+/* New CSS for the additional container */
+.library__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: rem 5rem;
+    border-radius: 10px;
     width: 100%;
-    height: 1000px;
-    margin: 0 auto; /* Center the container */
+    z-index: -1;
+}
+
+.library__page__title {
+    font-size: 2.7rem;
+    font-family: 'Poppins'!important;
+    font-weight: bold;
+    color: #0f1b31;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.library__page__list {
+    display: flex;
+    justify-content: center;
+}
+
+.library__page__list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+    margin: 0 10px;
+    /* background-color: aqua; */
+    padding: 2rem;
+    border-radius: 10px;
+}
+.content-image {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.content-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.content-location {
+    font-size: .8rem;
+    color: #666;
+    text-align: left;
+}
+
+.content__image__description {
+    font-size: 1rem;
+    padding: 0 1rem 2rem 1rem;
+    text-align: left;
+    color: #333;
+    line-height: 1.6;
+    width: 92%;
 }

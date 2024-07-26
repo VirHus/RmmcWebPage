@@ -38,7 +38,7 @@
     </div>
 
     <div class="footer-top__column">
-      <h3>Recourses</h3>
+      <h3>Resources</h3>
       <ul>
         <li>Community</li>
         <li>Support</li>

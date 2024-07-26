@@ -1,0 +1,566 @@
+#academic-division {
+    width: 100vw;
+    margin: auto;
+}
+
+#academic-division-data-top {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#academic-division-data-top li {
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    transition: 500ms ease;
+}
+
+#academic-division-data-top li a {
+    text-decoration: none;
+    color: #4d5765;
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    transition: background-color 0.6s ease;
+}
+
+#academic-division-data-top li:hover {
+    background-color: #4d576547;
+}
+
+#academic-division-data-background {
+    width: 100%;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom {
+    width: 100vw;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    list-style: none;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |             // HERE                                                          |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom > li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |           // HERE             | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom > li > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                         // HERE                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom-departments {
+    display: flex;
+    list-style: none;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | | HERE|  | HERE|                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom-departments li a {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #4d5765;
+    display: inline-block;
+}
+
+#academic-division-data-bottom-departments li a:hover {
+    color: #000;
+}
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |  +----------------------------+  +---------------------------------------+   |
+    |  |                            |  |                                       |   |
+    |  |                            |  |                                       |   |
+    |  |                            |  +---------------------------------------+   |
+    |  |                            |  |                                       |   |
+    |  |                            |  |                                       |   |
+    |  |                            |  +---------------------------------------+   |
+    |  |                            |  |                                       |   |
+    |  |                            |  |                                       |   |
+    |  +----------------------------+  +---------------------------------------+   |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    padding-bottom: 10rem;
+}
+
+/*
+    Set both boxes to have 50% width
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |                            | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |                            | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter > div {
+    width: 50%;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |               HERE              |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |                            | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |                            | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter-logo {
+    display: grid;
+    place-items: center;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |  HERE  |         | | |                             |  |
+    |  |         |        |         | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter-logo > img {
+    width: 50%;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |  HERE                            |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |        |         | | |                             |  |
+    |  |         |        |         | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | | HERE                        |  |
+    |  |                            | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |        |         | | | HERE                        |  |
+    |  |         |        |         | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | | HERE                        |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter__items > div {
+    width: 70%;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | | HERE:p                      |  |
+    |  |                            | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |        |         | | | HERE:p                      |  |
+    |  |         |        |         | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | | HERE:p                      |  |
+    |  |                            | | |                             |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter__items > div > p:first-child {
+    margin-bottom: 2rem;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | | HERE:p                      |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |        |         | | |                             |  |
+    |  |         |        |         | | | HERE:p                      |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | | HERE:ul                     |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter__items > div > p:last-child,
+#academic-division-logo-and-charter__items > div > ul > li {
+    font-size: 1.4rem;
+    color: #4d5765;
+}
+
+/*
+    +--------------------------------------------------------------------+
+    |                                 |                                  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |         |        |         | | |                             |  |
+    |  |         |        |         | | |                             |  |
+    |  |         +--------+         | | +-----------------------------+  |
+    |  |                            | | |                             |  |
+    |  |                            | | | HERE:ul                     |  |
+    |  +----------------------------+ | +-----------------------------+  |
+    |                                 |                                  |
+    +--------------------------------------------------------------------+
+*/
+#academic-division-logo-and-charter__items > div:last-child > ul {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+#academic-division-back-to-top {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 30;
+    width: 70px;
+    height: 70px;
+    background-color: #0d5cee;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translateY(-95vh);
+}
+
+#academic-division-back-to-top:hover {
+    background-color: #0f2239;
+}
+
+/* Arrow up icon */
+#academic-division-back-to-top > img {
+    width: 1rem;
+}
+
+@media only screen and (orientation: portrait) {
+
+    #academic-division-data-top {
+        padding: 1rem 0;
+    }
+
+    #academic-division-data-background {
+        /* position: absolute; */
+        left: 0%;
+        width: 210%;
+        margin: unset;
+        margin-left: -55%;
+        /* transform: translateX(-26%); */
+        overflow: hidden;
+    }
+
+    #academic-division-data-bottom {
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #academic-division-data-bottom-departments {
+        gap: 0.5rem;
+    }
+
+    #academic-division-data-bottom > li {
+        width: 100%;
+        padding: unset;
+    }
+
+    #academic-division-data-bottom > li > a {
+        padding: unset;
+        width: 100%;
+    }
+
+    #academic-division-data-bottom > li > a,
+    #academic-division-data-bottom-departments li a {
+        background-color: rgb(218, 87, 55);
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+
+    #academic-division-logo-and-charter {
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 10rem;
+    }
+
+    #academic-division-logo-and-charter > div,
+    #academic-division-logo-and-charter-logo > img {
+        width: 100%;
+    }
+
+    #academic-division-logo-and-charter-logo > img {
+        padding: 5rem 0;
+    }
+
+    #academic-division-logo-and-charter__items {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    #academic-division-logo-and-charter__items > div {
+        width: 100%;
+    }
+
+    #academic-division-logo-and-charter__items > div > p:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+/*FOR ORAGANIZATINAL CHART*/
+.organizational_chart_container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+/* FOR FACULTY AND STAFF */
+
+.page_titlle_container {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px 0px;
+    color: rgb(0, 6, 57);
+    font-family: "Jost", sans-serif;
+    margin-top: 30px;
+
+
+}
+
+.page_titlle_container span {
+    border-bottom: 2px solid;
+    padding: 0px 50px;
+}
+
+.faculty_and_staff_data_container {
+    width: 100vw;
+    padding: 50px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 200px;
+}
+
+.faculty_and_staff_data_container .staff_container {
+    display: block;
+    margin: auto;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.797);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.staff_name_and_profile_button_container {
+    border-bottom: 2px solid;
+
+}
+
+.staff_name_and_profile_button_container ul li {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+    gap: 5px;
+    padding: 0px 10px;
+
+}
+
+.staff_name_and_profile_button_container ul li img {
+    width: 13px;
+}
+
+.staff_name_and_profile_button_container ul li:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.staff_name_and_profile_button_container ul li.active {
+    background-color: rgb(189, 189, 189);
+}
+
+.staff_info_container {
+    display: inline-block;
+    width: 100%;
+}
+
+.profile_container {
+    display: inline-flex;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.staff_profile {
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.name_container {
+    width: 100%;
+    padding: 10px;
+}
+
+.name_container h1 {
+    margin-bottom: 20px;
+}
+
+.name_container ul {
+    list-style: none;
+}
+
+.profile_name_container,
+.staff_profile_background_container {
+    display: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.profile_name_container.active,
+.staff_profile_background_container.active {
+
+    display: block;
+}
+
+.educ_attainment_container {
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.fields_specialization_container {
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.research_interest_container {
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.educ_attainment_container h4,
+.fields_specialization_container h4,
+.research_interest_container h4 {
+    color: rgb(0, 0, 51);
+}

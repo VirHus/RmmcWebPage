@@ -100,3 +100,14 @@
         padding-bottom: 1.5rem;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    #academic-division-faculty-and-staff-data {
+        width: 100%;
+        align-items: center;
+    }
+
+    .academic-division-faculty-and-staff-data__staff {
+        width: fit-content;
+    }
+}

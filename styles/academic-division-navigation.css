@@ -1,0 +1,162 @@
+#academic-division-data-top {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#academic-division-data-top li {
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    transition: 500ms ease;
+}
+
+#academic-division-data-top li a {
+    text-decoration: none;
+    color: #4d5765;
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    transition: background-color 0.6s ease;
+}
+
+#academic-division-data-top li.active,
+#academic-division-data-top li:hover {
+    background-color: #4d576547;
+}
+
+#academic-division-data-background {
+    width: 100%;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom {
+    width: 100vw;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    list-style: none;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |             // HERE                                                          |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom>li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |           // HERE             | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom>li>a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                         // HERE                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | |     |  |     |                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom-departments {
+    display: flex;
+    list-style: none;
+}
+
+/*
+    +------------------------------------------------------------------------------+
+    |                                                                              |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |   |                               | | HERE|  | HERE|                         |
+    |   +-------------------------------+ +-----+  +-----+                         |
+    |                                                                              |
+    +------------------------------------------------------------------------------+
+*/
+#academic-division-data-bottom-departments li a {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #4d5765;
+    display: inline-block;
+}
+
+#academic-division-data-bottom-departments li a:hover {
+    color: #000;
+}
+
+@media screen and (orientation: portrait) {
+    #academic-division-data-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #academic-division-data-background {
+        /* position: absolute; */
+        left: 0%;
+        width: 210%;
+        margin: unset;
+        margin-left: -55%;
+        /* transform: translateX(-26%); */
+        overflow: hidden;
+    }
+
+    #academic-division-data-bottom {
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #academic-division-data-bottom-departments {
+        gap: 0.5rem;
+    }
+
+    #academic-division-data-bottom>li {
+        width: 100%;
+        padding: unset;
+    }
+
+    #academic-division-data-bottom>li>a {
+        padding: unset;
+        width: 100%;
+    }
+
+    #academic-division-data-bottom>li>a,
+    #academic-division-data-bottom-departments li a {
+        background-color: rgb(218, 87, 55);
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+}

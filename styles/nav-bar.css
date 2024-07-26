@@ -147,7 +147,7 @@ nav {
   gap: 0.5rem;
 }
 
-.nav-bottom-content-right__item:hover {
+.nav-bottom-content-right__item ul li:hover {
   transition: color 0.3s;
   color: #007bff;
 }

@@ -61,6 +61,20 @@
         <title>RMMC - Requirements</title>
     <?php elseif ($page == 'academic-division'): ?>
         <link rel="stylesheet" href="styles/academic-division.css">
+        <link rel="stylesheet" href="styles/academic-division-navigation.css">
+        <title>RMMC - College Of Engineering</title>
+    <?php elseif ($page == 'academic-division-academic-programs'): ?>
+        <link rel="stylesheet" href="styles/academic-division-navigation.css">
+        <link rel="stylesheet" href="styles/academic-division-academic-programs.css">
+        <title>RMMC - College Of Engineering</title>
+    <?php elseif ($page == 'academic-division-faculty-and-staff'): ?>
+        <link rel="stylesheet" href="styles/academic-division-navigation.css">
+        <link rel="stylesheet" href="styles/academic-division-faculty-and-staff.css">
+        <script src="scripts/academic-division-faculty-and-staff.js" defer></script>
+        <title>RMMC - College Of Engineering</title>
+    <?php elseif ($page == 'academic-division-organizational-chart'): ?>
+        <link rel="stylesheet" href="styles/academic-division-navigation.css">
+        <link rel="stylesheet" href="styles/academic-division-organizational-chart.css">
         <title>RMMC - College Of Engineering</title>
     <?php elseif ($page == 'news'): ?>
         <link rel="stylesheet" href="styles/news.css">
@@ -76,7 +90,7 @@
         <link rel="stylesheet" href="styles/course_details.css">
         <script src="scripts/course_details.js"></script>
         <title>RMMC - Courses Details</title>
-    <?php elseif ($page == 'college_acad_prog' || $page == 'college_faculty_staff'): ?>
+    <?php elseif ($page == 'academic_division_academic_programs' || $page == 'academic_division_faculty_and_staff'): ?>
         <link rel="stylesheet" href="styles/college.css">
         <title>RMMC - Course</title>
     <?php endif; ?>

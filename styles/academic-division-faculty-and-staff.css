@@ -1,0 +1,113 @@
+#academic-division-faculty-and-staff-data {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-division-faculty-and-staff-data__staff {
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    padding: 3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+/* user profile */
+.academic-division-faculty-and-staff-data__staff > img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.academic-division-faculty-and-staff-data__staff__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.academic-division-faculty-and-staff-data__staff__info__tabs,
+.academic-division-faculty-and-staff-data__staff__info__tabs > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.academic-division-faculty-and-staff-data__staff__info__tabs > li {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.academic-division-faculty-and-staff-data__staff__info__tabs > li > * {
+    pointer-events: none;
+}
+
+.academic-division-faculty-and-staff-data__staff__info__tabs > li.active {
+    background-color: #4d576547;
+}
+
+.academic-division-faculty-and-staff-data__staff__info__tabs > li > img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.academic-division-faculty-and-staff-data__staff__info > div {
+    display: none;
+}
+
+.academic-division-faculty-and-staff-data__staff__info > div.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.academic-division-faculty-and-staff-data__staff__info > div.active > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.1rem;
+    color: #2e343c;
+}
+
+@media screen and (orientation: portrait) {
+    #academic-division-faculty-and-staff-data {
+        width: 100%;
+        padding: unset;
+    }
+
+    .academic-division-faculty-and-staff-data__staff {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        gap: 3rem;
+    }
+
+    .academic-division-faculty-and-staff-data__staff > img {
+        width: 10rem !important;
+        height: 10rem !important;
+        border-radius: 50%;
+    }
+
+    .academic-division-faculty-and-staff-data__staff > * {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .academic-division-faculty-and-staff-data__staff__info__tabs {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #academic-division-faculty-and-staff-data {
+        width: 100%;
+        align-items: center;
+    }
+
+    .academic-division-faculty-and-staff-data__staff {
+        width: fit-content;
+    }
+}

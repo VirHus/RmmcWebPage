@@ -20,12 +20,11 @@ include 'nav-bar.php';
           </li>
           <li class="academic-division-faculty-and-staff-data__staff__info__tabs__background">
             <img src="assets/img/icon/circle-info-icon.png">
-            PROFILE
+            EDUCATIONAL ATTAINMENT
           </li>
         </ul>
 
         <div class="academic-division-faculty-and-staff-data__staff__info__profile">
-          <p>BENJAR BULACON</p>
           <ul>
             <li>Company Director ng wala naga exist na company</li>
             <li>Email: <span>ikawbahaladiriah@gmail.com</span></li>
@@ -34,7 +33,6 @@ include 'nav-bar.php';
           </ul>
         </div>
         <div class="academic-division-faculty-and-staff-data__staff__info__details">
-          <p>EDUCATIONAL ATTAINMENT</p>
           <ul>
             <li>Bachelor of Di Sigurado sa Life</li>
             <li>Master of Malaks Kumain Pero Di Tumataba</li>

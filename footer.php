@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="footer-top__column">
+    <!-- <div class="footer-top__column">
       <h3>Quick Link</h3>
       <ul>
         <li>Life Coach</li>
@@ -35,9 +35,9 @@
         <li>Web Design</li>
         <li>SEO Optimize</li>
       </ul>
-    </div>
+    </div> -->
 
-    <div class="footer-top__column">
+    <!-- <div class="footer-top__column">
       <h3>Resources</h3>
       <ul>
         <li>Community</li>
@@ -47,7 +47,7 @@
         <li>Security</li>
         <li>Template</li>
       </ul>
-    </div>
+    </div> -->
 
     <div class="footer-top__column">
       <form>

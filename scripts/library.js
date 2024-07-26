@@ -1,16 +1,14 @@
+// eslint-disable-next-line no-unused-vars
 function toggleDropdown(id) {
-    var content = document.getElementById(id);
-    var allContents = document.getElementsByClassName('dropdown-content');
+  const content = document.getElementById(id);
+  const allElements = [...document.querySelectorAll('.library__top__hours__content')];
 
-    for (var i = 0; i < allContents.length; i++) {
-        if (allContents[i] !== content) {
-            allContents[i].style.display = 'none';
-        }
+  allElements.forEach((element) => {
+    if (element !== content) {
+      // eslint-disable-next-line no-param-reassign
+      element.style.display = 'none';
     }
+  });
 
-    if (content.style.display === 'block') {
-        content.style.display = 'none';
-    } else {
-        content.style.display = 'block';
-    }
+  content.style.display = content.style.display === 'block' ? 'none' : 'block';
 }

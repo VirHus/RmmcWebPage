@@ -34,13 +34,14 @@ footer h3::before {
 #footer-top {
     display: flex;
     padding-bottom: 1rem;
+    gap: 3rem;
 }
 
 .footer-top__column {
-    width: 25%;
+    width: 50%; /* Set to the (100 / number of footer-top__column elements)% */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 

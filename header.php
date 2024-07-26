@@ -80,6 +80,10 @@
         <link rel="stylesheet" href="styles/news.css">
         <script src="scripts/news.js" defer></script>
         <title>RMMC - News</title>
+    <?php elseif ($page == 'library'): ?>
+        <link rel="stylesheet" href="styles/library.css">
+        <script src="scripts/library.js" defer></script>
+        <title>RMMC - Library</title>
     <?php elseif ($page == 'contact'): ?>
         <link rel="stylesheet" href="styles/contact.css">
         <title>RMMC - Contact Us</title>

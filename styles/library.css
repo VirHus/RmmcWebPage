@@ -6,12 +6,12 @@ body {
 
 }
 
-.main {
+.library {
     padding: 0 1.5rem;
     margin-bottom: 15rem;
 }
 
-.home__page {
+.library__home__page {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -25,7 +25,7 @@ body {
 
 }
 
-.home__page::before {
+.library__home__page::before {
     content: '';
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ body {
     z-index: -1;
 }
 
-.nav__links {
+.library__home__page__links {
     display: flex;
     list-style: none;
 
@@ -65,15 +65,15 @@ body {
     /* Ensure it is above the background image */
 }
 
-.nav__links a {
+.library__home__page__links a {
     height: 40px;
     text-decoration: none;
 }
 
-.links {
+.library__home__page__links__list {
 
     margin: 0 25px;
-    /* Spacing between the links */
+    /* Spacing between the library__home__page__links__list */
     font-size: 1rem;
     /* Adjust the font size as needed */
     color: white;
@@ -83,12 +83,12 @@ body {
     justify-content: space-between;
 }
 
-.links:hover {
+.library__home__page__links__list:hover {
     text-decoration: underline;
     /* Underline on hover */
 }
 
-#title {
+#library__home__page__title {
     text-decoration: none;
     position: relative;
     z-index: 1;
@@ -98,7 +98,7 @@ body {
 }
 
 
-#subtitles {
+#library__home__page__subtitles {
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ body {
     z-index: 1;
 }
 
-.subtitles__item {
+.library__home__page__subtitles__list {
     font-size: 2.5rem;
     line-height: 3rem;
     color: white;
@@ -119,7 +119,7 @@ body {
 }
 
 
-.search-bar-container {
+.library__home__page__library-hours {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -127,7 +127,7 @@ body {
     margin-top: 5px;
 }
 
-.search-bar {
+.library__home__page__library-hours__menus {
     display: flex;
     background-color: #fff;
     border-radius: 25px;
@@ -162,21 +162,7 @@ body {
     color: #888;
 }
 
-.search-button {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 0 25px 25px 0;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.search-button:hover {
-    background-color: #333;
-}
-
-.dropdown-content {
+.library__home__page__library-hours__content {
     display: none;
     background-color: #f9f9f9;
     width: 80%;
@@ -186,15 +172,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dropdown-content h3 {
+.library__home__page__library-hours__content h3 {
     margin-top: 0;
 }
 
-.dropdown-content p {
+.library__home__page__library-hours__content p {
     margin: 5px 0;
 }
 
-.vmg__page {
+.library__vmg__page {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -205,14 +191,14 @@ body {
     z-index: -1;
 }
 
-.vmg__page__content {
+.library__vmg__page__content {
     display: flex;
     justify-content: space-evenly;
     z-index: 2;
     gap: 5rem;
 }
 
-.vmg__page__content__item__title {
+.library__vmg__page__content__item__title {
     font-size: 2.7rem;
     font-weight: 500;
     color: #0f1b31;
@@ -222,7 +208,7 @@ body {
     width: 100%;
 }
 
-.vmg__page__content__item{
+.library__vmg__page__content__item{
     display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,15 +217,15 @@ body {
   border-radius: 10px;
 }
 
-.vmg__page__content__item:nth-child(2){
+.library__vmg__page__content__item:nth-child(2){
     margin-top: 100px;
 }
 
-.vmg__page__content__item:last-child {
+.library__vmg__page__content__item:last-child {
     margin-top: 200px;
 }
 
-.vmg__page__content__item__description {
+.library__vmg__page__content__item__description {
     font-size: 1.1rem;
     color: #333;
     text-align: left;
@@ -260,7 +246,7 @@ body {
 
 }
 
-.logo__page__content-title {
+.logo__page__content-library__home__page__title {
     font-size: 2rem;
     font-weight: bold;
     color: #333;
@@ -362,7 +348,7 @@ body {
     height: 100%;
 }
 
-.content-title {
+.content-library__home__page__title {
     font-size: 1rem;
     font-weight: bold;
     margin: 10px 0 5px;

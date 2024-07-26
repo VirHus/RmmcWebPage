@@ -8,25 +8,25 @@ include 'nav-bar.php';
 
 <body>
 
-    <div class="main">
-        <div class="home__page">
+    <div class="library">
+        <div class="library__home__page">
             <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
 
-            <ul class="nav__links">
-                <a href="" class="links">HOME</a>
-                <a href="" class="links">FACULTY AND STAFF</a>
-                <a href="" class="links">SITE LOCATION</a>
-                <a href="" class="links">ORGANIZATIONAL CHART</a>
+            <ul class="library__home__page__links">
+                <a href="" class="library__home__page__links__list">HOME</a>
+                <a href="" class="library__home__page__links__list">FACULTY AND STAFF</a>
+                <a href="" class="library__home__page__links__list">SITE LOCATION</a>
+                <a href="" class="library__home__page__links__list">ORGANIZATIONAL CHART</a>
             </ul>
 
-            <p id="title">Library</p>
-            <div id="subtitles">
-                <p class="subtitles__item">Read and learn inside the fresh new library</p>
-                <p class="subtitles__item text--mini">LIBRARY HOURS</p>
+            <p id="library__home__page__title">Library</p>
+            <div id="library__home__page__subtitles">
+                <p class="library__home__page__subtitles__list ">Read and learn inside the fresh new library</p>
+                <p class="library__home__page__subtitles__list text--mini">LIBRARY HOURS</p>
             </div>
 
-            <div class="search-bar-container">
-                <div class="search-bar">
+            <div class="library__home__page__library-hours">
+                <div class="library__home__page__library-hours__menus">
                     <div class="search-item" onclick="toggleDropdown('regular-semesters')">
                         <span>REGULAR SEMESTERS</span>
                         <span class="dropdown-arrow">&#9662;</span>
@@ -39,13 +39,13 @@ include 'nav-bar.php';
                 </div>
 
                 <!-- Dropdown Content -->
-                <div class="dropdown-content" id="regular-semesters">
+                <div class="library__home__page__library-hours__content" id="regular-semesters">
                     <h3>Library Hours - Regular Semesters</h3>
                     <p>Mondays - Thursday: 8:00 AM - 7:00 PM (No noon break)</p>
                     <p>Friday: 8:00 AM - 5:00 PM (No noon break)</p>
                     <p>Saturdays: 8:00 AM - 4:00 PM (No noon break)</p>
                 </div>
-                <div class="dropdown-content" id="summer">
+                <div class="library__home__page__library-hours__content" id="summer">
                     <h3>Library Hours - Summer</h3>
                     <p>Monday - Fridays: 8:00 AM - 5:00 PM (No noon break)</p>
                     <p>Saturdays: 8:00 AM - 12:00 Noon (No noon break)</p>
@@ -57,28 +57,28 @@ include 'nav-bar.php';
 
 
 
-        <div class="vmg__page">
+        <div class="library__vmg__page">
 
 
-            <div class="vmg__page__content">
+            <div class="library__vmg__page__content">
 
-                <div class="vmg__page__content__item">
-                    <h3 class="vmg__page__content__item__title">VISION</h3>
-                    <p class="vmg__page__content__item__description">The RMMC College Library envisions to be recognized
+                <div class="library__vmg__page__content__item">
+                    <h3 class="library__vmg__page__content__item__title">VISION</h3>
+                    <p class="library__vmg__page__content__item__description">The RMMC College Library envisions to be recognized
                         as a leading
                         knowledge resource center dedicated to support the learning, teaching, and research needs of the
                         patrons and its immediate communities.</p>
                 </div>
-                <div class="vmg__page__content__item">
-                    <h3 class="vmg__page__content__item__title">MISSION</h3>
-                    <p class="vmg__page__content__item__description">To attain its vision, the RMMC College Library will
+                <div class="library__vmg__page__content__item">
+                    <h3 class="library__vmg__page__content__item__title">MISSION</h3>
+                    <p class="library__vmg__page__content__item__description">To attain its vision, the RMMC College Library will
                         acquire various
                         information sources in different forms, provide facilities and services, and preserve cultural
                         heritage by developing, enriching, and preserving its Filipiniana collections.</p>
                 </div>
-                <div class="vmg__page__content__item">
-                    <h3 class="vmg__page__content__item__title">GOALS</h3>
-                    <p class="vmg__page__content__item__description">Offer the clients with the best and relevant
+                <div class="library__vmg__page__content__item">
+                    <h3 class="library__vmg__page__content__item__title">GOALS</h3>
+                    <p class="library__vmg__page__content__item__description">Offer the clients with the best and relevant
                         information within a
                         suitable environment.
                         To achieve this goal, two major thrusts must be developed:
@@ -92,7 +92,7 @@ include 'nav-bar.php';
         </div>
 
 
-        <div class="library__page">
+        <div class="library__floors__page">
 
 
             <div class="library__page__title">

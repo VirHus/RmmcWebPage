@@ -14,8 +14,9 @@ include 'nav-bar.php';
 
             <ul class="library__home__page__links">
                 <a href="" class="library__home__page__links__list">HOME</a>
-                <a href="" class="library__home__page__links__list">FACULTY AND STAFF</a>
-                <a href="" class="library__home__page__links__list">SITE LOCATION</a>
+                <a href="" class="library__home__page__links__list">LIBRARIAN AND STAFF</a>
+                <a href="" class="library__home__page__links__list">ONLINE RESOURCES</a>
+                <a href="" class="library__home__page__links__list">SERVICES</a>
                 <a href="" class="library__home__page__links__list">ORGANIZATIONAL CHART</a>
             </ul>
 
@@ -64,21 +65,24 @@ include 'nav-bar.php';
 
                 <div class="library__vmg__page__content__item">
                     <h3 class="library__vmg__page__content__item__title">VISION</h3>
-                    <p class="library__vmg__page__content__item__description">The RMMC College Library envisions to be recognized
+                    <p class="library__vmg__page__content__item__description">The RMMC College Library envisions to be
+                        recognized
                         as a leading
                         knowledge resource center dedicated to support the learning, teaching, and research needs of the
                         patrons and its immediate communities.</p>
                 </div>
                 <div class="library__vmg__page__content__item">
                     <h3 class="library__vmg__page__content__item__title">MISSION</h3>
-                    <p class="library__vmg__page__content__item__description">To attain its vision, the RMMC College Library will
+                    <p class="library__vmg__page__content__item__description">To attain its vision, the RMMC College
+                        Library will
                         acquire various
                         information sources in different forms, provide facilities and services, and preserve cultural
                         heritage by developing, enriching, and preserving its Filipiniana collections.</p>
                 </div>
                 <div class="library__vmg__page__content__item">
                     <h3 class="library__vmg__page__content__item__title">GOALS</h3>
-                    <p class="library__vmg__page__content__item__description">Offer the clients with the best and relevant
+                    <p class="library__vmg__page__content__item__description">Offer the clients with the best and
+                        relevant
                         information within a
                         suitable environment.
                         To achieve this goal, two major thrusts must be developed:
@@ -93,8 +97,6 @@ include 'nav-bar.php';
 
 
         <div class="library__floors__page">
-
-
             <div class="library__page__title">
                 <h2>The College Library</h2>
             </div>
@@ -103,27 +105,18 @@ include 'nav-bar.php';
 
                 <div class="library__page__list__item">
                     <img src="assets/img/library_building1.png" alt="Library 1" class="content-image">
-                    <h3 class="content-title"></h3>
-                    <p class="content-location"></p>
                 </div>
-                <div class="library__page__list__item">
-                    <img src="assets/img/library_building2.png" alt="Library 2" class="content-image">
-                    <h3 class="content-title"></h3>
-                    <p class="content-location"></p>
-                </div>
-                <div class="library__page__list__item">
-                    <img src="assets/img/library_building3.png" alt="Library 3" class="content-image">
-                    <h3 class="content-title"></h3>
-                    <p class="content-location"></p>
-                </div>
-            </div>
 
-            <div class="content__image__description">
-                <p>The Library is located at the ERM building. It is a four-storey building where the ground floor
-                    houses the Graduate School Library. The second floor houses the General Circulating books,
-                    Periodical Section, and Office of the Library Director. The third floor houses the Filipiniana
-                    collections, Technical Section, and the Internet Section. The fourth floor houses the Audio Visual
-                    Room, Discussion/Work area space, Theatre, and Office of the Multimedia Specialist.</p>
+                <div class="content__image__description">
+                    <p>The Library is located at the ERM building. It is a four-storey building where the ground floor
+                        houses the Graduate School Library. The second floor houses the General Circulating books,
+                        Periodical Section, and Office of the Library Director. The third floor houses the Filipiniana
+                        collections, Technical Section, and the Internet Section. The fourth floor houses the Audio
+                        Visual
+                        Room, Discussion/Work area space, Theatre, and Office of the Multimedia Specialist.</p>
+                </div>
+
+
             </div>
 
 
@@ -138,24 +131,27 @@ include 'nav-bar.php';
                     <h3 class="content-title"></h3>
                     <p class="content-location"></p>
                 </div>
-                <div class="library__page__list__item">
-                    <img src="assets/img/lib2.png" alt="Library 2" class="content-image">
-                    <h3 class="content-title"></h3>
-                    <p class="content-location"></p>
+
+                <div class="content__image__description">
+                    <p>The 2nd floor of the library houses the circulation collections, periodicals, general references
+                        and
+                        fiction books. It is where the office of the library director is located. It is newly renovated
+                        with
+                        a state of the art design to capture the attention of the users, provide comfortable area to
+                        make
+                        their learning fun and memorable. It has security gate and 4 CCTV cameras for the safety of the
+                        collections. Circulation counter is being provided where students can check- out and check-in
+                        their
+                        books with the help of a librarian and a support staff. There are 4 computer units which served
+                        as
+                        an Online Public Access Catalog (OPAC) station where users check titles of books/articles and
+                        other
+                        library resources in the fastest way. It has also individual carrels for students who want to
+                        concentrate and not to be disturbed.</p>
                 </div>
             </div>
 
-            <div class="content__image__description">
-                <p>TThe 2nd floor of the library houses the circulation collections, periodicals, general references and
-                    fiction books. It is where the office of the library director is located. It is newly renovated with
-                    a state of the art design to capture the attention of the users, provide comfortable area to make
-                    their learning fun and memorable. It has security gate and 4 CCTV cameras for the safety of the
-                    collections. Circulation counter is being provided where students can check- out and check-in their
-                    books with the help of a librarian and a support staff. There are 4 computer units which served as
-                    an Online Public Access Catalog (OPAC) station where users check titles of books/articles and other
-                    library resources in the fastest way. It has also individual carrels for students who want to
-                    concentrate and not to be disturbed.</p>
-            </div>
+
 
             <div class="library__page__title">
                 <h2>3rd Floor</h2>
@@ -173,13 +169,16 @@ include 'nav-bar.php';
                     <h3 class="content-title"></h3>
                     <p class="content-location"></p>
                 </div>
+
+                <div class="content__image__description">
+                    <p>The 3rd floor is where the Filipiniana collections are located, the internet section and the
+                        Technical room. It has 12 reading tables and 7 individual carrels that can accommodate 103 users
+                        at
+                        a time. </p>
+                </div>
             </div>
 
-            <div class="content__image__description">
-                <p>The 3rd floor is where the Filipiniana collections are located, the internet section and the
-                    Technical room. It has 12 reading tables and 7 individual carrels that can accommodate 103 users at
-                    a time. </p>
-            </div>
+
 
             <div class="library__page__title">
                 <h2>4th Floor</h2>
@@ -197,9 +196,8 @@ include 'nav-bar.php';
                     <h3 class="content-title">The AVR</h3>
                     <p class="content-location">Can accommodate 50 students at a time</p>
                 </div>
-            </div>
 
-            <div class="content__image__description">
+                <div class="content__image__description">
                 <p>This is where the discussion/work area room, AVR, theatre and office of the multimedia specialist is
                     located.
                     <br>
@@ -208,6 +206,9 @@ include 'nav-bar.php';
                     Engineering, Accountancy and Education students.
                 </p>
             </div>
+            </div>
+
+            
 
         </div>
 

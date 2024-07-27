@@ -15,7 +15,7 @@ include 'nav-bar.php';
             <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
 
             <ul class="library_services__top__links">
-                <a href="" class="library_services__top__links__list">HOME</a>
+                <a href="library.php" class="library_services__top__links__list">HOME</a>
                 <a href="" class="library_services__top__links__list">LIBRARIAN AND STAFF</a>
                 <a href="" class="library_services__top__links__list">ONLINE RESOURCES</a>
                 <a href="" class="library_services__top__links__list">SERVICES</a>
@@ -103,7 +103,7 @@ include 'nav-bar.php';
                 <div class="library_services__page__nav__right">
                     <h3 class="library_services__page__nav__right__title">LIBRARY SERVICES</h3>
                     <ul class="library_services__page__nav__right__links">
-                        <a href="">Home</a>
+                        <a href="library.php">Home</a>
                         <a href="" class="active">Readers/Circulation Services</a>
                         <a href="">Reference Book Services</a>
                         <a href="">Library Orientation and Instruction</a>

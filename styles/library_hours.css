@@ -8,18 +8,11 @@ body {
     height: 100dvh;
 }
 
-.main {
+.library__hours {
     margin: 0 1rem;
 }
 
-.library__services {
-    background-color: red;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-}
-
-.library_services__top {
+.library__hours__top {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -34,7 +27,7 @@ body {
 
 }
 
-.library_services__top::before {
+.library__hours__top::before {
     content: '';
     position: absolute;
     top: 0;
@@ -50,7 +43,7 @@ body {
     z-index: -1;
 }
 
-.library_services__top__links {
+.library__hours__top__links {
     display: flex;
     list-style: none;
 
@@ -74,7 +67,7 @@ body {
 }
 
 
-.library_services__top__links__list {
+.library__hours__top__links__list {
     height: 40px;
     text-decoration: none;
     margin: 0 25px;
@@ -88,12 +81,12 @@ body {
     justify-content: space-between;
 }
 
-.library_services__top__links__list:hover {
+.library__hours__top__links__list:hover {
     text-decoration: underline;
     /* Underline on hover */
 }
 
-#library_services__top__title {
+#library__hours__top__title {
     font-family: 'Times New Roman';
     text-decoration: none;
     position: relative;
@@ -107,7 +100,7 @@ body {
  
 
 
-.library_services__page {
+.library__hours__page {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -126,14 +119,14 @@ body {
     padding: 0 3rem;
 }
 
-.library_services__page__nav {
+.library__hours__page__nav {
     display: flex;
     justify-content: space-evenly;
     z-index: 2;
     
 }
 
-.library_services__page__nav__right__title {
+.library__hours__page__nav__right__title {
     font-size: 2.7rem;
     font-weight: 200;
     color: #0f1b31;
@@ -143,7 +136,7 @@ body {
     width: 100%;
 }
 
-.library_services__page__nav__left {
+.library__hours__page__nav__left {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -157,50 +150,50 @@ body {
 
 
 /* Heading styles */
-.library_services__page__nav__left h3 {
+.library__hours__page__nav__left h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.library_services__page__nav__left h4 {
+.library__hours__page__nav__left h4 {
     font-size: 1.2em;
     margin-bottom: 8px;
     margin-top: 15px;
 }
 
 /* Table styles */
-.library_services__page__nav__left table {
+.library__hours__page__nav__left table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
 /* Table header styles */
-.library_services__page__nav__left table th, 
-.library_services__page__nav__left table td {
+.library__hours__page__nav__left table th, 
+.library__hours__page__nav__left table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
 /* Table header styles */
-.library_services__page__nav__left table th {
+.library__hours__page__nav__left table th {
     background-color: #f4f4f4;
     font-weight: bold;
 }
 
 /* Table row styles */
-.library_services__page__nav__left table tr:nth-child(even) {
+.library__hours__page__nav__left table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
 /* Table row hover effect */
-.library_services__page__nav__left table tr:hover {
+.library__hours__page__nav__left table tr:hover {
     background-color: #f1f1f1;
 }
 
 /* Time and days column styles */
-.library_services__page__nav__left table td {
+.library__hours__page__nav__left table td {
     font-size: 0.9em;
     color: #333;
 }
@@ -208,7 +201,7 @@ body {
 
 
 
-.library_services__page__nav__right {
+.library__hours__page__nav__right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,7 +211,7 @@ body {
     border-left: 1px solid #000000;
     padding: 3rem;
 }
-.library_services__page__nav__right__links {
+.library__hours__page__nav__right__links {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -226,16 +219,16 @@ body {
     line-height: 2.5rem;
 }
 
-.library_services__page__nav__right__links a {
+.library__hours__page__nav__right__links a {
     color: #0f1b31;
     text-decoration: none;
     font-weight: 600;
 }
 
-.library_services__page__nav__right__links a:hover {
+.library__hours__page__nav__right__links a:hover {
     color: #0d5ef4;
 }
 
-.library_services__page__nav__right__links .active {
+.library__hours__page__nav__right__links .active {
     color: #0d5ef4;
 }

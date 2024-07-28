@@ -5,7 +5,6 @@ include 'nav-bar.php';
 ?>
 
 <body>
-
   <div id="library">
 
     <ul id="library-social-links">
@@ -21,8 +20,6 @@ include 'nav-bar.php';
     </ul>
 
     <div id="library-top">
-      <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
-
       <ul class="library-top__links">
         <a href="" class="library-top__links__item">HOME</a>
         <a href="" class="library-top__links__item">LIBRARIAN AND STAFF</a>
@@ -90,7 +87,6 @@ include 'nav-bar.php';
     </div>
 
     <div id="library-floors">
-
       <div class="library-floors__item">
         <h2>The College Library</h2>
 
@@ -201,7 +197,6 @@ include 'nav-bar.php';
           </p>
         </div>
       </div>
-
     </div>
 
     <div id="logo-message">

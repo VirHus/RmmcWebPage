@@ -1,5 +1,5 @@
 <?php
-$page = 'library_services';
+$page = 'library_hours';
 require 'header.php';
 include 'nav-bar.php';
 ?>

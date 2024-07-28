@@ -7,6 +7,51 @@ include 'nav-bar.php';
 <body>
   <div id="library">
 
+    <div id="library-top">
+      <ul class="library-top__links">
+        <a href="" class="library-top__links__item">Home</a>
+        <a href="" class="library-top__links__item">Librarian and Staff</a>
+        <a href="" class="library-top__links__item">Online Resources</a>
+        <a href="" class="library-top__links__item">Services</a>
+        <a href="" class="library-top__links__item">Organizational Chart</a>
+      </ul>
+
+      <p id="library-top__title">Library</p>
+
+      <!-- Dropdown Content -->
+      <div class="library-top-hours-menus__dropdown" id="regular-semesters">
+        <h3>Library Hours - Regular Semesters</h3>
+          <p>Mondays - Thursday: 8:00 AM - 7:00 PM (No noon break)</p>
+          <p>Friday: 8:00 AM - 5:00 PM (No noon break)</p>
+          <p>Saturdays: 8:00 AM - 4:00 PM (No noon break)</p>
+          <p>Saturdays: 8:00 AM - 4:00 PM (No noon break)</p>
+      </div>
+      <div class="library-top-hours-menus__dropdown" id="summer">
+        <h3>Library Hours - Summer</h3>
+          <p>Monday - Fridays: 8:00 AM - 5:00 PM (No noon break)</p>
+          <p>Saturdays: 8:00 AM - 12:00 Noon (No noon break)</p>
+      </div>
+
+      <div id="library-top__subtitles">
+        <p class="library-top__subtitles__list">Read and learn inside the newly refurbished library</p>
+        <p class="library-top__subtitles__list text--mini">Check the new library hours</p>
+      </div>
+
+      <div id="library-top-hours">
+        <div id="library-top-hours-menus">
+          <div class="library-top-hours-menus__search-item" data-target='regular-semesters'>
+            <p>REGULAR SEMESTERS</p>
+            <div>&#9662;</div>
+          </div>
+          <div class="library-top-hours-menus__search-item" data-target='summer'>
+            <p>SUMMER</p>
+            <div>&#9662;</div>
+          </div>
+          <!-- <button class="search-button">Search Now</button> -->
+        </div>
+      </div>
+    </div>
+
     <ul id="library-social-links">
       <a href="tel:305-8492">
         <i class="fa-solid fa-phone"></i>
@@ -18,50 +63,6 @@ include 'nav-bar.php';
         <i class="fab fa-facebook-f"></i>
       </a>
     </ul>
-
-    <div id="library-top">
-      <ul class="library-top__links">
-        <a href="" class="library-top__links__item">HOME</a>
-        <a href="" class="library-top__links__item">LIBRARIAN AND STAFF</a>
-        <a href="" class="library-top__links__item">ONLINE RESOURCES</a>
-        <a href="" class="library-top__links__item">SERVICES</a>
-        <a href="" class="library-top__links__item">ORGANIZATIONAL CHART</a>
-      </ul>
-
-      <p id="library-top__title">Library</p>
-
-      <div id="library-top__subtitles">
-        <p class="library-top__subtitles__list">Read and learn inside the newly refurbished library</p>
-        <p class="library-top__subtitles__list text--mini">Check the new library hours</p>
-      </div>
-
-      <div class="library-top__hours">
-        <div class="library-top__hours__menus">
-          <div class="library-top__hours__menus__search-item" onclick="toggleDropdown('regular-semesters')">
-            <p>REGULAR SEMESTERS</p>
-            <div>&#9662;</div>
-          </div>
-          <div class="library-top__hours__menus__search-item" onclick="toggleDropdown('summer')">
-            <p>SUMMER</p>
-            <div>&#9662;</div>
-          </div>
-          <!-- <button class="search-button">Search Now</button> -->
-        </div>
-
-        <!-- Dropdown Content -->
-        <div class="library-top__hours__content" id="regular-semesters">
-          <h3>Library Hours - Regular Semesters</p>
-            <p>Mondays - Thursday: 8:00 AM - 7:00 PM (No noon break)</p>
-            <p>Friday: 8:00 AM - 5:00 PM (No noon break)</p>
-            <p>Saturdays: 8:00 AM - 4:00 PM (No noon break)</p>
-        </div>
-        <div class="library-top__hours__content" id="summer">
-          <h3>Library Hours - Summer</p>
-            <p>Monday - Fridays: 8:00 AM - 5:00 PM (No noon break)</p>
-            <p>Saturdays: 8:00 AM - 12:00 Noon (No noon break)</p>
-        </div>
-      </div>
-    </div>
 
     <div id="library-charter">
       <div class="library-charter__row">
@@ -200,15 +201,15 @@ include 'nav-bar.php';
     </div>
 
     <div id="logo-message">
-      <div class="logo-message__content">
-        <div class="logo-message__content__item">
-          <h3 class="logo-message__content__item__title">Ramon Magsaysay Memorial College Library</h3>
-          <p class="logo-message__content__item__description">The Ramon Magsaysay Memorial Colleges (RMMC) maintains a
+      <div id="logo-message-content">
+        <div class="logo-message-content__item">
+          <h3 class="logo-message-content__item__title">Ramon Magsaysay Memorial College Library</h3>
+          <p class="logo-message-content__item__description">The Ramon Magsaysay Memorial Colleges (RMMC) maintains a
             library with resources and services to satisfy the needs of the many college constituents in terms of
             instruction, research, and extension. The library supports the reading and research needs of the students,
             instructors, researchers, administrators, and staff.</p>
         </div>
-        <div class="logo-message__content__item">
+        <div class="logo-message-content__item">
           <img src="assets/img/rmmc-library-logo.png" alt="Library 3">
         </div>
       </div>

@@ -1,5 +1,5 @@
 <?php
-$page = 'library_services';
+$page = 'library_hours';
 require 'header.php';
 include 'nav-bar.php';
 ?>
@@ -9,29 +9,28 @@ include 'nav-bar.php';
 <body>
 
 
-    <div class="main">
-        <div class="library_services">
-            <div class="library_services__top">
+    <div class="library__hours">
+            <div class="library__hours__top">
                 <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
 
-                <ul class="library_services__top__links">
-                    <a href="library.php" class="library_services__top__links__list">HOME</a>
-                    <a href="" class="library_services__top__links__list">LIBRARIAN AND STAFF</a>
-                    <a href="" class="library_services__top__links__list">ONLINE RESOURCES</a>
-                    <a href="" class="library_services__top__links__list">SERVICES</a>
-                    <a href="" class="library_services__top__links__list">ORGANIZATIONAL CHART</a>
+                <ul class="library__hours__top__links">
+                    <a href="library.php" class="library__hours__top__links__list">HOME</a>
+                    <a href="" class="library__hours__top__links__list">LIBRARIAN AND STAFF</a>
+                    <a href="" class="library__hours__top__links__list">ONLINE RESOURCES</a>
+                    <a href="" class="library__hours__top__links__list">SERVICES</a>
+                    <a href="" class="library__hours__top__links__list">ORGANIZATIONAL CHART</a>
                 </ul>
 
-                <p id="library_services__top__title">Library Hours</p>
+                <p id="library__hours__top__title">Library Hours</p>
 
             </div>
 
-            <div class="library_services__page">
+            <div class="library__hours__page">
 
                 <!-- <h2 class="library_services__page__title">Readers/Circulation Services</h2> -->
-                <div class="library_services__page__nav">
+                <div class="library__hours__page__nav">
 
-                    <div class="library_services__page__nav__left">
+                    <div class="library__hours__page__nav__left">
                         <h3>LIBRARY HOURS</h3>
                         <table>
                             <tr>
@@ -70,9 +69,9 @@ include 'nav-bar.php';
 
                     </div>
 
-                    <div class="library_services__page__nav__right">
-                        <h3 class="library_services__page__nav__right__title">About Us</h3>
-                        <ul class="library_services__page__nav__right__links">
+                    <div class="library__hours__page__nav__right">
+                        <h3 class="library__hours__page__nav__right__title">About Us</h3>
+                        <ul class="library__hours__page__nav__right__links">
                             <a href="library.php">Home</a>
                             <a href="" class="active">Library Hours</a>
                             <a href="">Library Membership</a>
@@ -88,31 +87,8 @@ include 'nav-bar.php';
 
             </div>
 
-        </div>
+        
     </div>
-
-
-    <script>
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-
-        // Default open tab
-        document.addEventListener('DOMContentLoaded', function () {
-            document.querySelector('.tablinks').click();
-        });
-
-    </script>
 </body>
 
 <?php include 'footer.php' ?>

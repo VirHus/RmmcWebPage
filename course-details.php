@@ -15,7 +15,7 @@ renderBreadcrumb('COURSE DETAILS', [
         <div class="course__content__left">
             <div class="course__content__left__top">
                 <div class="course__content__left__top__header">
-                    <img src="assets/img/course/teacher.jpg" alt="Course Image"
+                    <img src="assets/images/course/teacher.jpg" alt="Course Image"
                         class="course__content__left__top__header__image">
                     <h2 class="course__content__left__top__header__title">Bachelor of Elementary Education</h2>
                 </div>

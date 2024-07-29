@@ -17,7 +17,7 @@ require 'header.php';
             <div class="row">
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/1.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/1.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Take the Entrance / Scholarship Examination.</b>
                             Please contact the Guidance Office for scheduling.
@@ -26,7 +26,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/2.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/2.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Register online.</b> Visit
                             <a href="#" class="link">system.rmmc.edu.ph/rmmcweb/collegeenroll</a>
@@ -36,7 +36,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/3.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/3.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Online Submission of requirements.</b>
                             Call Admission Office for the requirements.<br>
@@ -46,7 +46,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/4.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/4.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Pay the Entrance fee.</b> to the
                             designated payment centers/banks and send proof of payment
@@ -56,7 +56,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/5.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/5.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Payment Verification.</b> will
                             be 2-3 working days. Notification of verified payment will
@@ -66,7 +66,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/6.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/6.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">View your enrolled subjects online.</b>
                             The student will be given the details to view and access
@@ -90,7 +90,7 @@ require 'header.php';
             <div class="row">
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/1.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/1.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Take the Entrance / Scholarship Examination.</b>
                             Please contact the Guidance Office for scheduling.<br>
@@ -102,7 +102,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/2.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/2.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Register online.</b> Visit
                             <a href="#" class="link">system.rmmc.edu.ph/rmmcweb/collegeenroll</a>
@@ -112,7 +112,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/3.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/3.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Online Submission of requirements.</b>
                             Call Admission Office for the requirements.<br>
@@ -122,7 +122,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/4.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/4.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Pay the Entrance fee.</b> to the
                             designated payment centers/banks and send proof of payment
@@ -133,7 +133,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/5.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/5.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Payment Verification.</b> will
                             be 2-3 working days. Notification of verified payment will
@@ -143,7 +143,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/6.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/6.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">View your enrolled subjects online.</b>
                             The student will be given the details to view and access
@@ -170,7 +170,7 @@ require 'header.php';
             <div class="row">
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/eva.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/eva.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Online Evaluation.</b>Send a
                             scanned copy of your TOR and Honorable dismissal for
@@ -180,7 +180,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/2_2.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/2_2.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Take the Entrance / Scholarship Examination.</b>
                             Please contact the Guidance Office for scheduling.
@@ -189,7 +189,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/3_3.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/3_3.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Register online.</b> Visit
                             <a href="#" class="link">system.rmmc.edu.ph/rmmcweb/collegeenroll</a>
@@ -199,7 +199,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/4_4.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/4_4.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Submit a scanned copy of your requirements.</b>
                             Call the Admission Office for the requirements.
@@ -208,7 +208,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/5_5.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/5_5.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Pay the Entrance fee.</b> to the
                             designated payment centers/banks and send proof of payment
@@ -218,7 +218,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/6_6.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/6_6.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Payment Verification.</b> will
                             be 2-3 working days. Notification of verified payment will
@@ -228,7 +228,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/7_7.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/7_7.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">View your enrolled subjects online.</b>
                             The student will be given the details to view for the
@@ -254,7 +254,7 @@ require 'header.php';
             <div class="row">
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/eva.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/eva.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Online Evaluation.</b>Send a
                             scanned copy of your TOR and Honorable dismissal for
@@ -264,7 +264,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/2_2.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/2_2.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Take the Entrance / Scholarship Examination.</b>
                             Please contact the Guidance Office for scheduling. <br>
@@ -274,7 +274,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/3_3.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/3_3.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Register online.</b> Visit
                             <a href="#" class="link">system.rmmc.edu.ph/rmmcweb/collegeenroll</a>
@@ -285,7 +285,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/4_4.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/4_4.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Submit a scanned copy of your requirements.</b>
                             Call the Admission Office for the requirements.
@@ -294,7 +294,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/5_5.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/5_5.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Pay the Entrance fee.</b> to the
                             designated payment centers/banks and send proof of payment
@@ -305,7 +305,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/6_6.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/6_6.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">Payment Verification.</b> will
                             be 2-3 working days. Notification of verified payment will
@@ -316,7 +316,7 @@ require 'header.php';
                 </div>
                 <div class="col">
                     <div class="feature-block">
-                        <img src="/RmmcWebPage/assets/img/icon/7_7.png" alt="icon" class="feature-block_icon">
+                        <img src="/RmmcWebPage/assets/images/icon/7_7.png" alt="icon" class="feature-block_icon">
                         <p class="feature-block_text">
                             <b class="highlight">View your enrolled subjects online.</b>
                             The student will be given the details to view for the
@@ -331,7 +331,7 @@ require 'header.php';
     <div class="space">
         <div class="container">
             <div class="payment">
-                <img src="/RmmcWebPage/assets/img/icon/payment.jpg" alt="payment" class="payment__Image">
+                <img src="/RmmcWebPage/assets/images/icon/payment.jpg" alt="payment" class="payment__Image">
             </div>
         </div>
     </div>

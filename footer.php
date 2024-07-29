@@ -5,7 +5,7 @@
   <div id="footer-top">
 
     <div class="footer-top__column">
-      <a href="/"><img src="assets/img/white-logo.png" alt="RMMC"></a>
+      <a href="/"><img src="assets/images/white-logo.png" alt="RMMC"></a>
       <p>Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with
         PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges and Universities
         -Commission on Accreditation. </p>
@@ -20,7 +20,7 @@
         </ul>
       </div>
       <div>
-        <img src="assets/img/iso.png" alt="Rmmc" />
+        <img src="assets/images/iso.png" alt="Rmmc" />
         <p>ISO 9001:2015 CERTIFIED</p>
       </div>
     </div>

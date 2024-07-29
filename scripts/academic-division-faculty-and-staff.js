@@ -1,6 +1,6 @@
 const staffMembers = [
   {
-    image: 'assets/img/normal/student_1_3_new.png',
+    image: 'assets/images/user-template.png',
     name: 'JUAN DELA CRUZ',
     position: 'Senior Developer at Imaginary Co.',
     email: 'juan.delacruz@imaginary.com',
@@ -12,7 +12,7 @@ const staffMembers = [
     ],
   },
   {
-    image: 'assets/img/normal/student_1_3_new.png',
+    image: 'assets/images/user-template.png',
     name: 'MARIA CLARA',
     position: 'Professor at Nowhere University',
     email: 'maria.clara@nowhere.edu',
@@ -25,7 +25,7 @@ const staffMembers = [
     ],
   },
   {
-    image: 'assets/img/normal/student_1_3_new.png',
+    image: 'assets/images/user-template.png',
     name: 'JOSE RIZAL',
     position: 'Research Scientist at Fictional Lab',
     email: 'jose.rizal@fictional.com',
@@ -38,7 +38,7 @@ const staffMembers = [
     ],
   },
   {
-    image: 'assets/img/normal/student_1_3_new.png',
+    image: 'assets/images/user-template.png',
     name: 'PILAR SANTOS',
     position: 'CEO at Nonexistent Enterprises',
     email: 'pilar.santos@nonexistent.com',
@@ -64,15 +64,15 @@ staffContainerParent.innerHTML = staffMembers.map((staff) => {
 
   return /* html */`
     <div class="academic-division-faculty-and-staff-data__staff">
-      <img src="${staff.image ?? 'assets/img/icon/user-icon.png'}">
+      <img src="${staff.image ?? 'assets/images/icon/user-icon.png'}">
       <div class="academic-division-faculty-and-staff-data__staff__info">
         <ul class="academic-division-faculty-and-staff-data__staff__info__tabs">
           <li class="academic-division-faculty-and-staff-data__staff__info__tabs__profile">
-            <img src="assets/img/icon/user-icon.png">
+            <img src="assets/images/icon/user-icon.png">
             <p>${staff.name}</p>
           </li>
           <li class="academic-division-faculty-and-staff-data__staff__info__tabs__background">
-            <img src="assets/img/icon/circle-info-icon.png">
+            <img src="assets/images/icon/circle-info-icon.png">
             EDUCATIONAL ATTAINMENT
           </li>
         </ul>

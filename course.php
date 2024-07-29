@@ -35,7 +35,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -54,7 +54,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -73,7 +73,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -90,7 +90,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -107,7 +107,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -124,7 +124,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -141,7 +141,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of
@@ -158,7 +158,7 @@ require 'header.php';
                 <div class="tab-content">
 
                     <div class="course-box">
-                        <div class="course-img"><img src="assets/img/course/justice.jpg" alt="course"
+                        <div class="course-img"><img src="assets/images/course/justice.jpg" alt="course"
                                 class="image_courses" /></div>
                         <div class="course-content">
                             <h3 class="course-title"><a href="course_details.php" class="name_course">Bachelor of

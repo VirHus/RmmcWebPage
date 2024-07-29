@@ -94,7 +94,7 @@ include 'nav-bar.php';
         <div class="library-floors__item__content">
           <div class="library-floors__item__content__image-group">
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/library_building1.png" alt="Library 1">
+              <img src="assets/images/library-building-one.png" alt="Library 1">
               <div class="library-floors__item__content__image-group__item__text">
                 <p></p>
                 <p></p>
@@ -117,7 +117,7 @@ include 'nav-bar.php';
         <div class="library-floors__item__content">
           <div class="library-floors__item__content__image-group">
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/lib1.png" alt="Library 1">
+              <img src="assets/images/library-one.png" alt="Library 1">
               <div class="library-floors__item__content__image-group__item__text">
                 <p></p>
                 <p></p>
@@ -150,14 +150,14 @@ include 'nav-bar.php';
         <div class="library-floors__item__content">
           <div class="library-floors__item__content__image-group">
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/library_place.png" alt="Library 1">
+              <img src="assets/images/library-building-chairs.png" alt="Library 1">
               <div class="library-floors__item__content__image-group__item__text">
                 <p></p>
                 <p></p>
               </div>
             </div>
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/lib5.png" alt="Library 2">
+              <img src="assets/images/library-five.png" alt="Library 2">
               <div class="library-floors__item__content__image-group__item__text">
                 <p></p>
                 <p></p>
@@ -177,14 +177,14 @@ include 'nav-bar.php';
         <div class="library-floors__item__content">
           <div class="library-floors__item__content__image-group">
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/lib3.png" alt="Library 1">
+              <img src="assets/images/library-three.png" alt="Library 1">
               <div class="library-floors__item__content__image-group__item__text">
                 <p>Theatre</p>
                 <p>Seating capacity of 145</p>
               </div>
             </div>
             <div class="library-floors__item__content__image-group__item">
-              <img src="assets/img/lib4.png" alt="Library 2">
+              <img src="assets/images/library-four.png" alt="Library 2">
               <div class="library-floors__item__content__image-group__item__text">
                 <p>The AVR</p>
                 <p>Can accommodate 50 students at a time</p>
@@ -210,7 +210,7 @@ include 'nav-bar.php';
             instructors, researchers, administrators, and staff.</p>
         </div>
         <div class="logo-message-content__item">
-          <img src="assets/img/rmmc-library-logo.png" alt="Library 3">
+          <img src="assets/images/rmmc-library-logo.png" alt="Library 3">
         </div>
       </div>
 

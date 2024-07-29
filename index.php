@@ -4,7 +4,7 @@
   include "nav-bar.php"
 ?>
 
-<img id="rmmc-background-image" src="assets/img/FGMNEW.png" alt="RMMC Background">
+<img id="rmmc-background-image" src="assets/images/FGMNEW.png" alt="RMMC Background">
 
 <section class="welcome-section index--section">
   <div class="welcome-section__background"></div>
@@ -12,8 +12,8 @@
   <div class="welcome-section__content">
     <div class="welcome-section__content__left">
       <div class="welcome-section__content__left__logos">
-        <img alt="Pacucoa" src="assets/img/pacu.png">
-        <img alt="Socotec" src="assets/img/soco.png">
+        <img alt="Pacucoa" src="assets/images/pacu.png">
+        <img alt="Socotec" src="assets/images/soco.png">
       </div>
 
       <div class="welcome-section__content__left__texts">
@@ -25,14 +25,14 @@
     </div>
 
     <!-- Uncomment or add a new image here -->
-    <!-- <img src="assets/img/hero/hero_img_1_1_newnew.png" alt="RMMC Students"> -->
+    <!-- <img src="assets/images/hero/hero_img_1_1_newnew.png" alt="RMMC Students"> -->
   </div>
 </section>
 
 <section class="school-description index--section">
   <div class="school-description__main">
 
-    <img class="school-description__main__photo" src="assets/img/normal/about_1_1.png">
+    <img class="school-description__main__photo" src="assets/images/index-one.png">
 
     <div class="school-description__main__content">
       <p>Welcome to</p>
@@ -75,14 +75,14 @@
   <div class="charter__content">
 
     <div class="charter__content__left">
-      <img src="assets/img/normal/about_1_2.png">
+      <img src="assets/images/index-two.png">
       <div class="charter__content__left__student">
         <p>Total Students</p>
         <div class="charter__content__left__student__avatar-list">
-          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
-          <img alt="avatar" src="assets/img/normal/student_1_3_new.png">
+          <img alt="avatar" src="assets/images/user-template.png">
+          <img alt="avatar" src="assets/images/user-template.png">
+          <img alt="avatar" src="assets/images/user-template.png">
+          <img alt="avatar" src="assets/images/user-template.png">
           <div>9000+</div>
         </div>
       </div>

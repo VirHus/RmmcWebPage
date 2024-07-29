@@ -12,7 +12,7 @@ include 'nav-bar.php';
     <div class="main">
     <div class="library_services">
         <div class="library_services__top">
-            <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
+            <!-- <img class="bgImage" src="assets/images/library_place.png" alt=""> -->
 
             <ul class="library_services__top__links">
                 <a href="library.php" class="library_services__top__links__list">HOME</a>
@@ -29,9 +29,9 @@ include 'nav-bar.php';
         <div class="library_services__page">
 
             <h2 class="library_services__page__title">Readers/Circulation Services</h2>
-            
+
             <div class="library_services__page__nav">
-            
+
                 <div class="library_services__page__nav__left">
                     <div id="tabs">
                         <button class="tablinks" onclick="openTab(event, 'Tab1')">Readers/Circulation Services</button>
@@ -111,7 +111,7 @@ include 'nav-bar.php';
                         <a href="">Inter-library Loan/Referral Service</a>
                         <a href="">Internet Service</a>
                         <a href="">Bulletin Board Display and Exhibits</a>
-                        
+
                     </ul>
                 </div>
 

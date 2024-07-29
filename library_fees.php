@@ -32,12 +32,14 @@ include 'nav-bar.php';
 
                 <div class="library__fees__page__nav__left">
                     <h3>LIBRARY FEES</h3>
+                    <div class="tabcontent">
+                        <p>Library fees are automatically charged to students accounts every semester. <br>Outside users
+                            are
+                            charged of 50.00 per day and they cannot borrow nor photocopy the materials. <br>They are to
+                            be read
+                            inside the library only. </p>
 
-                    <p>Library fees are automatically charged to students accounts every semester. <br>Outside users are
-                        charged of 50.00 per day and they cannot borrow nor photocopy the materials. <br>They are to be read
-                        inside the library only. </p>
-
-
+                    </div>
 
                 </div>
 
@@ -45,11 +47,10 @@ include 'nav-bar.php';
                     <h3 class="library__fees__page__nav__right__title">About Us</h3>
                     <ul class="library__fees__page__nav__right__links">
                         <a href="library.php">Home</a>
-                        <a href="">Library Hours</a>
-                        <a href="">Library Membership</a>
-                        <a href="" class="active">Library Fees</a>
-                        <a href="">Baggage Area</a>
-                        <a href="">Internet Service</a>
+                        <a href="library_hours.php">Library Hours</a>
+                        <a href="library_membership">Library Membership</a>
+                        <a href="library_fees.php" class="active">Library Fees</a>
+                        <a href="library_baggage.php">Baggage Area</a>
                         <a href="">Contact Us</a>
 
                     </ul>

@@ -148,6 +148,16 @@ body {
     margin: 0 3rem;
 }
 
+.tabcontent {
+    display: block;
+    padding: .5rem 2rem;
+    margin: 1rem 0;
+    line-height: 2rem;
+    text-align: left;
+    background-color: #f3f7fb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Heading styles */
 .library__fees__page__nav__left h3 {
@@ -159,7 +169,7 @@ body {
 .library__fees__page__nav__left p {
     text-align: justify;
     line-height: 2rem;
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-size: 1.2rem;
 }
 

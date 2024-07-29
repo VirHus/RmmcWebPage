@@ -31,7 +31,7 @@ include 'nav-bar.php';
             <div class="library__fees__page__nav">
 
                 <div class="library__fees__page__nav__left">
-                    <h3>LIBRARY FEES</h3>
+                    <h3 class="library__fees__page__nav__left__title">LIBRARY FEES</h3>
                     <div class="tabcontent">
                         <p>Library fees are automatically charged to students accounts every semester. <br>Outside users
                             are
@@ -48,10 +48,10 @@ include 'nav-bar.php';
                     <ul class="library__fees__page__nav__right__links">
                         <a href="library.php">Home</a>
                         <a href="library_hours.php">Library Hours</a>
-                        <a href="library_membership">Library Membership</a>
+                        <a href="library_membership.php">Library Membership</a>
                         <a href="library_fees.php" class="active">Library Fees</a>
                         <a href="library_baggage.php">Baggage Area</a>
-                        <a href="">Contact Us</a>
+                        <a href="library_contact.php">Contact Us</a>
 
                     </ul>
                 </div>

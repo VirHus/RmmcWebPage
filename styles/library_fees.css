@@ -160,8 +160,9 @@ body {
 
 
 /* Heading styles */
-.library__fees__page__nav__left h3 {
+.library__fees__page__nav__left__title {
     text-align: left;
+    color: #0d5ef4;
     font-size: 2rem;
     margin-bottom: 10px;
 }

@@ -31,7 +31,7 @@ include 'nav-bar.php';
             <div class="library__membership__page__nav">
 
                 <div class="library__membership__page__nav__left">
-                    <h3>LIBRARY MEMBERSHIP</h3>
+                    <h3 class="library__membership__page__nav__left__title">LIBRARY MEMBERSHIP</h3>
                     <div class="tabcontent">
                         <p>Library membership is granted automatically, to all bonafide students,
                             office staffs and faculty members of the college. Membership lasts for the duration of their
@@ -60,7 +60,7 @@ include 'nav-bar.php';
                         <a href="library_membership.php" class="active">Library Membership</a>
                         <a href="library_fees.php">Library Fees</a>
                         <a href="library_baggage.php">Baggage Area</a>
-                        <a href="">Contact Us</a>
+                        <a href="library_contact.php">Contact Us</a>
 
                     </ul>
                 </div>

@@ -150,8 +150,9 @@ body {
 
 
 /* Heading styles */
-.library__baggage__page__nav__left h2 {
+.library__baggage__page__nav__left__title {
     text-align: left;
+    color: #0d5ef4;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -167,11 +168,12 @@ body {
 }
 
 .tabcontent li {
+    font-size: 1.3rem;
     padding: 1rem;
 }
 
 .tabcontent__title {
-    color: #074ccc;
+    color: #000000;
     font-size: 1.5rem;
 }
 

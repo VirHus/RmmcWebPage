@@ -63,7 +63,7 @@ footer h3::before {
     background-color: #1e2c46;
 }
 
-.footer-top__column > div > ul > a:hover{
+.footer-top__column div > ul > a:hover{
     background-color: #007bff;
     transition: 500ms ease;
 }
@@ -85,20 +85,27 @@ footer h3::before {
     line-height: 1.7rem;
 }
 
+.footer-top__column__iso{
+    margin-top: 50px;
+    width: 50%;
+}
+
+
 /* First column: "Follow us on" */
-.footer-top__column:first-child > div > h4 {
+.footer-top__column div > h4 {
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
 
 /* First column: Social Icons Container */
-.footer-top__column:first-child > div > ul {
+.footer-top__column div > ul {
     display: flex;
+    margin-bottom: 1.5rem;
     gap: 1rem;
 }
 
 /* First column: Social Icons Anchor */
-.footer-top__column:first-child > div > ul > top {
+.footer-top__column div > ul > top {
     width: 3.5rem;
     height: 3.5rem;
     display: flex;
@@ -112,24 +119,21 @@ footer h3::before {
 }
 
 /* First column: Social Icons Anchor:Hovered */
-.footer-top__column:first-child > div > ul > top:hover {
+.footer-top__column div > ul > top:hover {
     background-color: #0d5ef4;
     border-color: #0d5ef4;
 }
 
-/* First Column: ISO Image and Title container */
-.footer-top__column:first-child > div:last-child {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1rem;
-    color: #ffffff;
+/* Iso Image and txt */
+.footer-top__column:nth-child(2) {
+    grid-area: middle;
+    place-items: center;
+}
+.footer-top__column:nth-child(2) > img {
+    width: 50%;
+    margin-bottom: 1rem;
 }
 
-/* First Column: ISO Image */
-.footer-top__column:first-child > div:last-child > img {
-    width: 8.5rem;
-}
 
 /* Last Column: Input and Icon container */
 .footer-top__column:last-child > form > div {
@@ -248,41 +252,35 @@ footer h3::before {
     */
     #footer-top {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 100% fit-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 80% fit-content;
         grid-template-areas:
-            "top top"
-            "middle-left middle-right"
-            "bottom bottom";
-        gap: 1rem;
+            "top"
+            "middle"
+            "bottom";
+        gap: 5rem;
     }
 
     .footer-top__column {
         width: 100%;
     }
 
-    .footer-top__column:nth-child(1) {
+    .footer-top__column__socials:nth-child(1) {
         margin-bottom: 1.5rem;
     }
 
-    .footer-top__column:nth-child(1) {
+    .footer-top__column__socials:nth-child(1) {
         grid-area: top;
     }
 
-    .footer-top__column:nth-child(2) {
-        grid-area: middle-left;
-    }
-
+  
     .footer-top__column:nth-child(3) {
-        grid-area: middle-right;
-    }
-
-    .footer-top__column:nth-child(4) {
         grid-area: bottom;
     }
+  
 
     /* Last column: form */
-    .footer-top__column:nth-child(4) > form {
+    .footer-top__column:nth-child(3) > form {
         width: 100%;
     }
 

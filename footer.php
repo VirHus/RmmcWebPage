@@ -22,7 +22,6 @@
       <div>
         <img src="assets/images/iso.png" alt="Rmmc" />
         <p>ISO 9001:2015 CERTIFIED</p>
-      </div>
     </div>
 
     <!-- <div class="footer-top__column">

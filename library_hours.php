@@ -74,7 +74,7 @@ include 'nav-bar.php';
                         <a href="library_membership.php">Library Membership</a>
                         <a href="library_fees.php">Library Fees</a>
                         <a href="library_baggage.php">Baggage Area</a>
-                        <a href="">Contact Us</a>
+                        <a href="library_contact.php">Contact Us</a>
 
                     </ul>
                 </div>

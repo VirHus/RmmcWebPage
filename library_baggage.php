@@ -31,7 +31,7 @@ include 'nav-bar.php';
             <div class="library__baggage__page__nav">
 
                 <div class="library__baggage__page__nav__left">
-                    <h2>LIBRARY BAGGAGE AREA</h2>
+                    <h2 class="library__baggage__page__nav__left__title">LIBRARY BAGGAGE AREA</h2>
                     <div class="tabcontent">
                         <h3 class="tabcontent__title">Guidelines on the use of the baggage counter</h3>
                         <li>Library users are required to deposit their bags and other bulky things before entering the
@@ -60,7 +60,7 @@ include 'nav-bar.php';
                         <a href="library_membership">Library Membership</a>
                         <a href="library_fees.php">Library Fees</a>
                         <a href="library_baggage.php" class="active">Baggage Area</a>
-                        <a href="">Contact Us</a>
+                        <a href="library_contact.php">Contact Us</a>
 
                     </ul>
                 </div>

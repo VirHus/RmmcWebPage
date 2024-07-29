@@ -129,7 +129,7 @@ body {
 .library__hours__page__nav__right__title {
     font-size: 2.7rem;
     font-weight: 200;
-    color: #0f1b31;
+    color: #000000;
     margin-bottom: 1rem;
     font-family: 'Poppins' !important;
     text-align: left;
@@ -151,6 +151,7 @@ body {
 .library__hours__page__nav__left__title {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #0d5ef4;
 }
 
 
@@ -170,7 +171,7 @@ body {
 }
 
 .tabcontent__title {
-    color: #074ccc;
+    color: #000000;
     font-size: 1.5rem;
     padding: 1rem 0;
 }

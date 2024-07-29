@@ -1,10 +1,10 @@
 <?php
-$page = 'library_membership';
+$page = 'library_contact';
 require 'header.php';
 include 'nav-bar.php';
 ?>
 
-<link rel="stylesheet" href="styles/library_membership.css">
+<link rel="stylesheet" href="styles/library_contact.css">
 
 <body>
 
@@ -21,7 +21,7 @@ include 'nav-bar.php';
                 <a href="" class="library__membership__top__links__list">ORGANIZATIONAL CHART</a>
             </ul>
 
-            <p id="library__membership__top__title">Library Membership</p>
+            <p id="library__membership__top__title">Library Contact</p>
 
         </div>
 
@@ -31,22 +31,21 @@ include 'nav-bar.php';
             <div class="library__membership__page__nav">
 
                 <div class="library__membership__page__nav__left">
-                    <h3 class="library__membership__page__nav__left__title">LIBRARY MEMBERSHIP</h3>
+                    <h3 class="library__membership__page__nav__left__title">LIBRARY CONTACT</h3>
                     <div class="tabcontent">
-                        <p>Library membership is granted automatically, to all bonafide students,
-                            office staffs and faculty members of the college. Membership lasts for the duration of their
-                            stay in the college. They will enjoy the full use of all library resources and its services.
-                            Students (both Undergraduate and Graduate school) have to present their school ID in order
-                            to
-                            enter the library and borrow books. New full time and part time faculty members are
-                            requested to
-                            show their subject load from their college before they are allowed to make use of the
-                            library’s
-                            resources. Researchers from other institutions may also avail of library services but are
-                            subject to library’s rules and regulations and upon presentation of a referral letter from
-                            their
-                            respective librarians or office heads. However, outside users will be catered only upon
-                            availability of some space or resources.</p>
+                        <h3 class="tabcontent__title">Ramon Magsaysay Memorial Colleges Library</h3>
+                        <a href="tel:305-8492">
+                            <i class="fa-solid fa-phone"></i>
+                             : 305-8492
+                        </a>
+                        <a href="mailto:rmmcinc.collegelibrary@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            : rmmcinc.collegelibrary@gmail.com
+                        </a>
+                        <a href="https://www.facebook.com/rmmccollegelibrary">
+                            <i class="fab fa-facebook-f"></i>
+                            : https://www.facebook.com/rmmccollegelibrary
+                        </a>
 
                     </div>
 
@@ -57,10 +56,10 @@ include 'nav-bar.php';
                     <ul class="library__hours__page__nav__right__links">
                         <a href="library.php">Home</a>
                         <a href="library_hours.php">Library Hours</a>
-                        <a href="library_membership.php" class="active">Library Membership</a>
+                        <a href="library_membership.php">Library Membership</a>
                         <a href="library_fees.php">Library Fees</a>
                         <a href="library_baggage.php">Baggage Area</a>
-                        <a href="library_contact.php">Contact Us</a>
+                        <a href="library_contact.php"  class="active">Contact Us</a>
 
                     </ul>
                 </div>

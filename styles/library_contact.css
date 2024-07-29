@@ -8,11 +8,11 @@ body {
     height: 100dvh;
 }
 
-.library__baggage {
+.library__membership {
     margin: 0 1rem;
 }
 
-.library__baggage__top {
+.library__membership__top {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -27,7 +27,7 @@ body {
 
 }
 
-.library__baggage__top::before {
+.library__membership__top::before {
     content: '';
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@ body {
     z-index: -1;
 }
 
-.library__baggage__top__links {
+.library__membership__top__links {
     display: flex;
     list-style: none;
 
@@ -67,7 +67,7 @@ body {
 }
 
 
-.library__baggage__top__links__list {
+.library__membership__top__links__list {
     height: 40px;
     text-decoration: none;
     margin: 0 25px;
@@ -81,12 +81,12 @@ body {
     justify-content: space-between;
 }
 
-.library__baggage__top__links__list:hover {
+.library__membership__top__links__list:hover {
     text-decoration: underline;
     /* Underline on hover */
 }
 
-#library__baggage__top__title {
+#library__membership__top__title {
     font-family: 'Times New Roman';
     text-decoration: none;
     position: relative;
@@ -100,7 +100,7 @@ body {
  
 
 
-.library__baggage__page {
+.library__membership__page {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -119,14 +119,14 @@ body {
     padding: 0 3rem;
 }
 
-.library__baggage__page__nav {
+.library__membership__page__nav {
     display: flex;
     justify-content: space-evenly;
     z-index: 2;
     
 }
 
-.library__baggage__page__nav__right__title {
+.library__hours__page__nav__right__title {
     font-size: 2.7rem;
     font-weight: 200;
     color: #0f1b31;
@@ -136,7 +136,7 @@ body {
     width: 100%;
 }
 
-.library__baggage__page__nav__left {
+.library__membership__page__nav__left {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -148,17 +148,10 @@ body {
     margin: 0 3rem;
 }
 
-
-/* Heading styles */
-.library__baggage__page__nav__left__title {
-    text-align: left;
-    color: #0d5ef4;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
 .tabcontent {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 2rem;
     margin: 1rem 0;
     line-height: 2rem;
@@ -167,19 +160,41 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tabcontent li {
-    font-size: 1.3rem;
-    padding: 1rem;
-}
-
 .tabcontent__title {
-    color: #000000;
+    text-align: left;
     font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tabcontent i {
+    color: #0d5ef4;
+}
+
+.tabcontent a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #363636;
+    margin: 1.5rem;
+}
+
+.tabcontent a:hover {
+    color: #0d5ef4;
+}
+
+
+/* Heading styles */
+.library__membership__page__nav__left__title {
+    text-align: left;
+    color: #0d5ef4;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 
 
-.library__baggage__page__nav__right {
+
+.library__hours__page__nav__right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +204,7 @@ body {
     border-left: 1px solid #000000;
     padding: 3rem;
 }
-.library__baggage__page__nav__right__links {
+.library__hours__page__nav__right__links {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -197,16 +212,16 @@ body {
     line-height: 2.5rem;
 }
 
-.library__baggage__page__nav__right__links a {
+.library__hours__page__nav__right__links a {
     color: #0f1b31;
     text-decoration: none;
     font-weight: 600;
 }
 
-.library__baggage__page__nav__right__links a:hover {
+.library__hours__page__nav__right__links a:hover {
     color: #0d5ef4;
 }
 
-.library__baggage__page__nav__right__links .active {
+.library__hours__page__nav__right__links .active {
     color: #0d5ef4;
 }

@@ -183,6 +183,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  height: fit-content;
 }
 
 .top-courses__title-box {
@@ -235,7 +236,7 @@
   padding: 1.5rem;
   padding-bottom: unset;
   width: 430px;
-  height: fit-content;
+  height: 100%;
 }
 
 .course-cards__item__image-box {

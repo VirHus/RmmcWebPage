@@ -53,7 +53,7 @@ require 'header.php';
         </ul>
       </div>
       <div class="requirements-container__item__row__column">
-        <img id="requirements-img" src="assets/img/req.png" alt="Requirements">
+        <img id="requirements-img" src="assets/images/req.png" alt="Requirements">
       </div>
     </div>
 

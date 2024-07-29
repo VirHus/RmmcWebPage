@@ -1,7 +1,7 @@
 const courses = [
   {
     href: '#',
-    imgSrc: 'assets/img/course/it.jpg',
+    imgSrc: 'assets/images/course/it.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'BS in Information Technology',
     lessons: 43,
@@ -10,7 +10,7 @@ const courses = [
   },
   {
     href: '#',
-    imgSrc: 'assets/img/course/course_2_3.jpg',
+    imgSrc: 'assets/images/course/course_2_3.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'BS in Tourism Management',
     lessons: 21,
@@ -19,7 +19,7 @@ const courses = [
   },
   {
     href: '#',
-    imgSrc: 'assets/img/course/teacher.jpg',
+    imgSrc: 'assets/images/course/teacher.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'Bachelor of Elementary Education',
     lessons: 53,
@@ -28,7 +28,7 @@ const courses = [
   },
   {
     href: '#',
-    imgSrc: 'assets/img/course/justice.jpg',
+    imgSrc: 'assets/images/course/justice.jpg',
     imgAlt: 'BS in Information Technology',
     title: 'Bachelor of Science in Criminology',
     lessons: 39,
@@ -116,23 +116,23 @@ const blogs = [
   {
     date: 'Saturday, November 12, 2023 at 7:20 AM',
     title: 'PASIGARBO 2023 Featuring Banda Ni Kleggy',
-    image: 'assets/img/NEWS/pasigarbokleggy.jpg',
-    authorImage: 'assets/img/event/rmmc.jpg',
+    image: 'assets/images/NEWS/pasigarbokleggy.jpg',
+    authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
   },
   {
     date: 'Saturday, November 11, 2023 at 11:31 AM',
     title: "RMMC's MR. & MS. PALARO 2023! 🌟",
-    image: 'assets/img/NEWS/mrandmspalaro2023.png',
-    authorImage: 'assets/img/event/rmmc.jpg',
+    image: 'assets/images/NEWS/mrandmspalaro2023.png',
+    authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
   },
   {
     date: 'Thursday, November 9, 2023 at 10:04 AM',
     title: 'ANNOUNCEMENT',
-    image: 'assets/img/NEWS/exam.jpg',
+    image: 'assets/images/NEWS/exam.jpg',
     authorImage: null,
     authorName: 'MPO',
     redirectLink: null,
@@ -140,24 +140,24 @@ const blogs = [
   {
     date: 'Thursday, November 9, 2023 at 5:44 AM',
     title: 'FOURTH QUARTER NATIONWIDE SIMULTANEOUS DRILL',
-    image: 'assets/img/NEWS/DRILL/2.jpg',
-    authorImage: 'assets/img/event/rmmc.jpg',
+    image: 'assets/images/NEWS/DRILL/2.jpg',
+    authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
   },
   {
     date: 'Saturday, November 4, 2023 at 4:28 AM',
     title: 'The newly renovated RMMC Library',
-    image: 'assets/img/NEWS/library.png',
-    authorImage: 'assets/img/event/rmmc.jpg',
+    image: 'assets/images/NEWS/library.png',
+    authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
   },
   {
     date: 'Thursday, November 2, 2023 at 7:46 AM',
     title: "All Souls'Day",
-    image: 'assets/img/NEWS/allsouls.jpg',
-    authorImage: 'assets/img/event/rmmc.jpg',
+    image: 'assets/images/NEWS/allsouls.jpg',
+    authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
   },
@@ -165,7 +165,7 @@ const blogs = [
 
 if (blogs.length > 0) {
   blogsContainer.innerHTML = blogs.map((blog) => {
-    const defaultAvatar = 'assets/img/event/avater.jpg';
+    const defaultAvatar = 'assets/images/event/avater.jpg';
 
     return /* html */`
       <div class="blog-card">

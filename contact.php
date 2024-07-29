@@ -64,7 +64,7 @@ renderBreadcrumb('CONTACT US', [
   </div>
 </div>
 
-<div id="contact-section" class="background_img" style="background-image: url('assets/img/backgrounds/contact_bg_1.png');">
+<div id="contact-section" class="background_img" style="background-image: url('assets/images/backgrounds/contact_bg_1.png');">
   <p>Talk with Us!</p>
   <h2>Have any Questions?</h2>
   <div id="contact-section-form">

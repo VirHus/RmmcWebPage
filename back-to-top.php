@@ -29,7 +29,7 @@
 
 <div id="scroll-up-button">
     <a href="#" id="scroll-up-button-link">
-        <image src="assets/img/icon/arrow-up.png" id="up-arrow-icon" alt="Up Arrow"></image>
+        <image src="assets/images/icon/arrow-up.png" id="up-arrow-icon" alt="Up Arrow"></image>
     </a>
 </div>
 

@@ -11,7 +11,7 @@ include 'nav-bar.php';
 
     <div class="library__hours">
         <div class="library__hours__top">
-            <!-- <img class="bgImage" src="assets/img/library_place.png" alt=""> -->
+            <!-- <img class="bgImage" src="assets/images/library_place.png" alt=""> -->
 
             <ul class="library__hours__top__links">
                 <a href="library.php" class="library__hours__top__links__list">HOME</a>

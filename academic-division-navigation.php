@@ -49,7 +49,7 @@ $topLinks = [
   ["href" => "academic-division-organizational-chart.php", "title" => "ORGANIZATIONAL CHART", "show" => true]
 ];
 
-$bannerImage = "assets/img/breadcumb/CETNEWBKG.png";
+$bannerImage = "assets/images/cet-full-banner.png";
 $academicDivision = "COLLEGE OF ENGINEERING AND TECHNOLOGY";
 
 $departments = [

@@ -53,7 +53,7 @@
       <div id="nav-bottom-content-left">
         <div>
           <a href="index.php">
-            <img src="assets/img/logo.png" alt="Logo">
+            <img src="assets/images/logo.png" alt="Logo">
           </a>
         </div>
 
@@ -151,10 +151,10 @@
 
           <!-- News \/ -->
           <a href="news.php">
-            News 
+            News
           </a>
 
-        
+
         </li>
 
         <li class="nav-bottom-content-right__item">

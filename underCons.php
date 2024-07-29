@@ -35,7 +35,7 @@
 </head>
 <body>
     <div class="container">
-        <img class="logo" src="assets/img/underconstruction.png" alt="Under Construction Logo">
+        <img class="logo" src="assets/images/underconstruction.png" alt="Under Construction Logo">
         <h1>Under Construction</h1>
         <p>We are currently working on this website. Please check back soon!</p>
     </div>

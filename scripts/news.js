@@ -2,7 +2,7 @@ const newsCards = [
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'Author name',
     },
     description: {
@@ -13,12 +13,12 @@ const newsCards = [
       date: 'May 7, 2024',
       time: '12:58 AM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'Jane Doe',
     },
     description: {
@@ -29,12 +29,12 @@ const newsCards = [
       date: 'June 12, 2024',
       time: '03:15 PM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'John Smith',
     },
     description: {
@@ -45,12 +45,12 @@ const newsCards = [
       date: 'July 4, 2024',
       time: '08:45 AM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'Mary Johnson',
     },
     description: {
@@ -61,12 +61,12 @@ const newsCards = [
       date: 'August 19, 2024',
       time: '06:30 PM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'Michael Brown',
     },
     description: {
@@ -77,12 +77,12 @@ const newsCards = [
       date: 'September 25, 2024',
       time: '10:22 AM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
   {
     link: '',
     author: {
-      imgSrc: 'norman/img/cardo.jpeg',
+      imgSrc: 'assets/images/user-template.png',
       name: 'Emily Davis',
     },
     description: {
@@ -93,7 +93,7 @@ const newsCards = [
       date: 'October 10, 2024',
       time: '02:10 PM',
     },
-    mainImgSrc: 'norman/img/cardo.jpeg',
+    mainImgSrc: 'assets/images/event/hrsuccess.jpg',
   },
 ];
 
@@ -136,7 +136,7 @@ newsCardsContainer.innerHTML = newsCards.map((cardObject) => /* html */`
     </div>
     <div></div>
     <div class="news-card__item__img">
-      <img src="${cardObject.mainImgSrc}" alt="${cardObject.description.title}">
+      <img src="${cardObject.mainImgSrc}" assets/images/event/hrsuccess.jpg.title}">
     </div>
   </div>
 `).join('\n');

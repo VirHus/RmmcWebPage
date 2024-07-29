@@ -1,0 +1,51 @@
+Program Coordinator (full name, titles) ✔️
+-
+
+Program Director (full name, titles) ❌
+-
+
+Program Banner ✔️
+- cet-full-banner.png
+
+Program Logo ✔️
+- ite-new-logo.png
+
+Message from the Dean ❌
+-
+
+Mission ✔️
+- The college prepares morally upright professionals in the field of information technology that carry out theoretical and applied research in the service of society.
+
+Vission ✔️
+- The College of Information Technology Education is an institution with leadership and dedication to providing quality education and research that responds with innovative solutions to serve the local and regional community.
+
+Goals ✔️
+-
+    To produce competitive, innovative, and research-driven IT professionals;
+    To provide reliable IT services to the local and regional community.
+    To design and develop applicable technologies tailored to meet the needs of clients.
+
+Organizational Structure Image ✔️
+- information-technology-education-organizational-chart.png
+
+Faculty and Staff (full name, titles, positions, status) ✔️
+- Ethel L. Oczon (MSIS, Dean, Full Time)
+- Jim Jamero (MIT, Instructor, Full Time)
+- Anthony Bryll Nosotros (MIT, Instructor, Full Time)
+- Ereckjun Castaño (MIT, Instructor, Full Time)
+- Arriza Roland (MIM, Instructor, Full Time)
+- Jerwin Val Gac-Ang (Instructor, Full Time)
+
+Courses (with description) ❌
+
+    Bachelor of Science in Information Technology
+        -
+
+    Bachelor of Science in Computer Science
+        -
+
+    Associate in Computer Technology (2 Year Course)
+        -
+
+    Bachelor of Library and Information Science
+        -

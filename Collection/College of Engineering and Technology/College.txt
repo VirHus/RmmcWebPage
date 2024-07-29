@@ -1,0 +1,66 @@
+College Name ✔️
+- College of Engineering and Technology
+
+Dean (full name, titles) ✔️
+- Ethel L. Oczon, MSIS
+
+College Banner ✔️
+- cet-full-banner.png
+
+College Logo ✔️
+- cet-new-logo.png
+
+Message from the Dean ❌
+-
+
+About(List of Programs) ❌
+-
+
+Mission ✔️
+- Our mission is to offer a transformative educational program that develops critical thinking, creativity, and technical proficiency in engineering and technology. We want to build a diverse community of students and professors committed to solving complex problems and changing the world via cutting-edge research, industrial partnerships, and community involvement.
+
+Vission ✔️
+- To be recognized as an institution of excellence in engineering and technology education, research, and innovation that equips students to become ethical and skilled professionals who contribute to society and promote sustainable development.
+
+Goals ❌
+-
+    Academic Excellence
+    Research and Innovation
+    Student Success
+    Global Engagement
+    Community Outreach
+
+Organizational Structure Image ❌
+-
+
+Faculty and Staff (full name, titles, positions) ✔️
+- Ethel L. Oczon (MSIS, Dean, Full Time)
+- Jim Jamero (MIT, Instructor, Full Time)
+- Anthony Bryll Nosotros (MIT, Instructor, Full Time)
+- Ereckjun Castaño (MIT, Instructor, Full Time)
+- Arriza Roland (MIM, Instructor, Full Time)
+- Jerwin Val Gac-Ang (Instructor, Full Time)
+- Mark Lehi P. Palmes (Civil Engineering Program Head, Full Time)
+- Elesio III F. Camiller (MECE, Instructor, Full Time)
+- Renante C. Orang (Instructor, Full Time)
+- Fernamel Chris N. Vergara (Instructor, Part Time)
+- Marc F. Mones (Instructor, Full Time)
+- Maria Ysabella Moscoso (Instructor, Full Time)
+- Clyde Shene O. Flores (Instructor, Full Time)
+
+Courses (with description) ❌
+
+    Bachelor of Science in Civil Engineering Major in Structural Engineering
+        -
+
+    Bachelor of Science in Information Technology
+        -
+
+    Bachelor of Science in Computer Science
+        -
+
+    Associate in Computer Technology (2 Year Course)
+        -
+
+    Bachelor of Library and Information Science
+        -

@@ -1,0 +1,45 @@
+Program Coordinator (full name, titles) ❌
+-
+
+Program Director (full name, titles) ✔️
+- Mark Lehi P. Palmes
+
+Program Banner ✔️
+- civil-engineering-full-banner.png
+
+Program Logo ✔️
+- cep-new-logo.png
+
+Message from the Dean ❌
+-
+
+Mission ✔️
+- RMMC Engineering Program innovates and propagates quality instruction, research and extension; promotes environmental awareness; develops entrepreneurial skills; and provides industry exposure.
+
+Vission ✔️
+- RMMC Engineering Program envisions to be internationally competent.
+
+Program Educational Objectives (PEO) ✔️
+-
+    The Ramon Magsaysay Memorial Colleges Engineering graduates will:
+
+        1. Demonstrate professional skills with moral and ethical responsibility in the practice of civil engineering profession.
+        2. Exhibits awareness on the conservation of the environment, and possess entrepreneurial ability to contribute to the developmental effort of the community.
+
+Organizational Structure Image ❌
+-
+
+Faculty and Staff (full name, titles, positions) ✔️
+- Ethel L. Oczon (MSIS, Dean, Full Time)
+- Mark Lehi P. Palmes (Program Head, Full Time)
+- Elesio III F. Camiller (MECE, Instructor, Full Time)
+- Renante C. Orang (Instructor, Full Time)
+- Fernamel Chris N. Vergara (Instructor, Part Time)
+- Marc F. Mones (Instructor, Full Time)
+- Maria Ysabella Moscoso (Instructor, Full Time)
+- Clyde Shene O. Flores (Instructor, Full Time)
+
+Courses (with description) ❌
+
+    Bachelor of Science in Civil Engineering Major in Structural Engineering
+        -

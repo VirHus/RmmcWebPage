@@ -1,0 +1,67 @@
+College Name ✔️
+- College of Arts and Sciences
+
+Dean (full name, titles) ✔️
+- Rhodeline O. Pajarillo, EdD, LPT
+
+College Banner ✔️
+- cas-full-banner.png
+
+College Logo ✔️
+- cas-new-logo.png
+
+Message from the Dean ❌
+-
+
+About(List of Programs) ❌
+-
+
+Mission ✔️
+- CAS commits in providing excellent and meaningful learning experiences through extensive instruction, immersion, extension, and research.
+
+Vission ✔️
+- CAS is committed in producing innovative and reflective professionals who are industry ready in various areas of Communication, Language Studies, Research and Development, Science and Allied Disciplines.
+
+Goals ✔️
+- Delivers quality instructions aligned with the demands of time. Engender innovative, reflective, and research-oriented professionals. Establish sustainable immersion programs and build linkages with stakeholders.
+
+Organizational Structure Image ❌
+-
+
+Faculty and Staff (full name, titles, positions) ❌
+-
+-
+-
+-
+
+Courses (with description) ❌
+
+    Bachelor of Arts in English Language Studies
+        -
+
+    Bachelor of Arts in Communication
+        -
+
+    Bachelor of Arts in Psychology
+        -
+
+    Bachelor of Public Administration
+        -
+
+    Bachelor of Performing Arts
+        -
+
+    Bachelor of Science in Biology
+        -
+
+    Bachelor of Science in Environmental Science
+        -
+
+    Bachelor of Science in Exercise Sports and Sciences
+        -
+
+    Bachelor of Science in Mathematics
+        -
+
+    Bachelor of Science in Social Work
+        -

@@ -19,7 +19,9 @@
           <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
         </ul>
       </div>
-      <div>
+
+    </div>
+      <div class = "footer-top__column">
         <img src="assets/images/iso.png" alt="Rmmc" />
         <p>ISO 9001:2015 CERTIFIED</p>
     </div>
@@ -60,12 +62,12 @@
     </div>
   </div>
 
-  <div id="footer-bottom">
+
+<div id="footer-bottom">
     <p>Copyright 2024 <span><a href="">Custard Apple</a></span>. All Rights Reserved.</p>
     <div>
       <a href="#">Privacy Policy</a>
       <a href="#">Terms of Use</a>
     </div>
   </div>
-
 </footer>

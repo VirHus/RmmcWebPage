@@ -116,7 +116,7 @@ const blogs = [
   {
     date: 'Saturday, November 12, 2023 at 7:20 AM',
     title: 'PASIGARBO 2023 Featuring Banda Ni Kleggy',
-    image: 'assets/images/NEWS/pasigarbokleggy.jpg',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
@@ -124,7 +124,7 @@ const blogs = [
   {
     date: 'Saturday, November 11, 2023 at 11:31 AM',
     title: "RMMC's MR. & MS. PALARO 2023! 🌟",
-    image: 'assets/images/NEWS/mrandmspalaro2023.png',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
@@ -132,7 +132,7 @@ const blogs = [
   {
     date: 'Thursday, November 9, 2023 at 10:04 AM',
     title: 'ANNOUNCEMENT',
-    image: 'assets/images/NEWS/exam.jpg',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: null,
     authorName: 'MPO',
     redirectLink: null,
@@ -140,7 +140,7 @@ const blogs = [
   {
     date: 'Thursday, November 9, 2023 at 5:44 AM',
     title: 'FOURTH QUARTER NATIONWIDE SIMULTANEOUS DRILL',
-    image: 'assets/images/NEWS/DRILL/2.jpg',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
@@ -148,7 +148,7 @@ const blogs = [
   {
     date: 'Saturday, November 4, 2023 at 4:28 AM',
     title: 'The newly renovated RMMC Library',
-    image: 'assets/images/NEWS/library.png',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,
@@ -156,7 +156,7 @@ const blogs = [
   {
     date: 'Thursday, November 2, 2023 at 7:46 AM',
     title: "All Souls'Day",
-    image: 'assets/images/NEWS/allsouls.jpg',
+    image: 'assets/images/event/hrsuccess.jpg',
     authorImage: 'assets/images/event/rmmc.jpg',
     authorName: 'Admin',
     redirectLink: null,

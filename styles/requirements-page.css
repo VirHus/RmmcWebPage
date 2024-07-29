@@ -86,6 +86,10 @@ body {
         margin-bottom: 400px;
     }
 
+    #requirements-name {
+        font-size: 2rem;
+    }
+
     .requirements-container__item__row {
         flex-direction: column;
     }
@@ -95,7 +99,93 @@ body {
         gap: 0.5rem;
     }
 
+    .requirements-container__item__row__column__title {
+        font-size: 1.5rem;
+    }
+
+    .requirements-container__item__subtitle {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
     #requirements {
         padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #requirements {
+        width: 95%;
+        margin-bottom: 400px;
+    }
+
+    #requirements-name {
+        font-size: 2rem;
+    }
+
+    .requirements-container__item__row {
+        flex-direction: column;
+    }
+
+    .requirements-container__item__row__column {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .requirements-container__item__row__column__title {
+        font-size: 1.5rem;
+    }
+
+    .requirements-container__item__subtitle {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    #requirements {
+        padding: 1rem;
+    }
+}
+
+/*
+    If the screen is wider than 1300px set the width to 90%
+
+    +---------------------------+
+    |  |                     |  |
+    +--------------------------+
+  */
+@media screen and (min-width: 0px) {
+    #requirements {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+/*
+    If the screen is wider than 1500px set the width to 70%
+
+    +------------------------------+
+    |     |                  |     |
+    +------------------------------+
+*/
+@media screen and (min-width: 1500px) {
+    #requirements {
+        width: 70%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 400px) {
+    #requirements-name {
+        font-size: 1.5rem;
+    }
+
+    .requirements-container__item__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .requirements-container__item__row__column__requirements {
+        gap: 1rem;
+        font-size: 1rem;
+        margin-left: unset;
     }
 }

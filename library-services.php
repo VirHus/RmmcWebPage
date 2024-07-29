@@ -29,8 +29,9 @@ include 'nav-bar.php';
         <div class="library_services__page">
 
             <h2 class="library_services__page__title">Readers/Circulation Services</h2>
+            
             <div class="library_services__page__nav">
-
+            
                 <div class="library_services__page__nav__left">
                     <div id="tabs">
                         <button class="tablinks" onclick="openTab(event, 'Tab1')">Readers/Circulation Services</button>
@@ -85,7 +86,7 @@ include 'nav-bar.php';
                         <li>The librarian checks out the book/s in the library system by scanning the barcode of the
                             borrowers’ ID, followed by scanning the barcode of the book and indicate the due date;</li>
                         <h4 class="tabcontent__subtitle">Online Procedure:</h4>
-                        <li>1.Librarian receive online book reservation via the official FBpage of the college library;
+                        <li>1.Librarian receive online book reservation via the official FBpage of the college library;<a href="https://www.facebook.com/rmmccollegelibrary"> RMMC COLLEGE LIBRARY</a>
                         </li>
                         <li>2.Relevant information is needed, upon compliance by the borrower, the book will be
                             check-out under the borrowers’ name within the day. If not claimed, it will be checked-in

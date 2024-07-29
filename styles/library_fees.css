@@ -8,11 +8,11 @@ body {
     height: 100dvh;
 }
 
-.library__hours {
+.library__fees {
     margin: 0 1rem;
 }
 
-.library__hours__top {
+.library__fees__top {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -27,7 +27,7 @@ body {
 
 }
 
-.library__hours__top::before {
+.library__fees__top::before {
     content: '';
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@ body {
     z-index: -1;
 }
 
-.library__hours__top__links {
+.library__fees__top__links {
     display: flex;
     list-style: none;
 
@@ -67,7 +67,7 @@ body {
 }
 
 
-.library__hours__top__links__list {
+.library__fees__top__links__list {
     height: 40px;
     text-decoration: none;
     margin: 0 25px;
@@ -81,12 +81,12 @@ body {
     justify-content: space-between;
 }
 
-.library__hours__top__links__list:hover {
+.library__fees__top__links__list:hover {
     text-decoration: underline;
     /* Underline on hover */
 }
 
-#library__hours__top__title {
+#library__fees__top__title {
     font-family: 'Times New Roman';
     text-decoration: none;
     position: relative;
@@ -100,7 +100,7 @@ body {
  
 
 
-.library__hours__page {
+.library__fees__page {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -119,14 +119,14 @@ body {
     padding: 0 3rem;
 }
 
-.library__hours__page__nav {
+.library__fees__page__nav {
     display: flex;
     justify-content: space-evenly;
     z-index: 2;
     
 }
 
-.library__hours__page__nav__right__title {
+.library__fees__page__nav__right__title {
     font-size: 2.7rem;
     font-weight: 200;
     color: #0f1b31;
@@ -136,7 +136,7 @@ body {
     width: 100%;
 }
 
-.library__hours__page__nav__left {
+.library__fees__page__nav__left {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -148,16 +148,9 @@ body {
     margin: 0 3rem;
 }
 
-.library__hours__page__nav__left__title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-
 .tabcontent {
     display: block;
-    width: 100%;
-    padding: 2rem;
+    padding: .5rem 2rem;
     margin: 1rem 0;
     line-height: 2rem;
     text-align: left;
@@ -165,63 +158,25 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tabcontent li {
-    padding: 1rem;
-}
 
-.tabcontent__title {
-    color: #074ccc;
-    font-size: 1.5rem;
-    padding: 1rem 0;
-}
-
-.library__hours__page__nav__left h4 {
-    font-size: 1.2em;
-    margin-bottom: 8px;
-    margin-top: 15px;
-}
-
-/* Table styles */
-.library__hours__page__nav__left table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-/* Table header styles */
-.library__hours__page__nav__left table th, 
-.library__hours__page__nav__left table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+/* Heading styles */
+.library__fees__page__nav__left h3 {
     text-align: left;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-/* Table header styles */
-.library__hours__page__nav__left table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-}
-
-/* Table row styles */
-.library__hours__page__nav__left table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-/* Table row hover effect */
-.library__hours__page__nav__left table tr:hover {
-    background-color: #f1f1f1;
-}
-
-/* Time and days column styles */
-.library__hours__page__nav__left table td {
-    font-size: 0.9em;
-    color: #333;
+.library__fees__page__nav__left p {
+    text-align: justify;
+    line-height: 2rem;
+    padding: 2rem 0;
+    font-size: 1.2rem;
 }
 
 
 
 
-.library__hours__page__nav__right {
+.library__fees__page__nav__right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +186,7 @@ body {
     border-left: 1px solid #000000;
     padding: 3rem;
 }
-.library__hours__page__nav__right__links {
+.library__fees__page__nav__right__links {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -239,16 +194,16 @@ body {
     line-height: 2.5rem;
 }
 
-.library__hours__page__nav__right__links a {
+.library__fees__page__nav__right__links a {
     color: #0f1b31;
     text-decoration: none;
     font-weight: 600;
 }
 
-.library__hours__page__nav__right__links a:hover {
+.library__fees__page__nav__right__links a:hover {
     color: #0d5ef4;
 }
 
-.library__hours__page__nav__right__links .active {
+.library__fees__page__nav__right__links .active {
     color: #0d5ef4;
 }

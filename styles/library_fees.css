@@ -150,7 +150,7 @@ body {
 
 .tabcontent {
     display: block;
-    padding: 2rem;
+    padding: .5rem 2rem;
     margin: 1rem 0;
     line-height: 2rem;
     text-align: left;
@@ -169,7 +169,7 @@ body {
 .library__fees__page__nav__left p {
     text-align: justify;
     line-height: 2rem;
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-size: 1.2rem;
 }
 

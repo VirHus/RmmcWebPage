@@ -82,7 +82,11 @@
         <link rel="stylesheet" href="styles/news.css">
         <script src="scripts/news.js" defer></script>
         <title>RMMC - News</title>
-
+    
+    <?php elseif ($page == 'library-services'): ?>
+        <link rel="stylesheet" href="styles/library_services.css">
+        <script src="scripts/library-services.js" defer></script>
+        
     <?php elseif ($page == 'library'): ?>
         <link rel="stylesheet" href="styles/library.css">
         <script src="scripts/library.js" defer></script>

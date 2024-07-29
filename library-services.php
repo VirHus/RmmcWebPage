@@ -8,7 +8,6 @@ include 'nav-bar.php';
 
 
     <div class="main">
-<<<<<<< HEAD
         <div class="library_services">
             <div class="library_services__top">
                 <ul class="library_services__top__links">
@@ -18,11 +17,6 @@ include 'nav-bar.php';
                     <a href="" class="library_services__top__links__list">SERVICES</a>
                     <a href="" class="library_services__top__links__list">ORGANIZATIONAL CHART</a>
                 </ul>
-=======
-    <div class="library_services">
-        <div class="library_services__top">
-            <!-- <img class="bgImage" src="assets/images/library_place.png" alt=""> -->
->>>>>>> b17839d2b8d3642b3c5876ce785fc4f9c8f93c52
 
                 <p id="library_services__top__title">Library Services</p>
 
@@ -215,68 +209,6 @@ include 'nav-bar.php';
                         </ul>
                     </div>
 
-<<<<<<< HEAD
-=======
-                    <div id="Tab2" class="tabcontent">
-                        <h3 class="tabcontent__title">Circulation Process</h3>
-                        <p class="tabcontent__description">The main responsibility of the libraries is circulation. Its goal is to
-                            increase the use of all resources to accommodate a large number of library patrons. To do
-                            this, a reliable charging mechanism is installed.</p>
-
-                        <h3 class="tabcontent__subtitle">Activities:</h3>
-                        <li>Students who are officially enrolled are required to present their school ID.</li>
-                        <li>Check in and check out of books and other library materials;</li>
-                        <li>Assist readers in the use of library catalog- OPAC and explain the arrangement of the books
-                            on the shelves;</li>
-                        <li>Keep statistical records as basis in planning and carrying out the circulation job in terms
-                            of users’ demand;</li>
-                        <li>Assist/help students/users in the selection of books and other materials for reading;</li>
-                        <li>Keep track and control the circulation of library materials to make it available to other
-                            users;</li>
-                        <li>Shelf-read books in stacks to ensure all library materials are on their proper places.</li>
-                    </div>
-
-                    <div id="Tab3" class="tabcontent">
-                        <h3 class="tabcontent__title">Charging/Discharging Process</h3>
-                        <h4 class="tabcontent__subtitle">Regular Procedure:</h4>
-                        <p class="tabcontent__description">The library must adopt its own system in charging and discharging of library materials in
-                            order to record and trace the borrowers of the book. The following system is followed at the
-                            RMMC College Library:</p>
-
-                        <li>In borrowing book, a student must present his/her school ID to the librarian together with
-                            the book he/she wishes to borrow;</li>
-                        <li>The borrower signs the date due slip attached to the last page of the book;</li>
-                        <li>The librarian checks out the book/s in the library system by scanning the barcode of the
-                            borrowers’ ID, followed by scanning the barcode of the book and indicate the due date;</li>
-                        <h4 class="tabcontent__subtitle">Online Procedure:</h4>
-                        <li>1.Librarian receive online book reservation via the official FBpage of the college library;<a href="https://www.facebook.com/rmmccollegelibrary"> RMMC COLLEGE LIBRARY</a>
-                        </li>
-                        <li>2.Relevant information is needed, upon compliance by the borrower, the book will be
-                            check-out under the borrowers’ name within the day. If not claimed, it will be checked-in
-                            and return to the shelf and the librarian will notify the borrower of the failed
-                            transaction;</li>
-
-                        <h4 class="tabcontent__subtitle">Checking-in (Returning of borrowed books)</h4>
-                        <li>1.Student returns loaned out book/s;</li>
-                        <li>2.Librarian check/scan the condition of the book/s to make sure the books doesn’t have any
-                            markings or missing pages. Scan the barcode of the books and check-in the book in the
-                            library system. If it is overdue, inform the borrower. Print transaction receipt and give it
-                            to the borrower. Book/s are then placed at the cart for shelving.</li>
-                    </div>
-                </div>
-                <div class="library_services__page__nav__right">
-                    <h3 class="library_services__page__nav__right__title">LIBRARY SERVICES</h3>
-                    <ul class="library_services__page__nav__right__links">
-                        <a href="library.php">Home</a>
-                        <a href="" class="active">Readers/Circulation Services</a>
-                        <a href="">Reference Book Services</a>
-                        <a href="">Library Orientation and Instruction</a>
-                        <a href="">Inter-library Loan/Referral Service</a>
-                        <a href="">Internet Service</a>
-                        <a href="">Bulletin Board Display and Exhibits</a>
-
-                    </ul>
->>>>>>> b17839d2b8d3642b3c5876ce785fc4f9c8f93c52
                 </div>
 
             </div>

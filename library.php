@@ -9,10 +9,10 @@ include 'nav-bar.php';
 
     <div id="library-top">
       <ul class="library-top__links">
-        <a href="" class="library-top__links__item">Home</a>
+        <a href="library.php" class="library-top__links__item">Home</a>
         <a href="" class="library-top__links__item">Librarian and Staff</a>
         <a href="" class="library-top__links__item">Online Resources</a>
-        <a href="" class="library-top__links__item">Services</a>
+        <a href="library-services.php" class="library-top__links__item">Services</a>
         <a href="" class="library-top__links__item">Organizational Chart</a>
       </ul>
 

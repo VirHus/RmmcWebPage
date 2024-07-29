@@ -10,12 +10,23 @@ include 'nav-bar.php';
     <div class="main">
         <div class="library_services">
             <div class="library_services__top">
+
                 <ul class="library_services__top__links">
-                    <a href="library.php" class="library_services__top__links__list">HOME</a>
-                    <a href="" class="library_services__top__links__list">LIBRARIAN AND STAFF</a>
-                    <a href="" class="library_services__top__links__list">ONLINE RESOURCES</a>
-                    <a href="" class="library_services__top__links__list">SERVICES</a>
-                    <a href="" class="library_services__top__links__list">ORGANIZATIONAL CHART</a>
+                    <a href="library.php" class="library_services__top__links__list">
+                        HOME
+                    </a>
+                    <a href="" class="library_services__top__links__list">
+                        LIBRARIAN AND STAFF
+                    </a>
+                    <a href="" class="library_services__top__links__list">
+                        ONLINE RESOURCES
+                    </a>
+                    <a href="library-services.php" class="library_services__top__links__list">
+                        SERVICES
+                    </a>
+                    <a href="" class="library_services__top__links__list">
+                        ORGANIZATIONAL CHART
+                    </a>
                 </ul>
 
                 <p id="library_services__top__title">Library Services</p>
@@ -24,8 +35,11 @@ include 'nav-bar.php';
 
             <div class="library_services__page">
                 <div class="library_services__page__nav">
+
+                    <!-- Readers/Circulation Services Page -->
                     <div class="library_services__page__nav__left active" id="readers-circulation-services">
                         <h2 class="library_services__page__title">Readers/Circulation Services</h2>
+
                         <div id="tabs">
                             <button class="tablinks" onclick="openTab(event, 'Tab1')">Readers/Circulation
                                 Services</button>
@@ -42,13 +56,22 @@ include 'nav-bar.php';
                                 literature searches, book location, shelving, and the recall of borrowed books.</p>
 
                             <h3 class="tabcontent__subtitle">Functions:</h3>
-                            <li>To serve effectively and efficiently all library users;</li>
-                            <li>To assist students and other library users in using the Online Public Access Catalog
-                                (OPAC);</li>
-                            <li>To become responsive to the needs of the students and teachers with interest and
-                                problems
-                                in research;</li>
-                            <li>To provide efficient service.</li>
+
+                            <li>
+                                To serve effectively and efficiently all library users;
+                            </li>
+                            <li>
+                                To assist students and other library users in using the Online Public Access Catalog
+                                (OPAC);
+                            </li>
+                            <li>
+                                To become responsive to the needs of the students and teachers with interest and
+                                problems in research;
+                            </li>
+                            <li>
+                                To provide efficient service.
+                            </li>
+
                         </div>
 
                         <div id="Tab2" class="tabcontent">
@@ -60,21 +83,31 @@ include 'nav-bar.php';
                                 this, a reliable charging mechanism is installed.</p>
 
                             <h3 class="tabcontent__subtitle">Activities:</h3>
-                            <li>Students who are officially enrolled are required to present their school ID.</li>
-                            <li>Check in and check out of books and other library materials;</li>
-                            <li>Assist readers in the use of library catalog- OPAC and explain the arrangement of the
-                                books
-                                on the shelves;</li>
-                            <li>Keep statistical records as basis in planning and carrying out the circulation job in
-                                terms
-                                of users’ demand;</li>
-                            <li>Assist/help students/users in the selection of books and other materials for reading;
+                            <li>
+                                Students who are officially enrolled are required to present their school ID.
                             </li>
-                            <li>Keep track and control the circulation of library materials to make it available to
-                                other
-                                users;</li>
-                            <li>Shelf-read books in stacks to ensure all library materials are on their proper places.
+                            <li>
+                                Check in and check out of books and other library materials;
                             </li>
+                            <li>
+                                Assist readers in the use of library catalog- OPAC and explain the arrangement of the
+                                books on the shelves;
+                            </li>
+                            <li>
+                                Keep statistical records as basis in planning and carrying out the circulation job in
+                                terms of users’ demand;
+                            </li>
+                            <li>
+                                Assist/help students/users in the selection of books and other materials for reading;
+                            </li>
+                            <li>
+                                Keep track and control the circulation of library materials to make it available to
+                                other users;
+                            </li>
+                            <li>
+                                Shelf-read books in stacks to ensure all library materials are on their proper places.
+                            </li>
+
                         </div>
 
                         <div id="Tab3" class="tabcontent">
@@ -86,36 +119,52 @@ include 'nav-bar.php';
                                 the
                                 RMMC College Library:</p>
 
-                            <li>In borrowing book, a student must present his/her school ID to the librarian together
+                            <li>
+                                In borrowing book, a student must present his/her school ID to the librarian together
                                 with
-                                the book he/she wishes to borrow;</li>
-                            <li>The borrower signs the date due slip attached to the last page of the book;</li>
-                            <li>The librarian checks out the book/s in the library system by scanning the barcode of the
+                                the book he/she wishes to borrow;
+                            </li>
+                            <li>
+                                The borrower signs the date due slip attached to the last page of the book;
+                            </li>
+                            <li>
+                                The librarian checks out the book/s in the library system by scanning the barcode of the
                                 borrowers’ ID, followed by scanning the barcode of the book and indicate the due date;
                             </li>
                             <h4 class="tabcontent__subtitle">Online Procedure:</h4>
-                            <li>1.Librarian receive online book reservation via the official FBpage of the college
-                                library;<a href="https://www.facebook.com/rmmccollegelibrary"> RMMC COLLEGE LIBRARY</a>
+                            <li>
+                                Librarian receive online book reservation via the official FBpage of the college
+                                library;
+                                <a href="https://www.facebook.com/rmmccollegelibrary"> RMMC COLLEGE LIBRARY</a>
                             </li>
-                            <li>2.Relevant information is needed, upon compliance by the borrower, the book will be
+                            <li>
+                                Relevant information is needed, upon compliance by the borrower, the book will be
                                 check-out under the borrowers’ name within the day. If not claimed, it will be
-                                checked-in
-                                and return to the shelf and the librarian will notify the borrower of the failed
-                                transaction;</li>
+                                checked-in and return to the shelf and the librarian will notify the borrower of the
+                                failed
+                                transaction;
+                            </li>
 
                             <h4 class="tabcontent__subtitle">Checking-in (Returning of borrowed books)</h4>
-                            <li>1.Student returns loaned out book/s;</li>
-                            <li>2.Librarian check/scan the condition of the book/s to make sure the books doesn’t have
+                            <li>
+                                Student returns loaned out book/s;
+                            </li>
+                            <li>
+                                Librarian check/scan the condition of the book/s to make sure the books doesn’t have
                                 any
                                 markings or missing pages. Scan the barcode of the books and check-in the book in the
                                 library system. If it is overdue, inform the borrower. Print transaction receipt and
                                 give it
-                                to the borrower. Book/s are then placed at the cart for shelving.</li>
+                                to the borrower. Book/s are then placed at the cart for shelving.
+                            </li>
                         </div>
+
                     </div>
 
+                    <!-- Reference Book Services Page -->
                     <div class="library_services__page__nav__left" id="reference-book-services">
                         <h2 class="library_services__page__title">Reference Book Services</h2>
+
                         <div id="reference-book-services-content">
                             <h3 class="reference-book-services-content__title">The Reference Process</h3>
                             <p class="reference-book-services-content__description">To offer library users with
@@ -128,19 +177,34 @@ include 'nav-bar.php';
                             <h3 class="reference-book-services-content__subtitle"> Objective of Reference:</h3>
 
                             <ul id="list">
-                                <li>Conduct reference interview to determine and understand the needs of the clients.
+                                <li>
+                                    Conduct reference interview to determine and understand the needs of the clients.
                                 </li>
-                                <li>Help the client find the needed information and provide guidance in the choice of
-                                    materials </li>
-                                <li>Give instructions on the use of the library tool - Online Public Access Catalog
+                                <li>
+                                    Help the client find the needed information and provide guidance in the choice of
+                                    materials
+                                </li>
+                                <li>
+                                    Give instructions on the use of the library tool - Online Public Access Catalog
                                     (OPAC)
-                                    and electronic databases.</li>
-                                <li>List down reference questions that were not answered for future possible solutions.
+                                    and electronic databases.
                                 </li>
-                                <li>Teach students how to love books and make books as part of their life.</li>
-                                <li>Answer reference questions promptly </li>
-                                <li>Maintain information files</li>
-                                <li>Maintain reference statistics. </li>
+                                <li>
+                                    List down reference questions that were not answered for future possible solutions.
+                                </li>
+                                <li>
+                                    Teach students how to love books and make books as part of their life.
+                                </li>
+                                <li>
+                                    Answer reference questions promptly
+                                </li>
+                                <li>
+                                    Maintain information files
+                                </li>
+                                <li>
+                                    Maintain reference statistics.
+                                </li>
+
                             </ul>
 
                             <h3 class="reference-book-services-content__title">Use of OPAC</h3>
@@ -157,6 +221,8 @@ include 'nav-bar.php';
                         </div>
 
                     </div>
+
+                    <!-- Library Orientation and Instruction Page -->
                     <div class="library_services__page__nav__left" id="library-orientation-and-instruction">
                         <h2 class="library_services__page__title">Library Orientation and Instruction</h2>
                         <div id="library-orientation-and-instruction-content">
@@ -166,6 +232,8 @@ include 'nav-bar.php';
                                 tools for learning and with the library services. </p>
                         </div>
                     </div>
+
+                    <!-- Inter-Library Loan/Referral Service Page-->
                     <div class="library_services__page__nav__left" id="inter-library-loan-referral-service">
                         <h2 class="library_services__page__title">
                             Inter-library Loan/Referral Service </h2>
@@ -176,6 +244,8 @@ include 'nav-bar.php';
                                 as they have a referral slip from their librarian or heads of offices.</p>
                         </div>
                     </div>
+
+                    <!-- Internet Service Page -->
                     <div class="library_services__page__nav__left" id="internet-service">
                         <h2 class="library_services__page__title">Internet Service</h2>
                         <div id="internet-service-content">
@@ -184,17 +254,22 @@ include 'nav-bar.php';
                                 wide range of interest.</p>
                         </div>
                     </div>
+
+                    <!-- Bulletin Board Display and Exhibits Page -->
                     <div class="library_services__page__nav__left" id="bulletin-board-display-and-exhibits"></div>
 
                     <div class="library_services__page__nav__right">
                         <h3 class="library_services__page__nav__right__title">LIBRARY SERVICES</h3>
                         <ul class="library_services__page__nav__right__links">
-                            <li class="library_services__page__nav__right__links__item" href="library.php">Home</li>
+                            <li class="library_services__page__nav__right__links__item"> 
+                                <a href="library.php" class="library_services__page__nav__right__links__item">Home</a>
+                            </li>
                             <li class="library_services__page__nav__right__links__item"
                                 data-target="readers-circulation-services" class="active">Readers/Circulation Services
                             </li>
                             <li class="library_services__page__nav__right__links__item"
-                                data-target="reference-book-services">Reference Book Services</li>
+                                data-target="reference-book-services">Reference Book Services
+                            </li>
                             <li class="library_services__page__nav__right__links__item"
                                 data-target="library-orientation-and-instruction">Library Orientation and Instruction
                             </li>

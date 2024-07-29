@@ -7,22 +7,22 @@
     <div class="footer-top__column">
       <a href="/"><img src="assets/img/white-logo.png" alt="RMMC"></a>
       <p>Ramon Magsaysay Memorial Colleges is the FIRST & the ONLY HIGHER EDUCATION INSTITUION ( HEI ) in Region 12 with
-        PACUCOA Accredited programs. PACUCOA stands for the Philippine Association of Colleges and Universities
-        -Commission on Accreditation. </p>
-      <div>
-        <h4>Follow Us On:</h4>
-        <ul>
-          <a href="https://www.facebook.com/rmmcgensanofficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com/rmmcsmcc/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
-        </ul>
-      </div>
-      <div>
-        <img src="assets/img/iso.png" alt="Rmmc" />
+        PACUCOA Accredited programs.</p>
+        <div>
+          <h4>Follow Us On:</h4>
+          <ul>
+            <a href="https://www.facebook.com/rmmcgensanofficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://ph.linkedin.com/in/rmmc-gensan-31b2a51b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/rmmcsmcc/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@rmmcgensan-marketingandpro5185" target="_blank"><i class="fab fa-youtube"></i></a>
+          </ul>
+        </div>
+    </div>
+
+    <div class="footer-top__column">
+      <img src="assets/img/iso.png" alt="Rmmc" />
         <p>ISO 9001:2015 CERTIFIED</p>
-      </div>
     </div>
 
     <!-- <div class="footer-top__column">

@@ -98,7 +98,7 @@
           </div>
 
           <ul>
-            <li>
+            <!-- <li>
               <div>
                 <i class="fa-solid fa-book"></i> Graduate Studies
               </div>
@@ -112,7 +112,7 @@
               <div>
                 <i class="fa-solid fa-book"></i> Technical & Vocational
               </div>
-            </li>
+            </li> -->
             <li>
               <div>
                 <i class="fa-solid fa-book"></i> Colleges
@@ -150,22 +150,11 @@
         <li class="nav-bottom-content-right__item">
 
           <!-- News \/ -->
-          <div>
-            News <i class="fa-solid fa-angle-down"></i>
-          </div>
+          <a href="news.php">
+            News 
+          </a>
 
-          <ul>
-            <li>
-              <a href="news.php">
-                <i class="fa-solid fa-book"></i> News
-              </a>
-            </li>
-            <li>
-              <a href="gallery.php">
-                <i class="fa-solid fa-book"></i> Gallery
-              </a>
-            </li>
-          </ul>
+        
         </li>
 
         <li class="nav-bottom-content-right__item">

@@ -9,7 +9,7 @@ include 'nav-bar.php';
   <?php include 'academic-division-navigation.php' ?>
   <div id="academic-division-logo-and-charter">
     <div id="academic-division-logo-and-charter-logo">
-      <img src="_assets/COLLEGE_LOGOS/CET.png">
+      <img src="assets/images/CET.png">
     </div>
     <div id="academic-division-logo-and-charter__items">
       <div>

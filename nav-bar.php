@@ -65,10 +65,6 @@
       <ul id="nav-bottom-content-right">
 
         <li class="nav-bottom-content-right__item">
-          <a href="index.php">Home</a>
-        </li>
-
-        <li class="nav-bottom-content-right__item">
 
           <!-- Admission \/ -->
           <div>

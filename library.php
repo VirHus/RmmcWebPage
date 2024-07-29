@@ -80,8 +80,8 @@ include 'nav-bar.php';
         <div class="library-charter__row__item">
           <h3>GOALS</h3>
           <p>Offer the clients with the best and relevant information within a suitable environment. To achieve this
-            goal, two major thrusts must be developed: Development of library collection that will focus on subject
-            areas which support the school’s academic programs and areas of research, and 2.Providing online resources
+            goal, two major thrusts must be developed: <br><br>1. Development of library collection that will focus on subject
+            areas which support the school’s academic programs and areas of research, and <br><br>2.Providing online resources
             and services.</p>
         </div>
       </div>
